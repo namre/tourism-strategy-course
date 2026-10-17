@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 700" role="img" aria-labelledby="m2l2-capacity-t m2l2-capacity-d">
+<title id="m2l2-capacity-t">Полоса мощности</title>
+<desc id="m2l2-capacity-d">Две полосы мощности: пик (10 дней, 400 номеро-ночей) и остальные 20 дней (800); под каждой показано, сколько ночей хочет занять каждый пакет и сколько вытесняет базовый спрос.</desc>
+<defs><marker id="m2l2-capacity-ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#163e37"/></marker><pattern id="m2l2-capacity-pd" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#eef2ea"/><circle cx="4" cy="4" r="2" fill="#163e37"/></pattern><pattern id="m2l2-capacity-pk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#eef2ea"/><rect width="3" height="8" fill="#163e37"/></pattern></defs>
+<rect x="24.0" y="15.0" width="24.0" height="16.0" fill="#163e37" />
+<text x="56.0" y="28.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#163e37" text-anchor="start" >подтверждено</text>
+<rect x="240.0" y="15.0" width="24.0" height="16.0" fill="#eef2ea" stroke="#163e37" stroke-width="2" stroke-dasharray="5 3" />
+<text x="272.0" y="28.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#163e37" text-anchor="start" >прогноз</text>
+<rect x="24.0" y="43.0" width="24.0" height="16.0" fill="#d6ed8c" stroke="#163e37" stroke-width="1.5" />
+<text x="56.0" y="56.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#163e37" text-anchor="start" >свободно</text>
+<rect x="240.0" y="43.0" width="24.0" height="16.0" fill="#b44c26" />
+<text x="272.0" y="56.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#163e37" text-anchor="start" >вытеснение</text>
+<text x="24.0" y="96.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="700" fill="#163e37" text-anchor="start" >Пик: 10 дней, мощность 400</text>
+<rect x="24.0" y="110.0" width="108.0" height="40.0" fill="#163e37" />
+<rect x="132.0" y="110.0" width="91.8" height="40.0" fill="#eef2ea" stroke="#163e37" stroke-width="2" stroke-dasharray="6 4" />
+<rect x="223.8" y="110.0" width="16.2" height="40.0" fill="#d6ed8c" stroke="#163e37" stroke-width="1.5" />
+<text x="78.0" y="138.0" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="700" fill="#fff" text-anchor="middle" >200</text>
+<text x="177.9" y="138.0" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="700" fill="#163e37" text-anchor="middle" >170</text>
+<text x="232.0" y="174.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600" fill="#163e37" text-anchor="end" >свободно 30</text>
+<text x="24.0" y="200.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#62736d" text-anchor="start" >пакет хочет занять:</text>
+<circle cx="38.0" cy="227.0" r="13" fill="#fff" stroke="#163e37" stroke-width="2"/>
+<text x="38.0" y="231.9" font-family="Georgia, 'Times New Roman', serif" font-size="16.9" font-weight="700" fill="#163e37" text-anchor="middle" >А</text>
+<text x="215.8" y="232.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#163e37" text-anchor="end" >хочет 120</text>
+<rect x="223.8" y="217.0" width="16.2" height="20.0" fill="#163e37" stroke="#163e37" stroke-width="1.2" />
+<rect x="240.0" y="217.0" width="48.6" height="20.0" fill="#b44c26" />
+<text x="296.6" y="232.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" fill="#b44c26" text-anchor="start" >вытесняет 90</text>
+<circle cx="38.0" cy="261.0" r="13" fill="#fff" stroke="#163e37" stroke-width="2"/>
+<text x="38.0" y="265.9" font-family="Georgia, 'Times New Roman', serif" font-size="16.9" font-weight="700" fill="#163e37" text-anchor="middle" >П</text>
+<text x="215.8" y="266.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#163e37" text-anchor="end" >хочет 40</text>
+<rect x="223.8" y="251.0" width="16.2" height="20.0" fill="url(#m2l2-capacity-pd)" stroke="#163e37" stroke-width="1.2" />
+<rect x="240.0" y="251.0" width="5.4" height="20.0" fill="#b44c26" />
+<text x="253.4" y="266.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" fill="#b44c26" text-anchor="start" >вытесняет 10</text>
+<circle cx="38.0" cy="295.0" r="13" fill="#fff" stroke="#163e37" stroke-width="2"/>
+<text x="38.0" y="299.9" font-family="Georgia, 'Times New Roman', serif" font-size="16.9" font-weight="700" fill="#163e37" text-anchor="middle" >К</text>
+<text x="215.8" y="300.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#163e37" text-anchor="end" >хочет 180</text>
+<rect x="223.8" y="285.0" width="16.2" height="20.0" fill="url(#m2l2-capacity-pk)" stroke="#163e37" stroke-width="1.2" />
+<rect x="240.0" y="285.0" width="81.0" height="20.0" fill="#b44c26" />
+<text x="329.0" y="300.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" fill="#b44c26" text-anchor="start" >вытесняет 150</text>
+<line x1="240.0" y1="184.0" x2="240.0" y2="312.0" stroke="#163e37" stroke-width="2" />
+<text x="24.0" y="350.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="700" fill="#163e37" text-anchor="start" >Остальные 20 дней, мощность 800</text>
+<rect x="24.0" y="364.0" width="162.0" height="40.0" fill="#163e37" />
+<rect x="186.0" y="364.0" width="91.8" height="40.0" fill="#eef2ea" stroke="#163e37" stroke-width="2" stroke-dasharray="6 4" />
+<rect x="277.8" y="364.0" width="178.2" height="40.0" fill="#d6ed8c" stroke="#163e37" stroke-width="1.5" />
+<text x="105.0" y="392.0" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="700" fill="#fff" text-anchor="middle" >300</text>
+<text x="231.9" y="392.0" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="700" fill="#163e37" text-anchor="middle" >170</text>
+<text x="366.9" y="392.0" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="700" fill="#163e37" text-anchor="middle" >330</text>
+<text x="448.0" y="428.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600" fill="#163e37" text-anchor="end" >свободно 330</text>
+<text x="24.0" y="454.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#62736d" text-anchor="start" >пакет хочет занять:</text>
+<circle cx="38.0" cy="481.0" r="13" fill="#fff" stroke="#163e37" stroke-width="2"/>
+<text x="38.0" y="485.9" font-family="Georgia, 'Times New Roman', serif" font-size="16.9" font-weight="700" fill="#163e37" text-anchor="middle" >А</text>
+<text x="269.8" y="486.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#163e37" text-anchor="end" >хочет 180</text>
+<rect x="277.8" y="471.0" width="97.2" height="20.0" fill="#163e37" stroke="#163e37" stroke-width="1.2" />
+<circle cx="38.0" cy="515.0" r="13" fill="#fff" stroke="#163e37" stroke-width="2"/>
+<text x="38.0" y="519.9" font-family="Georgia, 'Times New Roman', serif" font-size="16.9" font-weight="700" fill="#163e37" text-anchor="middle" >П</text>
+<text x="269.8" y="520.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#163e37" text-anchor="end" >хочет 200</text>
+<rect x="277.8" y="505.0" width="108.0" height="20.0" fill="url(#m2l2-capacity-pd)" stroke="#163e37" stroke-width="1.2" />
+<circle cx="38.0" cy="549.0" r="13" fill="#fff" stroke="#163e37" stroke-width="2"/>
+<text x="38.0" y="553.9" font-family="Georgia, 'Times New Roman', serif" font-size="16.9" font-weight="700" fill="#163e37" text-anchor="middle" >К</text>
+<text x="269.8" y="554.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#163e37" text-anchor="end" >хочет 120</text>
+<rect x="277.8" y="539.0" width="64.8" height="20.0" fill="url(#m2l2-capacity-pk)" stroke="#163e37" stroke-width="1.2" />
+<line x1="456.0" y1="438.0" x2="456.0" y2="566.0" stroke="#163e37" stroke-width="2" />
+<text x="24.0" y="584.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#62736d" text-anchor="start" >все три пакета помещаются в свободные 330</text>
+<line x1="24.0" y1="616.0" x2="456.0" y2="616.0" stroke="#dbe2d9" stroke-width="1.5" />
+<text x="240.0" y="652.0" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-weight="700" fill="#163e37" text-anchor="middle" >Свободные ночи лежат не там,</text>
+<text x="240.0" y="680.0" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-weight="700" fill="#163e37" text-anchor="middle" >куда просятся пакеты</text>
+</svg>

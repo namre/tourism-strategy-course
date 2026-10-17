@@ -1,0 +1,22 @@
+// Где в уроках и контрольных точках стоят схемы (svg), интерактивы (widget) и ролики (video). after — номер секции урока (с нуля), после которой вставить.
+export const mediaMap = {
+  m1l1: [{after: 1, type: 'svg', id: 'm1l1-passport'}],
+  m1r: [{after: 0, type: 'svg', id: 'm1r-methods'}],
+  m1c: [{after: 3, type: 'svg', id: 'm1c-perceptual'}],
+  m2l1: [{after: 2, type: 'svg', id: 'm2l1-waterfall'}],
+  m2l2: [{after: 1, type: 'svg', id: 'm2l2-capacity'}, {after: 2, type: 'widget', id: 'capacity-band'}],
+  m2p: [{after: 1, type: 'widget', id: 'barrier'}],
+  m2l3: [{after: 1, type: 'svg', id: 'm2l3-per-night'}],
+  m3l1: [{after: 2, type: 'svg', id: 'm3l1-scenarios'}],
+  m3l2: [{after: 2, type: 'widget', id: 'thresholds'}],
+  m3l3: [{after: 2, type: 'widget', id: 'transfer'}],
+  m4p: [{after: 0, type: 'svg', id: 'm4p-journey'}],
+  m4l1: [{after: 1, type: 'svg', id: 'm4l1-pilot'}, {after: 2, type: 'widget', id: 'pilots'}],
+  m4e: [{after: 1, type: 'svg', id: 'm4e-claim'}],
+  m4l3: [{after: 1, type: 'svg', id: 'm4l3-defense'}],
+  kt0: [{type: 'svg', id: 'kt0-transfer'}],
+  kt1: [{type: 'video', id: 'kt1-interview', title: 'Интервью о последнем выборе'}],
+  kt2: [{type: 'svg', id: 'kt2-swot'}],
+  kt3: [{type: 'svg', id: 'kt3-grid'}],
+  kt4: [{type: 'widget', id: 'own-capacity'}],
+};

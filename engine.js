@@ -1,8 +1,8 @@
 import {capstone} from './capstone-data.js';
 export const packages = [
  {id:'ota',name:'Агрегатор',booked:375,cancel:.2,price:6000,commission:.18,fee:0,cac:0,fixed:30000,variable:1800,peak:120,offpeak:180},
- {id:'direct',name:'Прямое привлечение',booked:300,cancel:.2,price:6200,commission:.02,fee:0,cac:600,fixed:90000,variable:1800,peak:40,offpeak:200},
- {id:'corporate',name:'Корпоративная группа',booked:320,cancel:.0625,price:5400,commission:0,fee:100,cac:0,fixed:40000,variable:1800,peak:180,offpeak:120}
+ {id:'direct',name:'Прямой пакет',booked:300,cancel:.2,price:6200,commission:.02,fee:0,cac:600,fixed:90000,variable:1800,peak:40,offpeak:200},
+ {id:'corporate',name:'Корпоративный пакет',booked:320,cancel:.0625,price:5400,commission:0,fee:100,cac:0,fixed:40000,variable:1800,peak:180,offpeak:120}
 ];
 export function calculate(p,{calendar=false,margin=5060,basePeak=370,baseOffpeak=470}={}) {
  const nights=p.booked*(1-p.cancel);
@@ -24,5 +24,6 @@ export function validProgress(value,ids) {
  for(const [key,val] of Object.entries(obj(cap.fields)))if(fieldKeys.includes(key)&&typeof val==='string')fields[key]=val.slice(0,30000);
  for(const [key,val] of Object.entries(obj(cap.checks)))if(checkKeys.includes(key)&&val===true)checks[key]=true;
  const track=Object.keys(capstone.tracks).includes(cap.track)?cap.track:'';
- return {answers,completed,project,quizzes:obj(value.quizzes),lab:obj(value.lab),capstone:{track,fields,checks}};
+ const profile={};for(const k of ['student','group','supervisor','topic'])if(typeof obj(value.profile)[k]==='string')profile[k]=value.profile[k].slice(0,200);
+ return {answers,completed,project,quizzes:obj(value.quizzes),lab:obj(value.lab),capstone:{track,fields,checks},profile,widgets:obj(value.widgets)};
 }

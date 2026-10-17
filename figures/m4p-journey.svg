@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 1094" role="img" aria-labelledby="t d">
+<title id="t">Путь клиента и показатели</title>
+<desc id="d">Семь стадий пути клиента от карт и отзывов до поездки и повтора; у каждой задача, показатель активности и показатель результата, внизу потолок затрат на привлечение ночи.</desc>
+<defs>
+<pattern id="pDots" width="6" height="6" patternUnits="userSpaceOnUse"><rect width="6" height="6" fill="#fff"/><circle cx="3" cy="3" r="1.4" fill="#163e37"/></pattern>
+<pattern id="pDiag" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#fff"/><line x1="0" y1="0" x2="0" y2="6" stroke="#163e37" stroke-width="2.2"/></pattern>
+</defs>
+<rect x="12" y="10" width="164" height="44" rx="8" fill="#fff" stroke="#dbe2d9" stroke-width="1"/>
+<rect x="20" y="21" width="30" height="22" rx="5" fill="#eceee9" stroke="#62736d" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="58" y="29" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#62736d" font-weight="700" text-anchor="start"><tspan x="58" dy="0">активность:</tspan></text>
+<text x="58" y="44" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#62736d" text-anchor="start"><tspan x="58" dy="0">заметность</tspan></text>
+<rect x="184" y="10" width="164" height="44" rx="8" fill="#fff" stroke="#dbe2d9" stroke-width="1"/>
+<rect x="192" y="21" width="30" height="22" rx="5" fill="#e1efd2" stroke="#163e37" stroke-width="1.5"/>
+<text x="230" y="29" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="230" dy="0">результат:</tspan></text>
+<text x="230" y="44" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#163e37" text-anchor="start"><tspan x="230" dy="0">брони и ночи</tspan></text>
+<circle cx="30" cy="80" r="12" fill="#163e37"/>
+<text x="30" y="85" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#fff" font-weight="700" text-anchor="middle"><tspan x="30" dy="0">1</tspan></text>
+<line x1="30" y1="94" x2="30" y2="190" stroke="#163e37" stroke-width="1.5"/>
+<text x="52" y="84" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="52" dy="0">Карты и отзывы</tspan></text>
+<text x="52" y="102" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#62736d" text-anchor="start"><tspan x="52" dy="0">Задача: быть найденным</tspan></text>
+<rect x="52" y="110" width="144" height="64" rx="7" fill="#eceee9" stroke="#62736d" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="60" y="131" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#62736d" font-weight="700" text-anchor="start"><tspan x="60" dy="0">АКТИВНОСТЬ</tspan></text>
+<text x="60" y="147" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#62736d" text-anchor="start"><tspan x="60" dy="0">показы карточки,</tspan><tspan x="60" dy="16">маршруты</tspan></text>
+<rect x="204" y="110" width="144" height="64" rx="7" fill="#e1efd2" stroke="#163e37" stroke-width="1.5"/>
+<text x="212" y="131" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="212" dy="0">РЕЗУЛЬТАТ</tspan></text>
+<text x="212" y="147" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="212" dy="0">брони с этого</tspan><tspan x="212" dy="16">источника</tspan></text>
+<circle cx="30" cy="204" r="12" fill="#163e37"/>
+<text x="30" y="209" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#fff" font-weight="700" text-anchor="middle"><tspan x="30" dy="0">2</tspan></text>
+<line x1="30" y1="218" x2="30" y2="314" stroke="#163e37" stroke-width="1.5"/>
+<text x="52" y="208" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="52" dy="0">Агрегатор</tspan></text>
+<text x="52" y="226" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#62736d" text-anchor="start"><tspan x="52" dy="0">Задача: быть найденным и понятым</tspan></text>
+<rect x="52" y="234" width="144" height="64" rx="7" fill="#eceee9" stroke="#62736d" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="60" y="255" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#62736d" font-weight="700" text-anchor="start"><tspan x="60" dy="0">АКТИВНОСТЬ</tspan></text>
+<text x="60" y="271" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#62736d" text-anchor="start"><tspan x="60" dy="0">позиция в выдаче,</tspan><tspan x="60" dy="16">клики</tspan></text>
+<rect x="204" y="234" width="144" height="64" rx="7" fill="#e1efd2" stroke="#163e37" stroke-width="1.5"/>
+<text x="212" y="255" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="212" dy="0">РЕЗУЛЬТАТ</tspan></text>
+<text x="212" y="271" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="212" dy="0">брони за вычетом</tspan><tspan x="212" dy="16">отмен</tspan></text>
+<circle cx="30" cy="328" r="12" fill="#163e37"/>
+<text x="30" y="333" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#fff" font-weight="700" text-anchor="middle"><tspan x="30" dy="0">3</tspan></text>
+<line x1="30" y1="342" x2="30" y2="438" stroke="#163e37" stroke-width="1.5"/>
+<text x="52" y="332" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="52" dy="0">Сайт</tspan></text>
+<text x="52" y="350" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#62736d" text-anchor="start"><tspan x="52" dy="0">Задача: быть понятым</tspan></text>
+<rect x="52" y="358" width="144" height="64" rx="7" fill="#eceee9" stroke="#62736d" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="60" y="379" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#62736d" font-weight="700" text-anchor="start"><tspan x="60" dy="0">АКТИВНОСТЬ</tspan></text>
+<text x="60" y="395" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#62736d" text-anchor="start"><tspan x="60" dy="0">визиты, время на</tspan><tspan x="60" dy="16">странице</tspan></text>
+<rect x="204" y="358" width="144" height="64" rx="7" fill="#e1efd2" stroke="#163e37" stroke-width="1.5"/>
+<text x="212" y="379" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="212" dy="0">РЕЗУЛЬТАТ</tspan></text>
+<text x="212" y="395" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="212" dy="0">прямые брони</tspan></text>
+<circle cx="30" cy="452" r="12" fill="#163e37"/>
+<text x="30" y="457" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#fff" font-weight="700" text-anchor="middle"><tspan x="30" dy="0">4</tspan></text>
+<line x1="30" y1="466" x2="30" y2="562" stroke="#163e37" stroke-width="1.5"/>
+<text x="52" y="456" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="52" dy="0">Соцсети и мессенджеры</tspan></text>
+<text x="52" y="474" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#62736d" text-anchor="start"><tspan x="52" dy="0">Задача: быть понятым</tspan></text>
+<rect x="52" y="482" width="144" height="64" rx="7" fill="#eceee9" stroke="#62736d" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="60" y="503" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#62736d" font-weight="700" text-anchor="start"><tspan x="60" dy="0">АКТИВНОСТЬ</tspan></text>
+<text x="60" y="519" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#62736d" text-anchor="start"><tspan x="60" dy="0">охват, подписчики</tspan></text>
+<rect x="204" y="482" width="144" height="64" rx="7" fill="#e1efd2" stroke="#163e37" stroke-width="1.5"/>
+<text x="212" y="503" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="212" dy="0">РЕЗУЛЬТАТ</tspan></text>
+<text x="212" y="519" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="212" dy="0">заявки, дошедшие</tspan><tspan x="212" dy="16">до брони</tspan></text>
+<circle cx="30" cy="576" r="12" fill="#163e37"/>
+<text x="30" y="581" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#fff" font-weight="700" text-anchor="middle"><tspan x="30" dy="0">5</tspan></text>
+<line x1="30" y1="590" x2="30" y2="686" stroke="#163e37" stroke-width="1.5"/>
+<text x="52" y="580" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="52" dy="0">Бронирование</tspan></text>
+<text x="52" y="598" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#62736d" text-anchor="start"><tspan x="52" dy="0">Задача: получить бронь</tspan></text>
+<rect x="52" y="606" width="144" height="64" rx="7" fill="#eceee9" stroke="#62736d" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="60" y="627" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#62736d" font-weight="700" text-anchor="start"><tspan x="60" dy="0">АКТИВНОСТЬ</tspan></text>
+<text x="60" y="643" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#62736d" text-anchor="start"><tspan x="60" dy="0">заявки, звонки</tspan></text>
+<rect x="204" y="606" width="144" height="64" rx="7" fill="#e1efd2" stroke="#163e37" stroke-width="1.5"/>
+<text x="212" y="627" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="212" dy="0">РЕЗУЛЬТАТ</tspan></text>
+<text x="212" y="643" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="212" dy="0">подтверждённые</tspan><tspan x="212" dy="16">брони</tspan></text>
+<circle cx="30" cy="700" r="12" fill="#163e37"/>
+<text x="30" y="705" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#fff" font-weight="700" text-anchor="middle"><tspan x="30" dy="0">6</tspan></text>
+<line x1="30" y1="714" x2="30" y2="810" stroke="#163e37" stroke-width="1.5"/>
+<text x="52" y="704" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="52" dy="0">Пребывание</tspan></text>
+<text x="52" y="722" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#62736d" text-anchor="start"><tspan x="52" dy="0">Задача: выполнить обещание</tspan></text>
+<rect x="52" y="730" width="144" height="64" rx="7" fill="#eceee9" stroke="#62736d" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="60" y="751" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#62736d" font-weight="700" text-anchor="start"><tspan x="60" dy="0">АКТИВНОСТЬ</tspan></text>
+<text x="60" y="767" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#62736d" text-anchor="start"><tspan x="60" dy="0">обработанные</tspan><tspan x="60" dy="16">обращения</tspan></text>
+<rect x="204" y="730" width="144" height="64" rx="7" fill="#e1efd2" stroke="#163e37" stroke-width="1.5"/>
+<text x="212" y="751" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="212" dy="0">РЕЗУЛЬТАТ</tspan></text>
+<text x="212" y="767" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="212" dy="0">состоявшиеся</tspan><tspan x="212" dy="16">ночи</tspan></text>
+<circle cx="30" cy="824" r="12" fill="#163e37"/>
+<text x="30" y="829" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#fff" font-weight="700" text-anchor="middle"><tspan x="30" dy="0">7</tspan></text>
+<text x="52" y="828" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="52" dy="0">После поездки</tspan></text>
+<text x="52" y="846" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#62736d" text-anchor="start"><tspan x="52" dy="0">Задача: получить отзыв и повтор</tspan></text>
+<rect x="52" y="854" width="144" height="64" rx="7" fill="#eceee9" stroke="#62736d" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="60" y="875" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#62736d" font-weight="700" text-anchor="start"><tspan x="60" dy="0">АКТИВНОСТЬ</tspan></text>
+<text x="60" y="891" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#62736d" text-anchor="start"><tspan x="60" dy="0">рассылки, новые</tspan><tspan x="60" dy="16">подписчики</tspan></text>
+<rect x="204" y="854" width="144" height="64" rx="7" fill="#e1efd2" stroke="#163e37" stroke-width="1.5"/>
+<text x="212" y="875" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="212" dy="0">РЕЗУЛЬТАТ</tspan></text>
+<text x="212" y="891" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="212" dy="0">отзывы и</tspan><tspan x="212" dy="16">повторные визиты</tspan></text>
+<rect x="12" y="940" width="336" height="150" rx="10" fill="#d6ed8c" stroke="#163e37" stroke-width="1.5"/>
+<text x="24" y="964" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="24" dy="0">Потолок затрат на привлечение одной ночи</tspan></text>
+<rect x="24" y="978" width="152" height="98" rx="8" fill="#fff" stroke="#163e37" stroke-width="1"/>
+<circle cx="100" cy="998" r="11" fill="#163e37" stroke="#163e37" stroke-width="1.5"/>
+<text x="100" y="1003" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">А</text>
+<text x="100" y="1038" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#163e37" font-weight="700" text-anchor="middle"><tspan x="100" dy="0">3 120 ₽</tspan></text>
+<text x="100" y="1058" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#163e37" text-anchor="middle"><tspan x="100" dy="0">у агрегатора</tspan></text>
+<rect x="184" y="978" width="152" height="98" rx="8" fill="#fff" stroke="#163e37" stroke-width="1"/>
+<circle cx="260" cy="998" r="11" fill="url(#pDots)" stroke="#163e37" stroke-width="1.5"/>
+<text x="260" y="1003" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#163e37" text-anchor="middle" stroke="#fff" stroke-width="3.5" paint-order="stroke" stroke-linejoin="round">П</text>
+<text x="260" y="1038" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#163e37" font-weight="700" text-anchor="middle"><tspan x="260" dy="0">3 526 ₽</tspan></text>
+<text x="260" y="1058" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#163e37" text-anchor="middle"><tspan x="260" dy="0">у прямого канала</tspan><tspan x="260" dy="16">при отменах 20%</tspan></text>
+</svg>

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 1182" role="img" aria-labelledby="t d">
+<title id="t">«Маяк» → ваш объект</title>
+<desc id="d">Четыре карточки объектов: отель, экскурсия на автобусе, экотропа, база с лодками; для каждого единица мощности, пик, посредник с комиссией и тот, кого вытесняет дешёвая продажа в пик; внизу пример экотропы.</desc>
+<defs>
+<pattern id="pDots" width="6" height="6" patternUnits="userSpaceOnUse"><rect width="6" height="6" fill="#fff"/><circle cx="3" cy="3" r="1.4" fill="#163e37"/></pattern>
+<pattern id="pDiag" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#fff"/><line x1="0" y1="0" x2="0" y2="6" stroke="#163e37" stroke-width="2.2"/></pattern>
+</defs>
+<rect x="12" y="10" width="336" height="254" rx="10" fill="#fff" stroke="#dbe2d9" stroke-width="1"/>
+<text x="24" y="39" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="24" dy="0">Отель</tspan></text>
+<text x="24" y="57" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#62736d" text-anchor="start"><tspan x="24" dy="0">как в «Маяке»</tspan></text>
+<rect x="24" y="65" width="312" height="39" rx="7" fill="#eef6d9" stroke="#163e37" stroke-width="1.3"/>
+<text x="36" y="80" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="36" dy="0">ЕДИНИЦА МОЩНОСТИ</tspan></text>
+<text x="36" y="97" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="36" dy="0">номеро-ночь</tspan></text>
+<rect x="24" y="110" width="312" height="39" rx="7" fill="#f4f3ed" stroke="none" stroke-width="0"/>
+<text x="36" y="125" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#62736d" font-weight="700" text-anchor="start"><tspan x="36" dy="0">ПИК</tspan></text>
+<text x="36" y="142" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" fill="#163e37" text-anchor="start"><tspan x="36" dy="0">праздничные и событийные даты</tspan></text>
+<rect x="24" y="155" width="312" height="39" rx="7" fill="#f4f3ed" stroke="none" stroke-width="0"/>
+<text x="36" y="170" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#62736d" font-weight="700" text-anchor="start"><tspan x="36" dy="0">ПОСРЕДНИК С КОМИССИЕЙ</tspan></text>
+<text x="36" y="187" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" fill="#163e37" text-anchor="start"><tspan x="36" dy="0">агрегатор</tspan></text>
+<rect x="24" y="200" width="312" height="56" rx="7" fill="#fbf0ea" stroke="#b44c26" stroke-width="1.3" stroke-dasharray="5 3"/>
+<text x="36" y="215" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#b44c26" font-weight="700" text-anchor="start"><tspan x="36" dy="0">КОГО ВЫТЕСНЯЕТ В ПИК ДЕШЁВАЯ ПРОДАЖА</tspan></text>
+<text x="36" y="232" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" fill="#163e37" text-anchor="start"><tspan x="36" dy="0">гостя прямой брони, которому не</tspan><tspan x="36" dy="17">хватит номера</tspan></text>
+<rect x="12" y="274" width="336" height="236" rx="10" fill="#fff" stroke="#dbe2d9" stroke-width="1"/>
+<text x="24" y="303" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="24" dy="0">Экскурсия на автобусе</tspan></text>
+<rect x="24" y="311" width="312" height="39" rx="7" fill="#eef6d9" stroke="#163e37" stroke-width="1.3"/>
+<text x="36" y="326" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="36" dy="0">ЕДИНИЦА МОЩНОСТИ</tspan></text>
+<text x="36" y="343" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="36" dy="0">место в автобусе</tspan></text>
+<rect x="24" y="356" width="312" height="39" rx="7" fill="#f4f3ed" stroke="none" stroke-width="0"/>
+<text x="36" y="371" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#62736d" font-weight="700" text-anchor="start"><tspan x="36" dy="0">ПИК</tspan></text>
+<text x="36" y="388" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" fill="#163e37" text-anchor="start"><tspan x="36" dy="0">выходные и каникулы</tspan></text>
+<rect x="24" y="401" width="312" height="39" rx="7" fill="#f4f3ed" stroke="none" stroke-width="0"/>
+<text x="36" y="416" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#62736d" font-weight="700" text-anchor="start"><tspan x="36" dy="0">ПОСРЕДНИК С КОМИССИЕЙ</tspan></text>
+<text x="36" y="433" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" fill="#163e37" text-anchor="start"><tspan x="36" dy="0">турагент</tspan></text>
+<rect x="24" y="446" width="312" height="56" rx="7" fill="#fbf0ea" stroke="#b44c26" stroke-width="1.3" stroke-dasharray="5 3"/>
+<text x="36" y="461" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#b44c26" font-weight="700" text-anchor="start"><tspan x="36" dy="0">КОГО ВЫТЕСНЯЕТ В ПИК ДЕШЁВАЯ ПРОДАЖА</tspan></text>
+<text x="36" y="478" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" fill="#163e37" text-anchor="start"><tspan x="36" dy="0">пассажира с полной ценой, которому</tspan><tspan x="36" dy="17">не хватит места</tspan></text>
+<rect x="12" y="520" width="336" height="236" rx="10" fill="#fff" stroke="#dbe2d9" stroke-width="1"/>
+<text x="24" y="549" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="24" dy="0">Экотропа</tspan></text>
+<rect x="24" y="557" width="312" height="39" rx="7" fill="#eef6d9" stroke="#163e37" stroke-width="1.3"/>
+<text x="36" y="572" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="36" dy="0">ЕДИНИЦА МОЩНОСТИ</tspan></text>
+<text x="36" y="589" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="36" dy="0">вход на тропу в день</tspan></text>
+<rect x="24" y="602" width="312" height="39" rx="7" fill="#f4f3ed" stroke="none" stroke-width="0"/>
+<text x="36" y="617" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#62736d" font-weight="700" text-anchor="start"><tspan x="36" dy="0">ПИК</tspan></text>
+<text x="36" y="634" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" fill="#163e37" text-anchor="start"><tspan x="36" dy="0">выходные и дни хорошей погоды</tspan></text>
+<rect x="24" y="647" width="312" height="39" rx="7" fill="#f4f3ed" stroke="none" stroke-width="0"/>
+<text x="36" y="662" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#62736d" font-weight="700" text-anchor="start"><tspan x="36" dy="0">ПОСРЕДНИК С КОМИССИЕЙ</tspan></text>
+<text x="36" y="679" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" fill="#163e37" text-anchor="start"><tspan x="36" dy="0">экскурсовод-посредник</tspan></text>
+<rect x="24" y="692" width="312" height="56" rx="7" fill="#fbf0ea" stroke="#b44c26" stroke-width="1.3" stroke-dasharray="5 3"/>
+<text x="36" y="707" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#b44c26" font-weight="700" text-anchor="start"><tspan x="36" dy="0">КОГО ВЫТЕСНЯЕТ В ПИК ДЕШЁВАЯ ПРОДАЖА</tspan></text>
+<text x="36" y="724" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" fill="#163e37" text-anchor="start"><tspan x="36" dy="0">посетителя с полной ценой: вход занят</tspan><tspan x="36" dy="17">дешёвой продажей</tspan></text>
+<rect x="12" y="766" width="336" height="236" rx="10" fill="#fff" stroke="#dbe2d9" stroke-width="1"/>
+<text x="24" y="795" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="24" dy="0">База с лодками</tspan></text>
+<rect x="24" y="803" width="312" height="39" rx="7" fill="#eef6d9" stroke="#163e37" stroke-width="1.3"/>
+<text x="36" y="818" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="36" dy="0">ЕДИНИЦА МОЩНОСТИ</tspan></text>
+<text x="36" y="835" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="36" dy="0">выход лодки с гидом</tspan></text>
+<rect x="24" y="848" width="312" height="39" rx="7" fill="#f4f3ed" stroke="none" stroke-width="0"/>
+<text x="36" y="863" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#62736d" font-weight="700" text-anchor="start"><tspan x="36" dy="0">ПИК</tspan></text>
+<text x="36" y="880" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" fill="#163e37" text-anchor="start"><tspan x="36" dy="0">сезон лучшего клёва и выходные</tspan></text>
+<rect x="24" y="893" width="312" height="39" rx="7" fill="#f4f3ed" stroke="none" stroke-width="0"/>
+<text x="36" y="908" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#62736d" font-weight="700" text-anchor="start"><tspan x="36" dy="0">ПОСРЕДНИК С КОМИССИЕЙ</tspan></text>
+<text x="36" y="925" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" fill="#163e37" text-anchor="start"><tspan x="36" dy="0">площадка бронирования</tspan></text>
+<rect x="24" y="938" width="312" height="56" rx="7" fill="#fbf0ea" stroke="#b44c26" stroke-width="1.3" stroke-dasharray="5 3"/>
+<text x="36" y="953" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#b44c26" font-weight="700" text-anchor="start"><tspan x="36" dy="0">КОГО ВЫТЕСНЯЕТ В ПИК ДЕШЁВАЯ ПРОДАЖА</tspan></text>
+<text x="36" y="970" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" fill="#163e37" text-anchor="start"><tspan x="36" dy="0">гостя, который заказал бы выход</tspan><tspan x="36" dy="17">напрямую: лодка занята</tspan></text>
+<rect x="12" y="1012" width="336" height="164" rx="10" fill="#fff" stroke="#b44c26" stroke-width="1.5"/>
+<text x="24" y="1036" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="24" dy="0">Пример: экотропа в пиковый день</tspan></text>
+<rect x="24" y="1050" width="222.857" height="26" rx="5" fill="#163e37" stroke="#163e37" stroke-width="1"/>
+<text x="34" y="1068" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#fff" font-weight="700" text-anchor="start"><tspan x="34" dy="0">100 допуск</tspan></text>
+<rect x="249.857" y="1050" width="86.1429" height="26" rx="5" fill="#fbf0ea" stroke="#b44c26" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="292.929" y="1068" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#b44c26" font-weight="700" text-anchor="middle"><tspan x="292.929" dy="0">40</tspan></text>
+<text x="24" y="1094" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#62736d" text-anchor="start"><tspan x="24" dy="0">140 заявок в пиковый день</tspan></text>
+<text x="24" y="1124" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#b44c26" font-weight="700" text-anchor="start"><tspan x="24" dy="0">Тропа допускает 100 человек в день,</tspan><tspan x="24" dy="18">в пиковый день заявок 140 — 40 не</tspan><tspan x="24" dy="18">продаются вовсе</tspan></text>
+</svg>

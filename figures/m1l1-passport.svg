@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 716" role="img" aria-labelledby="m1l1-passport-t m1l1-passport-d">
+<title id="m1l1-passport-t">Паспорт «Маяка»</title>
+<desc id="m1l1-passport-d">Мощность отеля 1 200 номеро-ночей: базовый спрос 840 (подтверждено 500, прогноз 340), свободно 360; три пакета с ценой и условиями.</desc>
+<defs><marker id="m1l1-passport-ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#163e37"/></marker><pattern id="m1l1-passport-pd" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#eef2ea"/><circle cx="4" cy="4" r="2" fill="#163e37"/></pattern><pattern id="m1l1-passport-pk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#eef2ea"/><rect width="3" height="8" fill="#163e37"/></pattern></defs>
+<text x="24.0" y="36.0" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="700" fill="#163e37" text-anchor="start" >40 номеров × 30 дней</text>
+<text x="24.0" y="70.0" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700" fill="#163e37" text-anchor="start" >= 1 200 номеро-ночей</text>
+<text x="175.2" y="104.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600" fill="#163e37" text-anchor="middle" >базовый спрос 840</text>
+<path d="M24 124 V118 H326.4 V124" fill="none" stroke="#163e37" stroke-width="1.5"/>
+<rect x="24.0" y="130.0" width="180.0" height="56.0" fill="#163e37" />
+<rect x="204.0" y="130.0" width="122.4" height="56.0" fill="#eef2ea" stroke="#163e37" stroke-width="2" stroke-dasharray="6 4" />
+<rect x="326.4" y="130.0" width="129.6" height="56.0" fill="#d6ed8c" stroke="#163e37" stroke-width="1.5" />
+<text x="114.0" y="167.0" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" >500</text>
+<text x="265.2" y="167.0" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-weight="700" fill="#163e37" text-anchor="middle" >340</text>
+<text x="391.2" y="167.0" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-weight="700" fill="#163e37" text-anchor="middle" >360</text>
+<text x="114.0" y="210.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600" fill="#163e37" text-anchor="middle" >подтверждено</text>
+<text x="265.2" y="210.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600" fill="#163e37" text-anchor="middle" >прогноз</text>
+<text x="391.2" y="210.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600" fill="#163e37" text-anchor="middle" >свободно</text>
+<text x="456.0" y="236.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#163e37" text-anchor="end" >ещё не резерв:</text>
+<text x="456.0" y="256.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#163e37" text-anchor="end" >важно, на какие даты</text>
+<line x1="24.0" y1="276.0" x2="456.0" y2="276.0" stroke="#dbe2d9" stroke-width="1.5" />
+<rect x="24.0" y="296.0" width="84.0" height="34.0" rx="6" fill="#fff" stroke="#163e37" stroke-width="1.5" />
+<text x="66.0" y="319.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600" fill="#163e37" text-anchor="middle" >1 номер</text>
+<text x="124.0" y="320.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="600" fill="#163e37" text-anchor="middle" >×</text>
+<rect x="140.0" y="296.0" width="76.0" height="34.0" rx="6" fill="#fff" stroke="#163e37" stroke-width="1.5" />
+<text x="178.0" y="319.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600" fill="#163e37" text-anchor="middle" >3 ночи</text>
+<text x="234.0" y="320.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="600" fill="#163e37" text-anchor="middle" >=</text>
+<rect x="252.0" y="296.0" width="140.0" height="34.0" rx="6" fill="#163e37" />
+<text x="322.0" y="319.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600" fill="#fff" text-anchor="middle" >3 номеро-ночи</text>
+<text x="24.0" y="358.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="600" fill="#b44c26" text-anchor="start" >а не 3 брони</text>
+<text x="24.0" y="396.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="700" fill="#163e37" text-anchor="start" >Три пакета: цена ночи и условия</text>
+<rect x="24.0" y="410.0" width="12.0" height="72.0" fill="#163e37" stroke="#163e37" stroke-width="1" />
+<rect x="24.0" y="410.0" width="432.0" height="72.0" fill="none" stroke="#dbe2d9" stroke-width="2" />
+<line x1="36.0" y1="410.0" x2="36.0" y2="482.0" stroke="#163e37" stroke-width="1" />
+<circle cx="64.0" cy="434.0" r="14" fill="#fff" stroke="#163e37" stroke-width="2"/>
+<text x="64.0" y="439.3" font-family="Georgia, 'Times New Roman', serif" font-size="18.2" font-weight="700" fill="#163e37" text-anchor="middle" >А</text>
+<text x="88.0" y="440.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="600" fill="#163e37" text-anchor="start" >Агрегатор</text>
+<text x="444.0" y="441.0" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="700" fill="#163e37" text-anchor="end" >6 000 ₽</text>
+<text x="88.0" y="468.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#163e37" text-anchor="start" >комиссия 18%</text>
+<rect x="24.0" y="492.0" width="12.0" height="72.0" fill="url(#m1l1-passport-pd)" stroke="#163e37" stroke-width="1" />
+<rect x="24.0" y="492.0" width="432.0" height="72.0" fill="none" stroke="#dbe2d9" stroke-width="2" />
+<line x1="36.0" y1="492.0" x2="36.0" y2="564.0" stroke="#163e37" stroke-width="1" />
+<circle cx="64.0" cy="516.0" r="14" fill="#fff" stroke="#163e37" stroke-width="2"/>
+<text x="64.0" y="521.3" font-family="Georgia, 'Times New Roman', serif" font-size="18.2" font-weight="700" fill="#163e37" text-anchor="middle" >П</text>
+<text x="88.0" y="522.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="600" fill="#163e37" text-anchor="start" >Прямой</text>
+<text x="444.0" y="523.0" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="700" fill="#163e37" text-anchor="end" >6 200 ₽</text>
+<text x="88.0" y="550.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#163e37" text-anchor="start" >2% + 600 ₽ привлечение на бронь</text>
+<rect x="24.0" y="574.0" width="12.0" height="72.0" fill="url(#m1l1-passport-pk)" stroke="#163e37" stroke-width="1" />
+<rect x="24.0" y="574.0" width="432.0" height="72.0" fill="none" stroke="#dbe2d9" stroke-width="2" />
+<line x1="36.0" y1="574.0" x2="36.0" y2="646.0" stroke="#163e37" stroke-width="1" />
+<circle cx="64.0" cy="598.0" r="14" fill="#fff" stroke="#163e37" stroke-width="2"/>
+<text x="64.0" y="603.3" font-family="Georgia, 'Times New Roman', serif" font-size="18.2" font-weight="700" fill="#163e37" text-anchor="middle" >К</text>
+<text x="88.0" y="604.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="600" fill="#163e37" text-anchor="start" >Корпоративный</text>
+<text x="444.0" y="605.0" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="700" fill="#163e37" text-anchor="end" >5 400 ₽</text>
+<text x="88.0" y="632.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#163e37" text-anchor="start" >+ 100 ₽ обработка</text>
+<rect x="24.0" y="658.0" width="432.0" height="40.0" fill="#eef2ea" stroke="none" stroke-width="1.5" />
+<text x="36.0" y="684.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600" fill="#163e37" text-anchor="start" >Обслуживание ночи — 1 800 ₽ в любом пакете</text>
+</svg>

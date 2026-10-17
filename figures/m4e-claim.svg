@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 790" role="img" aria-labelledby="t d">
+<title id="t">Эко-заявление: четыре вопроса</title>
+<desc id="d">Слева общее эко-заявление с четырьмя крестиками, справа переписанное заявление с четырьмя галочками; между ними четыре проверочных вопроса; внизу предел нагрузки тропы.</desc>
+<defs>
+<pattern id="pDots" width="6" height="6" patternUnits="userSpaceOnUse"><rect width="6" height="6" fill="#fff"/><circle cx="3" cy="3" r="1.4" fill="#163e37"/></pattern>
+<pattern id="pDiag" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#fff"/><line x1="0" y1="0" x2="0" y2="6" stroke="#163e37" stroke-width="2.2"/></pattern>
+</defs>
+<rect x="12" y="10" width="164" height="252" rx="10" fill="#fbf0ea" stroke="#b44c26" stroke-width="1.5" stroke-dasharray="5 3"/>
+<text x="24" y="32" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#b44c26" font-weight="700" text-anchor="start"><tspan x="24" dy="0">БЫЛО</tspan></text>
+<text x="24" y="56" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="24" dy="0">Наша база</tspan><tspan x="24" dy="19">бережёт</tspan><tspan x="24" dy="19">природу дельты</tspan></text>
+<rect x="184" y="10" width="164" height="252" rx="10" fill="#eef6d9" stroke="#163e37" stroke-width="1.5"/>
+<text x="196" y="32" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="196" dy="0">СТАЛО</tspan></text>
+<text x="196" y="54" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#163e37" text-anchor="start"><tspan x="196" dy="0">Гости выходят на</tspan><tspan x="196" dy="17">воду только с</tspan><tspan x="196" dy="17">гидом и в пределах</tspan><tspan x="196" dy="17">числа лодок,</tspan><tspan x="196" dy="17">установленного для</tspan><tspan x="196" dy="17">маршрута; отходы</tspan><tspan x="196" dy="17">вывозятся и</tspan><tspan x="196" dy="17">сдаются на</tspan><tspan x="196" dy="17">раздельный сбор;</tspan><tspan x="196" dy="17">сведения</tspan><tspan x="196" dy="17">публикуем раз в</tspan><tspan x="196" dy="17">сезон</tspan></text>
+<circle cx="23" cy="289" r="11" fill="#163e37"/>
+<text x="23" y="294" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#fff" font-weight="700" text-anchor="middle"><tspan x="23" dy="0">1</tspan></text>
+<text x="42" y="294" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="42" dy="0">Конкретное действие?</tspan></text>
+<rect x="12" y="304" width="164" height="46" rx="7" fill="#fff" stroke="#b44c26" stroke-width="1.2" stroke-dasharray="5 3"/>
+<circle cx="32" cy="327" r="10" fill="#b44c26"/>
+<path d="M28 323L36 331M36 323L28 331" stroke="#fff" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+<text x="50" y="323.5" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#163e37" text-anchor="start"><tspan x="50" dy="0">«бережёт» — не</tspan><tspan x="50" dy="16">действие</tspan></text>
+<rect x="184" y="304" width="164" height="46" rx="7" fill="#fff" stroke="#163e37" stroke-width="1.2"/>
+<circle cx="204" cy="327" r="10" fill="#163e37"/>
+<polyline points="199.5,327.2 202.875,330.6 208.725,323.625" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="222" y="323.5" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#163e37" text-anchor="start"><tspan x="222" dy="0">выход на воду</tspan><tspan x="222" dy="16">только с гидом</tspan></text>
+<circle cx="23" cy="375" r="11" fill="#163e37"/>
+<text x="23" y="380" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#fff" font-weight="700" text-anchor="middle"><tspan x="23" dy="0">2</tspan></text>
+<text x="42" y="380" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="42" dy="0">Измеримый результат?</tspan></text>
+<rect x="12" y="390" width="164" height="62" rx="7" fill="#fff" stroke="#b44c26" stroke-width="1.2" stroke-dasharray="5 3"/>
+<circle cx="32" cy="421" r="10" fill="#b44c26"/>
+<path d="M28 417L36 425M36 417L28 425" stroke="#fff" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+<text x="50" y="425.5" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#163e37" text-anchor="start"><tspan x="50" dy="0">числа нет</tspan></text>
+<rect x="184" y="390" width="164" height="62" rx="7" fill="#fff" stroke="#163e37" stroke-width="1.2"/>
+<circle cx="204" cy="421" r="10" fill="#163e37"/>
+<polyline points="199.5,421.2 202.875,424.6 208.725,417.625" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="222" y="409.5" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#163e37" text-anchor="start"><tspan x="222" dy="0">число лодок</tspan><tspan x="222" dy="16">задано для</tspan><tspan x="222" dy="16">маршрута</tspan></text>
+<circle cx="23" cy="477" r="11" fill="#163e37"/>
+<text x="23" y="482" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#fff" font-weight="700" text-anchor="middle"><tspan x="23" dy="0">3</tspan></text>
+<text x="42" y="482" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="42" dy="0">Внешнее подтверждение?</tspan></text>
+<rect x="12" y="492" width="164" height="46" rx="7" fill="#fff" stroke="#b44c26" stroke-width="1.2" stroke-dasharray="5 3"/>
+<circle cx="32" cy="515" r="10" fill="#b44c26"/>
+<path d="M28 511L36 519M36 511L28 519" stroke="#fff" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+<text x="50" y="519.5" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#163e37" text-anchor="start"><tspan x="50" dy="0">проверить нечем</tspan></text>
+<rect x="184" y="492" width="164" height="46" rx="7" fill="#fff" stroke="#163e37" stroke-width="1.2"/>
+<circle cx="204" cy="515" r="10" fill="#163e37"/>
+<polyline points="199.5,515.2 202.875,518.6 208.725,511.625" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="222" y="511.5" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#163e37" text-anchor="start"><tspan x="222" dy="0">отходы сданы на</tspan><tspan x="222" dy="16">раздельный сбор</tspan></text>
+<circle cx="23" cy="563" r="11" fill="#163e37"/>
+<text x="23" y="568" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#fff" font-weight="700" text-anchor="middle"><tspan x="23" dy="0">4</tspan></text>
+<text x="42" y="568" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="42" dy="0">Нет скрытого компромисса?</tspan></text>
+<rect x="12" y="578" width="164" height="78" rx="7" fill="#fff" stroke="#b44c26" stroke-width="1.2" stroke-dasharray="5 3"/>
+<circle cx="32" cy="617" r="10" fill="#b44c26"/>
+<path d="M28 613L36 621M36 613L28 621" stroke="#fff" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+<text x="50" y="613.5" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#163e37" text-anchor="start"><tspan x="50" dy="0">о нагрузке</tspan><tspan x="50" dy="16">умалчивает</tspan></text>
+<rect x="184" y="578" width="164" height="78" rx="7" fill="#fff" stroke="#163e37" stroke-width="1.2"/>
+<circle cx="204" cy="617" r="10" fill="#163e37"/>
+<polyline points="199.5,617.2 202.875,620.6 208.725,613.625" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="222" y="597.5" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#163e37" text-anchor="start"><tspan x="222" dy="0">предел лодок</tspan><tspan x="222" dy="16">назван открыто;</tspan><tspan x="222" dy="16">сведения раз в</tspan><tspan x="222" dy="16">сезон</tspan></text>
+<rect x="12" y="672" width="336" height="112" rx="10" fill="#fff" stroke="#b44c26" stroke-width="1.5"/>
+<text x="24" y="696" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="24" dy="0">Тропа допускает 100 человек в день</tspan></text>
+<rect x="24" y="710" width="250" height="22" rx="5" fill="#163e37" stroke="#163e37" stroke-width="1"/>
+<text x="34" y="726" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#fff" font-weight="700" text-anchor="start"><tspan x="34" dy="0">100 мест</tspan></text>
+<rect x="282" y="710" width="54" height="22" rx="5" fill="#fbf0ea" stroke="#b44c26" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="309" y="726" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#b44c26" font-weight="700" text-anchor="middle"><tspan x="309" dy="0">№ 101</tspan></text>
+<text x="24" y="758" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#b44c26" font-weight="700" text-anchor="start"><tspan x="24" dy="0">Заявка № 101 — нагрузка, а не продажа</tspan></text>
+</svg>

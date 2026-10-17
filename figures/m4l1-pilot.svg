@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 718" role="img" aria-labelledby="m4l1-pilot-t m4l1-pilot-d">
+<title id="m4l1-pilot-t">Анатомия пилота</title>
+<desc id="m4l1-pilot-d">Схема пилота: допустимые клиенты на непиковые даты, случайное деление до контакта на группы предложения и контроля, одинаковый период и показатель, правило решения, записанное заранее.</desc>
+<defs><marker id="m4l1-pilot-ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#163e37"/></marker></defs>
+<rect x="24.0" y="16.0" width="432.0" height="62.0" rx="10" fill="#fff" stroke="#163e37" stroke-width="2" />
+<rect x="34.0" y="26.0" width="26.0" height="26.0" rx="6" fill="#163e37" />
+<text x="47.0" y="45.0" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="700" fill="#fff" text-anchor="middle" >1</text>
+<text x="70.0" y="45.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="700" fill="#163e37" text-anchor="start" >Допустимые клиенты</text>
+<text x="70.0" y="69.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#163e37" text-anchor="start" >непиковые даты</text>
+<line x1="240.0" y1="78" x2="240.0" y2="106" stroke="#163e37" stroke-width="2" marker-end="url(#m4l1-pilot-ar)"/>
+<rect x="24.0" y="108.0" width="432.0" height="62.0" rx="10" fill="#fff" stroke="#163e37" stroke-width="2" />
+<rect x="34.0" y="118.0" width="26.0" height="26.0" rx="6" fill="#163e37" />
+<text x="47.0" y="137.0" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="700" fill="#fff" text-anchor="middle" >2</text>
+<text x="70.0" y="137.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="700" fill="#163e37" text-anchor="start" >Случайное деление</text>
+<text x="70.0" y="161.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#163e37" text-anchor="start" >до контакта</text>
+<path d="M240.0 170 V184 H128.0 V204 M240.0 184 H352.0 V204" fill="none" stroke="#163e37" stroke-width="2" marker-end="url(#m4l1-pilot-ar)"/>
+<line x1="128.0" y1="184" x2="128.0" y2="206" stroke="#163e37" stroke-width="2" marker-end="url(#m4l1-pilot-ar)"/>
+<line x1="352.0" y1="184" x2="352.0" y2="206" stroke="#163e37" stroke-width="2" marker-end="url(#m4l1-pilot-ar)"/>
+<rect x="24.0" y="208.0" width="208.0" height="128.0" rx="10" fill="#163e37" stroke="#163e37" stroke-width="2" />
+<text x="128.0" y="238.0" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#fff" text-anchor="middle" >Предложение</text>
+<text x="128.0" y="262.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#fff" text-anchor="middle" >получают письмо</text>
+<rect x="248.0" y="208.0" width="208.0" height="128.0" rx="10" fill="#fff" stroke="#163e37" stroke-width="2" />
+<text x="352.0" y="238.0" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#163e37" text-anchor="middle" >Контроль</text>
+<text x="352.0" y="262.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#163e37" text-anchor="middle" >обычные условия</text>
+<circle cx="52.0" cy="292.0" r="12" fill="#fff" stroke="#fff" stroke-width="2"/>
+<circle cx="90.0" cy="292.0" r="12" fill="#fff" stroke="#fff" stroke-width="2"/>
+<circle cx="128.0" cy="292.0" r="12" fill="#fff" stroke="#fff" stroke-width="2"/>
+<circle cx="166.0" cy="292.0" r="12" fill="none" stroke="#fff" stroke-width="2"/>
+<circle cx="166" cy="292" r="12" fill="none" stroke="#fff" stroke-width="2" stroke-dasharray="4 3"/>
+<circle cx="204.0" cy="292.0" r="12" fill="none" stroke="#fff" stroke-width="2"/>
+<circle cx="204" cy="292" r="12" fill="none" stroke="#fff" stroke-width="2" stroke-dasharray="4 3"/>
+<text x="40.0" y="326.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#fff" text-anchor="start" >открыли</text>
+<text x="220.0" y="326.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#fff" text-anchor="end" >не открыли</text>
+<circle cx="276.0" cy="292.0" r="12" fill="#fff" stroke="#163e37" stroke-width="2"/>
+<circle cx="314.0" cy="292.0" r="12" fill="#fff" stroke="#163e37" stroke-width="2"/>
+<circle cx="352.0" cy="292.0" r="12" fill="#fff" stroke="#163e37" stroke-width="2"/>
+<circle cx="390.0" cy="292.0" r="12" fill="#fff" stroke="#163e37" stroke-width="2"/>
+<circle cx="428.0" cy="292.0" r="12" fill="#fff" stroke="#163e37" stroke-width="2"/>
+<text x="352.0" y="326.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#163e37" text-anchor="middle" >без письма</text>
+<path d="M128.0 336 V352 H240.0 M352.0 336 V352 H240.0" fill="none" stroke="#163e37" stroke-width="2"/>
+<line x1="240.0" y1="352" x2="240.0" y2="376" stroke="#163e37" stroke-width="2" marker-end="url(#m4l1-pilot-ar)"/>
+<rect x="24.0" y="378.0" width="432.0" height="112.0" rx="10" fill="#fff" stroke="#163e37" stroke-width="2" />
+<rect x="34.0" y="388.0" width="26.0" height="26.0" rx="6" fill="#163e37" />
+<text x="47.0" y="407.0" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="700" fill="#fff" text-anchor="middle" >3</text>
+<text x="70.0" y="407.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="700" fill="#163e37" text-anchor="start" >Одинаковый период</text>
+<text x="70.0" y="431.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="700" fill="#163e37" text-anchor="start" >и один показатель:</text>
+<text x="70.0" y="455.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#163e37" text-anchor="start" >маржинальный результат</text>
+<text x="70.0" y="479.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#163e37" text-anchor="start" >на назначенного клиента</text>
+<line x1="240.0" y1="490" x2="240.0" y2="516" stroke="#163e37" stroke-width="2" marker-end="url(#m4l1-pilot-ar)"/>
+<rect x="24.0" y="518.0" width="432.0" height="62.0" rx="10" fill="#d6ed8c" stroke="#163e37" stroke-width="2" />
+<rect x="34.0" y="528.0" width="26.0" height="26.0" rx="6" fill="#163e37" />
+<text x="47.0" y="547.0" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="700" fill="#fff" text-anchor="middle" >4</text>
+<text x="70.0" y="547.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="700" fill="#163e37" text-anchor="start" >Правило решения,</text>
+<text x="70.0" y="571.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="700" fill="#163e37" text-anchor="start" >записанное заранее</text>
+<rect x="24.0" y="602.0" width="432.0" height="98.0" fill="#eef2ea" stroke="none" stroke-width="1.5" />
+<rect x="24.0" y="602.0" width="8.0" height="98.0" fill="#163e37" />
+<text x="48.0" y="632.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="700" fill="#163e37" text-anchor="start" >Анализ по назначению:</text>
+<text x="48.0" y="658.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="400" fill="#163e37" text-anchor="start" >не открывшие письмо остаются</text>
+<text x="48.0" y="682.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="400" fill="#163e37" text-anchor="start" >в своей группе</text>
+</svg>

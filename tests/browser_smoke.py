@@ -13,7 +13,7 @@ with sync_playwright() as pw:
         from urllib.parse import urlparse
         path = urlparse(route.request.url).path
         file = root / (path.lstrip("/") or "index.html")
-        types = {".js": "text/javascript", ".css": "text/css", ".html": "text/html", ".md": "text/plain", ".csv": "text/csv"}
+        types = {".js": "text/javascript", ".css": "text/css", ".html": "text/html", ".svg": "image/svg+xml", ".json": "application/json", ".txt": "text/plain", ".vtt": "text/vtt", ".csv": "text/csv"}
         if file.is_file() and file.resolve().is_relative_to(root):
             route.fulfill(status=200, body=file.read_bytes(), content_type=types.get(file.suffix, "application/octet-stream"))
         else:
@@ -36,7 +36,8 @@ with sync_playwright() as pw:
     page.locator("#initial-reason").fill("Корпоративный пакет: 1 010 000 до вытеснения; нужен календарь.")
     page.locator("#reveal").click()
     assert page.locator("#calendar").is_visible()
-    assert "Прямое привлечение" in page.locator("#lab-results h2").inner_text()
+    assert "Прямой" in page.locator("#lab-results h2").inner_text()
+    page.locator("#lab-band svg, #lab-band div").first.wait_for()
     page.locator("#margin").fill("1800")
     page.locator("#margin").dispatch_event("input")
     assert "Агрегатор" in page.locator("#lab-results h2").inner_text()
@@ -47,6 +48,14 @@ with sync_playwright() as pw:
     page.goto("http://course.test/#project")
     long_answer = "Обоснованное решение и его ограничения. " * 300
     page.locator("#project-problem").fill(long_answer)
+    page.locator("[data-profile=student]").fill("Иванова Анна Сергеевна")
+    with page.expect_download() as dl:
+        page.locator("#export-project").click()
+    docx_path = Path(dl.value.path())
+    import zipfile
+    xml = zipfile.ZipFile(docx_path).read("word/document.xml").decode("utf-8")
+    assert "Астраханский государственный технический университет" in xml and "Иванова Анна Сергеевна" in xml and "Обоснованное решение" in xml
+    assert dl.value.suggested_filename.endswith(".docx")
     page.evaluate("window.print=()=>{}")
     page.locator("#print-project").click()
     assert long_answer in page.locator("#printable-project").inner_text()
@@ -60,6 +69,8 @@ with sync_playwright() as pw:
         el.check()
     assert "готова" in page.locator("#kt-status").inner_text()
     assert "✓ КТ-0" in page.locator("#sidebar").inner_text()
+    page.goto("http://course.test/#m2l2")
+    page.locator("figure.media-svg svg, figure.media svg").first.wait_for(timeout=5000)
     page.goto("http://course.test/#guide")
     page.get_by_role("heading", name="Как работать с курсом").wait_for()
     page.goto("http://course.test/#resources")

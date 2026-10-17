@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 950" role="img" aria-labelledby="m2l1-waterfall-t m2l1-waterfall-d">
+<title id="m2l1-waterfall-t">Водопад трёх пакетов</title>
+<desc id="m2l1-waterfall-d">Для трёх пакетов показано, как выручка превращается в результат: комиссия или обработка, обслуживание, привлечение и фиксированные расходы.</desc>
+<defs><marker id="m2l1-waterfall-ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#163e37"/></marker><pattern id="m2l1-waterfall-pd" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#eef2ea"/><circle cx="4" cy="4" r="2" fill="#163e37"/></pattern><pattern id="m2l1-waterfall-pk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#eef2ea"/><rect width="3" height="8" fill="#163e37"/></pattern></defs>
+<circle cx="38.0" cy="32.0" r="14" fill="#fff" stroke="#163e37" stroke-width="2"/>
+<text x="38.0" y="37.3" font-family="Georgia, 'Times New Roman', serif" font-size="18.2" font-weight="700" fill="#163e37" text-anchor="middle" >А</text>
+<text x="62.0" y="38.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#163e37" text-anchor="start" >Агрегатор</text>
+<text x="456.0" y="38.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#62736d" text-anchor="end" >300 ночей × 6 000 ₽</text>
+<text x="24.0" y="68.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600" fill="#163e37" text-anchor="start" >Выручка</text>
+<text x="456.0" y="68.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" fill="#163e37" text-anchor="end" >1 800 000 ₽</text>
+<rect x="24.0" y="76.0" width="432.0" height="11.0" fill="#163e37" stroke="#163e37" stroke-width="1.2" />
+<line x1="24.0" y1="91.0" x2="456.0" y2="91.0" stroke="#dbe2d9" stroke-width="1" />
+<text x="24.0" y="108.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#163e37" text-anchor="start" >комиссия</text>
+<text x="456.0" y="108.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600" fill="#163e37" text-anchor="end" >−324 000 ₽</text>
+<rect x="378.2" y="116.0" width="77.8" height="11.0" fill="#9fb8ae" stroke="#163e37" stroke-width="1.2" />
+<line x1="24.0" y1="131.0" x2="456.0" y2="131.0" stroke="#dbe2d9" stroke-width="1" />
+<text x="24.0" y="148.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#163e37" text-anchor="start" >обслуживание</text>
+<text x="456.0" y="148.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600" fill="#163e37" text-anchor="end" >−540 000 ₽</text>
+<rect x="248.6" y="156.0" width="129.6" height="11.0" fill="#9fb8ae" stroke="#163e37" stroke-width="1.2" />
+<line x1="24.0" y1="171.0" x2="456.0" y2="171.0" stroke="#dbe2d9" stroke-width="1" />
+<text x="24.0" y="188.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#163e37" text-anchor="start" >фиксированные</text>
+<text x="456.0" y="188.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600" fill="#163e37" text-anchor="end" >−30 000 ₽</text>
+<rect x="241.4" y="196.0" width="7.2" height="11.0" fill="#9fb8ae" stroke="#163e37" stroke-width="1.2" />
+<line x1="24.0" y1="211.0" x2="456.0" y2="211.0" stroke="#dbe2d9" stroke-width="1" />
+<text x="24.0" y="231.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="700" fill="#163e37" text-anchor="start" >Результат</text>
+<text x="456.0" y="232.0" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-weight="700" fill="#163e37" text-anchor="end" >906 000 ₽</text>
+<rect x="24.0" y="238.0" width="217.4" height="14.0" fill="#163e37" />
+<circle cx="38.0" cy="288.0" r="14" fill="#fff" stroke="#163e37" stroke-width="2"/>
+<text x="38.0" y="293.3" font-family="Georgia, 'Times New Roman', serif" font-size="18.2" font-weight="700" fill="#163e37" text-anchor="middle" >П</text>
+<text x="62.0" y="294.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#163e37" text-anchor="start" >Прямой</text>
+<text x="456.0" y="294.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#62736d" text-anchor="end" >240 ночей × 6 200 ₽</text>
+<text x="24.0" y="324.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600" fill="#163e37" text-anchor="start" >Выручка</text>
+<text x="456.0" y="324.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" fill="#163e37" text-anchor="end" >1 488 000 ₽</text>
+<rect x="24.0" y="332.0" width="357.1" height="11.0" fill="url(#m2l1-waterfall-pd)" stroke="#163e37" stroke-width="1.2" />
+<line x1="24.0" y1="347.0" x2="456.0" y2="347.0" stroke="#dbe2d9" stroke-width="1" />
+<text x="24.0" y="364.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#163e37" text-anchor="start" >обработка</text>
+<text x="456.0" y="364.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600" fill="#163e37" text-anchor="end" >−29 760 ₽</text>
+<rect x="374.0" y="372.0" width="7.1" height="11.0" fill="#9fb8ae" stroke="#163e37" stroke-width="1.2" />
+<line x1="24.0" y1="387.0" x2="456.0" y2="387.0" stroke="#dbe2d9" stroke-width="1" />
+<text x="24.0" y="404.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#163e37" text-anchor="start" >обслуживание</text>
+<text x="456.0" y="404.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600" fill="#163e37" text-anchor="end" >−432 000 ₽</text>
+<rect x="270.3" y="412.0" width="103.7" height="11.0" fill="#9fb8ae" stroke="#163e37" stroke-width="1.2" />
+<line x1="24.0" y1="427.0" x2="456.0" y2="427.0" stroke="#dbe2d9" stroke-width="1" />
+<text x="24.0" y="444.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#163e37" text-anchor="start" >привлечение</text>
+<text x="456.0" y="444.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600" fill="#b44c26" text-anchor="end" >−180 000 ₽</text>
+<text x="24.0" y="463.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#62736d" text-anchor="start" >на 300 забронированных, включая отменённые</text>
+<rect x="227.1" y="467.0" width="43.2" height="11.0" fill="#fbefe9" stroke="#b44c26" stroke-width="1.6" />
+<line x1="24.0" y1="487.0" x2="456.0" y2="487.0" stroke="#dbe2d9" stroke-width="1" />
+<text x="24.0" y="504.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#163e37" text-anchor="start" >фиксированные</text>
+<text x="456.0" y="504.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600" fill="#163e37" text-anchor="end" >−90 000 ₽</text>
+<rect x="205.5" y="512.0" width="21.6" height="11.0" fill="#9fb8ae" stroke="#163e37" stroke-width="1.2" />
+<line x1="24.0" y1="527.0" x2="456.0" y2="527.0" stroke="#dbe2d9" stroke-width="1" />
+<text x="24.0" y="547.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="700" fill="#163e37" text-anchor="start" >Результат</text>
+<text x="456.0" y="548.0" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-weight="700" fill="#163e37" text-anchor="end" >756 240 ₽</text>
+<rect x="24.0" y="554.0" width="181.5" height="14.0" fill="#163e37" />
+<rect x="24.0" y="578.0" width="432.0" height="94.0" rx="8" fill="#fbefe9" stroke="#b44c26" stroke-width="2" />
+<rect x="24.0" y="578.0" width="8.0" height="94.0" fill="#b44c26" />
+<text x="46.0" y="606.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="600" fill="#8a3a1b" text-anchor="start" >Если начислить привлечение только на</text>
+<text x="46.0" y="630.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="600" fill="#8a3a1b" text-anchor="start" >240 состоявшихся, результат завысится</text>
+<text x="46.0" y="654.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="600" fill="#8a3a1b" text-anchor="start" >на 36 000 ₽</text>
+<circle cx="38.0" cy="710.0" r="14" fill="#fff" stroke="#163e37" stroke-width="2"/>
+<text x="38.0" y="715.3" font-family="Georgia, 'Times New Roman', serif" font-size="18.2" font-weight="700" fill="#163e37" text-anchor="middle" >К</text>
+<text x="62.0" y="716.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#163e37" text-anchor="start" >Корпоративный</text>
+<text x="456.0" y="716.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#62736d" text-anchor="end" >300 ночей × 5 400 ₽</text>
+<text x="24.0" y="746.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600" fill="#163e37" text-anchor="start" >Выручка</text>
+<text x="456.0" y="746.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" fill="#163e37" text-anchor="end" >1 620 000 ₽</text>
+<rect x="24.0" y="754.0" width="388.8" height="11.0" fill="url(#m2l1-waterfall-pk)" stroke="#163e37" stroke-width="1.2" />
+<line x1="24.0" y1="769.0" x2="456.0" y2="769.0" stroke="#dbe2d9" stroke-width="1" />
+<text x="24.0" y="786.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#163e37" text-anchor="start" >обработка 100 ₽ × 300</text>
+<text x="456.0" y="786.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600" fill="#163e37" text-anchor="end" >−30 000 ₽</text>
+<rect x="405.6" y="794.0" width="7.2" height="11.0" fill="#9fb8ae" stroke="#163e37" stroke-width="1.2" />
+<line x1="24.0" y1="809.0" x2="456.0" y2="809.0" stroke="#dbe2d9" stroke-width="1" />
+<text x="24.0" y="826.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#163e37" text-anchor="start" >обслуживание</text>
+<text x="456.0" y="826.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600" fill="#163e37" text-anchor="end" >−540 000 ₽</text>
+<rect x="276.0" y="834.0" width="129.6" height="11.0" fill="#9fb8ae" stroke="#163e37" stroke-width="1.2" />
+<line x1="24.0" y1="849.0" x2="456.0" y2="849.0" stroke="#dbe2d9" stroke-width="1" />
+<text x="24.0" y="866.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#163e37" text-anchor="start" >фиксированные</text>
+<text x="456.0" y="866.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600" fill="#163e37" text-anchor="end" >−40 000 ₽</text>
+<rect x="266.4" y="874.0" width="9.6" height="11.0" fill="#9fb8ae" stroke="#163e37" stroke-width="1.2" />
+<line x1="24.0" y1="889.0" x2="456.0" y2="889.0" stroke="#dbe2d9" stroke-width="1" />
+<text x="24.0" y="909.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="700" fill="#163e37" text-anchor="start" >Результат</text>
+<text x="456.0" y="910.0" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-weight="700" fill="#163e37" text-anchor="end" >1 010 000 ₽</text>
+<rect x="24.0" y="916.0" width="242.4" height="14.0" fill="#163e37" />
+</svg>

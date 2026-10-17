@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 674" role="img" aria-labelledby="t d">
+<title id="t">SWOT с силой свидетельства</title>
+<desc id="d">Сетка SWOT из четырёх клеток; у каждого пункта метка силы свидетельства: факт, оценка или допущение; под сеткой разрыв GAP: цель 900 ночей минус база 840 равно 60.</desc>
+<defs>
+<pattern id="pDots" width="6" height="6" patternUnits="userSpaceOnUse"><rect width="6" height="6" fill="#fff"/><circle cx="3" cy="3" r="1.4" fill="#163e37"/></pattern>
+<pattern id="pDiag" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#fff"/><line x1="0" y1="0" x2="0" y2="6" stroke="#163e37" stroke-width="2.2"/></pattern>
+</defs>
+<rect x="12" y="10" width="164" height="146" rx="10" fill="#fff" stroke="#163e37" stroke-width="1.5"/>
+<circle cx="34" cy="34" r="11" fill="#163e37"/>
+<text x="34" y="39" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#fff" font-weight="700" text-anchor="middle"><tspan x="34" dy="0">S</tspan></text>
+<text x="52" y="39" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#62736d" font-weight="700" text-anchor="start"><tspan x="52" dy="0">Сильная сторона</tspan></text>
+<text x="24" y="70" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="24" dy="0">ранний завтрак</tspan></text>
+<rect x="24" y="78" width="87.8859" height="24" rx="12" fill="#d6ed8c" stroke="#163e37" stroke-width="1.5"/>
+<circle cx="37" cy="90" r="5" fill="#fff" stroke="#163e37" stroke-width="1.2"/><path d="M37 85a5 5 0 0 0 0 10z" fill="#163e37"/>
+<text x="48" y="95" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="48" dy="0">оценка</tspan></text>
+<text x="24" y="120" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#62736d" text-anchor="start"><tspan x="24" dy="0">интервью А</tspan></text>
+<rect x="184" y="10" width="164" height="146" rx="10" fill="#fff" stroke="#163e37" stroke-width="1.5"/>
+<circle cx="206" cy="34" r="11" fill="#163e37"/>
+<text x="206" y="39" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#fff" font-weight="700" text-anchor="middle"><tspan x="206" dy="0">W</tspan></text>
+<text x="224" y="39" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#62736d" font-weight="700" text-anchor="start"><tspan x="224" dy="0">Слабость</tspan></text>
+<text x="196" y="70" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="196" dy="0">шум</tspan></text>
+<rect x="196" y="78" width="87.8859" height="24" rx="12" fill="#d6ed8c" stroke="#163e37" stroke-width="1.5"/>
+<circle cx="209" cy="90" r="5" fill="#fff" stroke="#163e37" stroke-width="1.2"/><path d="M209 85a5 5 0 0 0 0 10z" fill="#163e37"/>
+<text x="220" y="95" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="220" dy="0">оценка</tspan></text>
+<text x="196" y="120" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#62736d" text-anchor="start"><tspan x="196" dy="0">интервью Г и</tspan><tspan x="196" dy="16">отзывы</tspan></text>
+<rect x="12" y="164" width="164" height="186" rx="10" fill="#fff" stroke="#62736d" stroke-width="1.3" stroke-dasharray="5 3"/>
+<circle cx="34" cy="188" r="11" fill="#163e37"/>
+<text x="34" y="193" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#fff" font-weight="700" text-anchor="middle"><tspan x="34" dy="0">O</tspan></text>
+<text x="52" y="193" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#62736d" font-weight="700" text-anchor="start"><tspan x="52" dy="0">Возможность</tspan></text>
+<text x="24" y="224" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="24" dy="0">события в</tspan><tspan x="24" dy="18">пиковые дни</tspan></text>
+<rect x="24" y="250" width="119.636" height="24" rx="12" fill="#fff" stroke="#62736d" stroke-width="1.3" stroke-dasharray="4 3"/>
+<circle cx="37" cy="262" r="5" fill="none" stroke="#62736d" stroke-width="1.3" stroke-dasharray="2 1.6"/>
+<text x="48" y="267" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#62736d" font-weight="700" text-anchor="start"><tspan x="48" dy="0">допущение</tspan></text>
+<text x="24" y="292" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#62736d" text-anchor="start"><tspan x="24" dy="0">календарь не</tspan><tspan x="24" dy="16">проверен</tspan></text>
+<text x="24" y="330" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#b44c26" font-weight="700" text-anchor="start"><tspan x="24" dy="0">→ в гипотезы</tspan></text>
+<rect x="184" y="164" width="164" height="186" rx="10" fill="#fff" stroke="#163e37" stroke-width="1.5"/>
+<circle cx="206" cy="188" r="11" fill="#163e37"/>
+<text x="206" y="193" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#fff" font-weight="700" text-anchor="middle"><tspan x="206" dy="0">T</tspan></text>
+<text x="224" y="193" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#62736d" font-weight="700" text-anchor="start"><tspan x="224" dy="0">Угроза</tspan></text>
+<text x="196" y="224" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="196" dy="0">комиссия</tspan><tspan x="196" dy="18">агрегатора</tspan><tspan x="196" dy="18">1 080 ₽ с ночи</tspan></text>
+<rect x="196" y="268" width="72.5672" height="24" rx="12" fill="#163e37" stroke="#163e37" stroke-width="1"/>
+<circle cx="209" cy="280" r="5" fill="#fff"/>
+<text x="220" y="285" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#fff" font-weight="700" text-anchor="start"><tspan x="220" dy="0">факт</tspan></text>
+<text x="196" y="310" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#62736d" text-anchor="start"><tspan x="196" dy="0">условия пакета</tspan></text>
+<rect x="12" y="368" width="336" height="140" rx="10" fill="#fff" stroke="#dbe2d9" stroke-width="1"/>
+<text x="24" y="392" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="24" dy="0">GAP: цель 900 ночей − база 840 = разрыв 60</tspan></text>
+<rect x="24" y="432" width="291.2" height="26" rx="5" fill="#163e37" stroke="#163e37" stroke-width="1"/>
+<text x="34" y="450" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#fff" font-weight="700" text-anchor="start"><tspan x="34" dy="0">база 840</tspan></text>
+<rect x="315.2" y="432" width="20.8" height="26" rx="4" fill="#fbf0ea" stroke="#b44c26" stroke-width="1.5" stroke-dasharray="3 2"/>
+<line x1="336" y1="426" x2="336" y2="464" stroke="#163e37" stroke-width="2"/>
+<text x="336" y="422" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#163e37" font-weight="700" text-anchor="end"><tspan x="336" dy="0">цель 900</tspan></text>
+<text x="336" y="482" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#b44c26" font-weight="700" text-anchor="end"><tspan x="336" dy="0">разрыв 60</tspan></text>
+<line x1="325.6" y1="459" x2="325.6" y2="466" stroke="#b44c26" stroke-width="1.5"/>
+<rect x="12" y="518" width="336" height="148" rx="10" fill="#fff" stroke="#dbe2d9" stroke-width="1"/>
+<rect x="24" y="530" width="72.5672" height="24" rx="12" fill="#163e37" stroke="#163e37" stroke-width="1"/>
+<circle cx="37" cy="542" r="5" fill="#fff"/>
+<text x="48" y="547" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#fff" font-weight="700" text-anchor="start"><tspan x="48" dy="0">факт</tspan></text>
+<text x="150" y="547" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#163e37" text-anchor="start"><tspan x="150" dy="0">документ, условия пакета</tspan></text>
+<rect x="24" y="562" width="87.8859" height="24" rx="12" fill="#d6ed8c" stroke="#163e37" stroke-width="1.5"/>
+<circle cx="37" cy="574" r="5" fill="#fff" stroke="#163e37" stroke-width="1.2"/><path d="M37 569a5 5 0 0 0 0 10z" fill="#163e37"/>
+<text x="48" y="579" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="48" dy="0">оценка</tspan></text>
+<text x="150" y="579" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#163e37" text-anchor="start"><tspan x="150" dy="0">интервью, отзывы (не выборка)</tspan></text>
+<rect x="24" y="594" width="119.636" height="24" rx="12" fill="#fff" stroke="#62736d" stroke-width="1.3" stroke-dasharray="4 3"/>
+<circle cx="37" cy="606" r="5" fill="none" stroke="#62736d" stroke-width="1.3" stroke-dasharray="2 1.6"/>
+<text x="48" y="611" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#62736d" font-weight="700" text-anchor="start"><tspan x="48" dy="0">допущение</tspan></text>
+<text x="150" y="611" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#163e37" text-anchor="start"><tspan x="150" dy="0">ещё не проверено</tspan></text>
+<line x1="24" y1="628" x2="336" y2="628" stroke="#dbe2d9" stroke-width="1"/>
+<text x="24" y="650" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#b44c26" font-weight="700" text-anchor="start"><tspan x="24" dy="0">Пункт без свидетельства → «в гипотезы»</tspan></text>
+</svg>

@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>КТ-1 · Интервью о последнем выборе (сцены ролика)</title>
+<!--
+  Исходник ролика media/kt1-interview.mp4. Сцены собраны в HTML/CSS, время задаёт функция seek(t).
+  Просмотр в браузере: откройте файл (пробел или клик — пауза, ?t=42 — показать кадр на 42-й секунде).
+  Сборка видео: python3 media/src/build-kt1.py
+  Реплики субтитров (CUES) — единственный источник для .vtt и .txt.
+-->
+<style>
+:root{
+  --g:#163e37; --lime:#d6ed8c; --or:#b44c26; --paper:#f4f3ed; --line:#dbe2d9; --mut:#62736d;
+  --serif:Georgia,Lora,'DejaVu Serif',serif;
+  --sans:system-ui,Inter,'DejaVu Sans',sans-serif;
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:#0f2a25;overflow:hidden}
+#stage{position:absolute;left:0;top:0;width:1080px;height:1080px;background:var(--paper);overflow:hidden;
+  transform-origin:0 0;font-family:var(--sans);color:var(--g);-webkit-font-smoothing:antialiased}
+
+/* постоянная рамка */
+#top{position:absolute;left:60px;right:60px;top:30px;height:60px;display:flex;align-items:center;justify-content:space-between}
+#top .l{display:flex;align-items:center;gap:18px}
+.tag{background:var(--g);color:var(--lime);font:700 26px/1 var(--sans);letter-spacing:.04em;padding:11px 18px;border-radius:12px}
+#top .name{font:700 34px/1 var(--serif)}
+#dots{display:flex;gap:10px}
+#dots i{width:22px;height:22px;border-radius:50%;border:3px solid var(--g);background:transparent;display:block}
+#dots i.done{background:var(--mut);border-color:var(--mut)}
+#dots i.on{background:var(--g)}
+#track{position:absolute;left:60px;right:60px;top:104px;height:4px;background:var(--line);border-radius:2px}
+#track b{display:block;height:100%;width:0;background:var(--g);border-radius:2px}
+#sub{position:absolute;left:60px;right:60px;top:920px;height:124px;background:var(--g);border-radius:22px;
+  display:flex;align-items:center;justify-content:center;padding:0 34px;text-align:center;
+  color:#fff;font:500 34px/1.34 var(--sans);opacity:0;text-wrap:balance}
+#sub span{display:block;max-width:100%}
+
+/* сцены */
+.scene{position:absolute;left:60px;right:60px;top:128px;height:770px;opacity:0;visibility:hidden}
+.a{opacity:0;visibility:hidden}
+.abs{position:absolute;left:0;right:0}
+.eyebrow{position:absolute;left:0;right:0;top:0;height:64px;display:flex;align-items:center;gap:18px}
+.eyebrow .n{width:56px;height:56px;border-radius:50%;background:var(--g);color:var(--lime);font:700 32px/56px var(--serif);text-align:center;flex:none}
+.eyebrow .t{font:700 44px/1 var(--serif)}
+.eyebrow .ex{margin-left:auto;font:500 24px/1.2 var(--sans);color:var(--mut);border:3px dashed var(--mut);border-radius:14px;padding:8px 14px;text-align:center}
+
+.ic{width:1em;height:1em;display:inline-block;vertical-align:-.12em}
+.badge{display:inline-flex;align-items:center;gap:10px;font:700 26px/1 var(--sans);padding:10px 16px;border-radius:12px}
+.badge.bad{background:var(--or);color:#fff}
+.badge.good{background:var(--g);color:var(--lime)}
+.who{font:600 24px/1 var(--sans);letter-spacing:.06em;text-transform:uppercase;opacity:.75}
+
+/* сцена 1 */
+.bubble{border-radius:26px;padding:26px 32px}
+.bubble.q{background:var(--g);color:#fff;width:100%}
+.bubble.q .qt{font:700 58px/1.12 var(--serif);margin-top:12px}
+.bubble.ans{background:#fff;border:4px dashed var(--mut);width:700px;margin-left:auto;color:var(--g)}
+.bubble.ans .qt{font:400 italic 46px/1.15 var(--serif);margin-top:10px}
+.reason{display:flex;align-items:center;gap:22px;background:#fff;border:3px solid var(--line);border-radius:20px;padding:0 26px;height:86px}
+.reason .num{width:52px;height:52px;border-radius:50%;background:var(--or);color:#fff;font:700 30px/52px var(--serif);text-align:center;flex:none}
+.reason .tx{font:600 36px/1.15 var(--sans)}
+.reason .tx b{color:var(--or)}
+
+/* сцена 2 */
+.goodq{background:var(--lime);border:4px solid var(--g);border-radius:28px;padding:30px 36px 34px}
+.goodq .qt{font:700 58px/1.14 var(--serif);margin-top:18px}
+.pill{display:inline-flex;align-items:center;gap:14px;background:var(--g);color:#fff;font:700 40px/1 var(--sans);padding:16px 28px 16px 18px;border-radius:40px}
+.pill i{width:44px;height:44px;border-radius:50%;background:var(--lime);color:var(--g);font:700 26px/44px var(--serif);text-align:center;font-style:normal}
+.contrast .lbl{font:600 38px/1.2 var(--sans)}
+.contrast .lbl small{font:500 28px/1.2 var(--sans);color:var(--mut);margin-left:10px}
+.ln{height:0;margin-top:12px}
+.ln.solid{border-top:8px solid var(--g)}
+.ln.dash{border-top:8px dashed var(--mut)}
+
+/* сцена 3 */
+.chain{position:absolute;left:0;right:0}
+.card{position:absolute;left:0;right:0;height:152px;background:#fff;border:3px solid var(--line);border-radius:22px;display:flex;align-items:center;padding:0 28px;gap:24px}
+.card.sel{background:var(--lime);border-color:var(--g);border-width:4px}
+.card .no{width:70px;height:70px;border-radius:50%;background:var(--g);color:#fff;font:700 40px/70px var(--serif);text-align:center;flex:none}
+.card.sel .no{background:var(--g);color:var(--lime)}
+.card .h{width:270px;flex:none}
+.card .h b{display:block;font:700 42px/1.05 var(--serif)}
+.card .h span{display:block;font:500 26px/1.2 var(--sans);color:var(--mut);margin-top:6px}
+.card.sel .h span{color:var(--g);opacity:.8}
+.card .ans{font:500 33px/1.25 var(--sans);border-left:4px solid var(--line);padding-left:24px}
+.card.sel .ans{border-left-color:var(--g)}
+.link{position:absolute;left:62px;width:6px;height:22px;background:var(--g);border-radius:3px}
+
+/* сцена 4 */
+.note{border-radius:24px;padding:24px 32px}
+.note.bad{background:#fff;border:4px solid var(--or)}
+.note.good{background:var(--lime);border:4px solid var(--g)}
+.note .qt{font:400 italic 40px/1.25 var(--serif);margin-top:16px}
+.strike{background:linear-gradient(var(--or),var(--or)) no-repeat left center / 0% 5px;color:var(--or)}
+.chip{display:flex;align-items:center;gap:18px;font:600 36px/1.2 var(--sans)}
+.chip i{width:46px;height:46px;border-radius:50%;background:var(--g);color:var(--lime);font-size:28px;display:flex;align-items:center;justify-content:center;flex:none}
+.tabbar{display:flex;align-items:flex-end;gap:8px}
+.tab{background:var(--g);color:#fff;font:700 30px/1 var(--sans);padding:16px 28px;border-radius:14px 14px 0 0}
+.tab.ghost{background:var(--line);color:var(--mut);font-weight:500}
+.sheet{border:3px solid var(--g);border-radius:0 18px 18px 18px;background:#fff;overflow:hidden}
+.sheet .row{display:grid;grid-template-columns:140px repeat(5,1fr);height:84px;border-top:2px solid var(--line)}
+.sheet .row.head{height:68px;background:var(--g);color:#fff;border-top:0}
+.sheet .row.head div{font:700 27px/68px var(--sans);padding-left:16px;border-left:2px solid #2b5a51}
+.sheet .row.head div:first-child{border-left:0}
+.sheet .row div{border-left:2px solid var(--line);display:flex;flex-direction:column;justify-content:center;gap:11px;padding:0 14px}
+.sheet .row div:first-child{border-left:0}
+.sheet .row div i{display:block;height:13px;border-radius:7px;background:var(--line)}
+.sheet .row.r1 div i{background:#9fb3ab}
+.sheet .row div.q i{background:var(--lime);border:2px solid #b9d36a;height:13px}
+.sheet .row.r1 div.q i{background:var(--lime)}
+
+/* сцена 5 */
+.no-row{position:absolute;left:0;right:0;height:120px;background:#fff;border:3px solid var(--line);border-left:12px solid var(--or);border-radius:20px;display:flex;align-items:center;gap:24px;padding:0 28px}
+.no-row .x{width:64px;height:64px;border-radius:50%;background:var(--or);color:#fff;display:flex;align-items:center;justify-content:center;font-size:38px;flex:none}
+.no-row .h{font:700 42px/1.05 var(--serif)}
+.no-row .s{font:500 29px/1.3 var(--sans);margin-top:8px;color:var(--g)}
+.no-row .s em{font-style:normal;color:var(--or);font-weight:700}
+.no-row .s u{text-decoration:none;font-weight:700}
+.fallback{position:absolute;left:0;right:0;border:5px dashed var(--g);border-radius:26px;background:#fff;padding:22px 30px}
+.fallback .h{font:700 40px/1.1 var(--serif)}
+.people{display:flex;align-items:center;gap:30px;margin-top:18px}
+.circles{display:flex;gap:10px;flex:none}
+.circles i{width:64px;height:64px;border-radius:50%;display:block;font:700 34px/64px var(--serif);font-style:normal;text-align:center;border:4px solid var(--g)}
+.circles i.k{background:var(--g);color:#fff}
+.circles i.s{background:repeating-linear-gradient(135deg,var(--lime) 0 7px,#fff 7px 14px);color:var(--g)}
+.people .t{font:600 31px/1.25 var(--sans)}
+.mark{margin-top:16px;font:600 28px/1.25 var(--sans);color:var(--or);display:flex;align-items:center;gap:12px}
+
+/* сцена 6 */
+.final{font:700 80px/1.1 var(--serif)}
+.final .hl{background:linear-gradient(transparent 62%,var(--lime) 62% 94%,transparent 94%)}
+.final .dt{border-bottom:7px dashed var(--mut);color:var(--mut)}
+.flow{position:absolute;left:0;right:0;display:grid;grid-template-columns:1fr 60px 1fr 60px 1fr;align-items:center}
+.flow .col{text-align:center;padding:26px 8px 24px;border-radius:26px;border:3px solid var(--line);background:#fff}
+.flow .col.last{background:var(--lime);border:4px solid var(--g)}
+.flow .big{font:700 190px/1 var(--serif)}
+.flow .cap{font:700 36px/1.15 var(--sans);margin-top:6px}
+.flow .arr{font:700 56px/1 var(--serif);text-align:center;color:var(--mut)}
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="top">
+    <div class="l"><span class="tag">КТ-1</span><span class="name">Интервью о последнем выборе</span></div>
+    <div id="dots"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  </div>
+  <div id="track"><b id="prog"></b></div>
+
+  <!-- Сцена 1 -->
+  <section class="scene" data-i="0">
+    <div class="eyebrow a" data-at="0.5"><span class="n">1</span><span class="t">Плохой вопрос</span></div>
+    <div class="abs" style="top:92px">
+      <div class="a bubble q" data-at="0.9">
+        <div style="display:flex;justify-content:space-between;align-items:center"><span class="who">Интервьюер</span><span class="badge bad"><i class="x"></i>Плохой вопрос</span></div>
+        <div class="qt">«Вам нравится наш отель?»</div>
+      </div>
+    </div>
+    <div class="abs" style="top:282px">
+      <div class="a bubble ans" data-at="5.0">
+        <div class="who">Гость</div>
+        <div class="qt">«Да, всё хорошо, спасибо»</div>
+      </div>
+    </div>
+    <div class="reason a abs" data-at="9.0" style="top:450px"><span class="num">1</span><span class="tx">Ответ — <b>мнение</b>, а не поступок</span></div>
+    <div class="reason a abs" data-at="11.4" style="top:546px"><span class="num">2</span><span class="tx">Из вежливости скажут «всё хорошо»</span></div>
+    <div class="reason a abs" data-at="13.8" style="top:642px"><span class="num">3</span><span class="tx">Ни слова о том, <b>почему выбрали вас</b></span></div>
+  </section>
+
+  <!-- Сцена 2 -->
+  <section class="scene" data-i="1">
+    <div class="eyebrow a" data-at="0.5"><span class="n">2</span><span class="t">Хороший вход</span></div>
+    <div class="abs" style="top:92px">
+      <div class="a goodq" data-at="0.9">
+        <span class="badge good"><i class="ok"></i>Хороший вход</span>
+        <div class="qt">«Расскажите о последней поездке такого типа: куда, когда, с кем?»</div>
+      </div>
+    </div>
+    <div class="abs" style="top:452px;display:flex;gap:18px">
+      <span class="a pill" data-at="6.2"><i>1</i>Куда</span>
+      <span class="a pill" data-at="7.0"><i>2</i>Когда</span>
+      <span class="a pill" data-at="7.8"><i>3</i>С кем</span>
+    </div>
+    <div class="abs contrast" style="top:566px">
+      <div class="a" data-at="10.2"><div class="lbl">Что человек уже сделал<small>— факт</small></div></div>
+      <div class="a ln solid" data-at="10.2" data-anim="growx"></div>
+    </div>
+    <div class="abs contrast" style="top:668px">
+      <div class="a" data-at="12.8"><div class="lbl">Что думает и обещает<small>— прогноз</small></div></div>
+      <div class="a ln dash" data-at="12.8" data-anim="growx"></div>
+    </div>
+  </section>
+
+  <!-- Сцена 3 -->
+  <section class="scene" data-i="2">
+    <div class="eyebrow a" data-at="0.4"><span class="n">3</span><span class="t">Цепочка выбора</span>
+      <span class="ex">Допустим, так отвечает<br>гость в дельте Волги</span></div>
+    <div class="link a" style="top:244px" data-at="5.4"></div>
+    <div class="link a" style="top:418px" data-at="9.8"></div>
+    <div class="link a" style="top:592px" data-at="14.2"></div>
+    <div class="card a" style="top:92px" data-at="1.0"><span class="no">1</span><div class="h"><b>Ситуация</b><span>Что произошло?</span></div><div class="ans">В июле, вдвоём, на три дня: хотели увидеть цветение лотосов.</div></div>
+    <div class="card a" style="top:266px" data-at="5.4"><span class="no">2</span><div class="h"><b>Варианты</b><span>Что ещё сравнивали?</span></div><div class="ans">Базу в дельте, гостиницу в городе или поездку на один день.</div></div>
+    <div class="card a" style="top:440px" data-at="9.8"><span class="no">3</span><div class="h"><b>Барьеры</b><span>Что смущало?</span></div><div class="ans">Как добраться без машины и хватит ли места в лодке.</div></div>
+    <div class="card sel a" style="top:614px" data-at="14.2"><span class="no">4</span><div class="h"><b>Что решило</b><span>Что склонило?</span></div><div class="ans">Хозяйка сразу ответила в мессенджере про трансфер и лодку.</div></div>
+  </section>
+
+  <!-- Сцена 4 -->
+  <section class="scene" data-i="3">
+    <div class="eyebrow a" data-at="0.4"><span class="n">4</span><span class="t">Как записывать</span></div>
+    <div class="abs" style="top:92px">
+      <div class="a note bad" data-at="0.8" data-out="8.4">
+        <span class="badge bad"><i class="x"></i>Не так</span>
+        <div class="qt"><span class="strike" data-anim="strike" data-at="2.4">Мария К., 34 года:</span> «Не понимала, как добраться без машины»</div>
+      </div>
+    </div>
+    <div class="abs" style="top:318px">
+      <div class="a note good" data-at="4.2" data-out="8.4">
+        <span class="badge good"><i class="ok"></i>Так</span>
+        <div class="qt"><b style="font-style:normal">Гость, пара, июль:</b> «Не понимала, как добраться без машины»</div>
+      </div>
+    </div>
+    <div class="abs" style="top:552px;display:flex;flex-direction:column;gap:18px">
+      <div class="a chip" data-at="5.4" data-out="8.4"><i class="ok"></i>Цитата — дословно</div>
+      <div class="a chip" data-at="6.3" data-out="8.4"><i class="ok"></i>Роль вместо имени</div>
+      <div class="a chip" data-at="7.2" data-out="8.4"><i class="ok"></i>Без возраста и телефона</div>
+    </div>
+
+    <div class="abs" style="top:92px">
+      <div class="a tabbar" data-at="9.2"><span class="tab">КТ-1 Интервью</span><span class="tab ghost">КТ-1 Кодовая книга</span></div>
+    </div>
+    <div class="abs" style="top:160px">
+      <div class="a sheet" data-at="9.6">
+        <div class="row head"><div>Роль</div><div>Ситуация</div><div>Варианты</div><div>Барьеры</div><div>Решило</div><div>Цитата</div></div>
+        <div class="row r1 a" data-at="10.4"><div><i style="width:80%"></i></div><div><i style="width:90%"></i><i style="width:55%"></i></div><div><i style="width:85%"></i><i style="width:60%"></i></div><div><i style="width:70%"></i><i style="width:90%"></i></div><div><i style="width:80%"></i><i style="width:45%"></i></div><div class="q"><i style="width:92%"></i><i style="width:70%"></i></div></div>
+        <div class="row a" data-at="11.0"><div><i style="width:70%"></i></div><div><i style="width:80%"></i><i style="width:60%"></i></div><div><i style="width:90%"></i><i style="width:40%"></i></div><div><i style="width:75%"></i><i style="width:55%"></i></div><div><i style="width:60%"></i><i style="width:85%"></i></div><div class="q"><i style="width:88%"></i><i style="width:50%"></i></div></div>
+        <div class="row a" data-at="11.6"><div><i style="width:85%"></i></div><div><i style="width:65%"></i><i style="width:85%"></i></div><div><i style="width:80%"></i><i style="width:55%"></i></div><div><i style="width:90%"></i><i style="width:50%"></i></div><div><i style="width:70%"></i><i style="width:75%"></i></div><div class="q"><i style="width:90%"></i><i style="width:65%"></i></div></div>
+        <div class="row a" data-at="12.2"><div><i style="width:75%"></i></div><div><i style="width:85%"></i><i style="width:50%"></i></div><div><i style="width:70%"></i><i style="width:80%"></i></div><div><i style="width:80%"></i><i style="width:45%"></i></div><div><i style="width:90%"></i><i style="width:60%"></i></div><div class="q"><i style="width:85%"></i><i style="width:75%"></i></div></div>
+        <div class="row a" data-at="12.8"><div><i style="width:65%"></i></div><div><i style="width:90%"></i><i style="width:45%"></i></div><div><i style="width:60%"></i><i style="width:85%"></i></div><div><i style="width:85%"></i><i style="width:60%"></i></div><div><i style="width:75%"></i><i style="width:50%"></i></div><div class="q"><i style="width:80%"></i><i style="width:60%"></i></div></div>
+      </div>
+    </div>
+    <div class="abs" style="top:682px">
+      <div class="a" data-at="13.6" style="font:500 30px/1.3 var(--sans);color:var(--mut)">Схема листа: одна строка — одно интервью, всего 5 строк. Цитата без имени.</div>
+    </div>
+  </section>
+
+  <!-- Сцена 5 -->
+  <section class="scene" data-i="4">
+    <div class="eyebrow a" data-at="0.4"><span class="n">5</span><span class="t">Чего не делать</span></div>
+    <div class="no-row a" style="top:80px" data-at="0.8"><span class="x"><i class="x"></i></span><div><div class="h">Подсказывать ответ</div><div class="s">Не «Вам ведь важна тишина?», а «Что было дальше?»</div></div></div>
+    <div class="no-row a" style="top:212px" data-at="4.4"><span class="x"><i class="x"></i></span><div><div class="h">Спрашивать «Поедете ли вы?»</div><div class="s">Это обещание. Лучше спросить о последнем разе.</div></div></div>
+    <div class="no-row a" style="top:344px" data-at="8.0"><span class="x"><i class="x"></i></span><div><div class="h">Спорить с гостем</div><div class="s">Несогласие — тоже данные: слушайте и записывайте.</div></div></div>
+    <div class="fallback a" style="top:490px" data-at="11.8">
+      <div class="h">Пять клиентов не набираются?</div>
+      <div class="people">
+        <div class="circles"><i class="k">К</i><i class="k">К</i><i class="k">К</i><i class="s">С</i><i class="s">С</i></div>
+        <div class="t">3 клиента + 2 сотрудника первой линии или гида</div>
+      </div>
+      <div class="mark"><i class="ok"></i>Отметьте это в выводе как ограничение</div>
+    </div>
+  </section>
+
+  <!-- Сцена 6 -->
+  <section class="scene" data-i="5" data-noout="1">
+    <div class="eyebrow a" data-at="0.4"><span class="n">6</span><span class="t">Итог</span></div>
+    <div class="abs" style="top:100px">
+      <div class="a final" data-at="0.8">Спрашивайте<br>о <span class="hl">поступках</span>,<br>а&nbsp;не о&nbsp;<span class="dt">мнениях</span>.</div>
+    </div>
+    <div class="flow" style="top:420px">
+      <div class="col a" data-at="5.0"><div class="big">5</div><div class="cap">интервью</div></div>
+      <div class="arr a" data-at="6.4">→</div>
+      <div class="col a" data-at="6.8"><div class="big">3</div><div class="cap">потребности</div></div>
+      <div class="arr a" data-at="8.2">→</div>
+      <div class="col last a" data-at="8.8"><div class="big">1</div><div class="cap">неожиданная находка</div></div>
+    </div>
+  </section>
+
+  <div id="sub"><span></span></div>
+</div>
+
+<script>
+/* ---- сценарий: единственный источник времени и текста ---- */
+var SCENES = [
+  {title:'Плохой вопрос', dur:17,
+   desc:'Вопрос «Вам нравится наш отель?» и вежливый ответ гостя «Да, всё хорошо, спасибо»; три причины, почему вопрос плохой.'},
+  {title:'Хороший вход', dur:16,
+   desc:'Вопрос «Расскажите о последней поездке такого типа: куда, когда, с кем?»; сплошная линия — рассказ о прошлом (факт), штриховая — мнения и обещания (прогноз).'},
+  {title:'Цепочка выбора', dur:20,
+   desc:'Четыре карточки по очереди: ситуация, варианты, барьеры, что решило. Пример ответа гостя в дельте Волги.'},
+  {title:'Как записывать', dur:18,
+   desc:'Цитата без имени, роль вместо имени; схема листа «КТ-1 Интервью» с пустыми ячейками: одна строка на интервью.'},
+  {title:'Чего не делать', dur:18,
+   desc:'Три запрета: подсказывать ответ, спрашивать «поедете ли вы?», спорить. Если пять клиентов не набираются — 3 клиента и 2 сотрудника или гида, с пометкой об ограничении.'},
+  {title:'Итог', dur:14,
+   desc:'«Спрашивайте о поступках, а не о мнениях». 5 интервью, 3 потребности, 1 неожиданная находка.'}
+];
+/* [сцена, с, по, текст] — секунды от начала сцены */
+var CUES = [
+  [0, 0.9, 4.8,  'Плохой вопрос: «Вам нравится наш отель?»'],
+  [0, 5.0, 8.8,  'Гость ответит вежливо: «Да, всё хорошо, спасибо».'],
+  [0, 9.0, 11.2, 'Это мнение, а не поступок.'],
+  [0, 11.4,13.6, 'Из вежливости правды не скажут.'],
+  [0, 13.8,16.4, 'О выборе гостя — ни слова.'],
+
+  [1, 0.9, 6.0,  'Хороший вход: «Расскажите о последней поездке такого типа: куда, когда, с кем?»'],
+  [1, 6.2, 10.0, 'Просим вспомнить то, что уже было: место, время, спутников.'],
+  [1, 10.2,12.6, 'Рассказ о прошлом — это факт.'],
+  [1, 12.8,15.4, 'Обещание и мнение — лишь прогноз.'],
+
+  [2, 1.2, 5.2,  'Сначала ситуация: зачем и с кем гость собрался в поездку.'],
+  [2, 5.6, 9.6,  'Что сравнивал? Базу, гостиницу в городе или поездку на день.'],
+  [2, 10.0,14.0, 'Что смущало? Как добраться без машины и хватит ли места в лодке.'],
+  [2, 14.4,19.0, 'Что решило? Хозяйка сразу ответила в мессенджере про трансфер и лодку.'],
+
+  [3, 0.9, 4.2,  'Записываем цитату дословно и без имён.'],
+  [3, 4.4, 8.2,  'Вместо имени — роль: гость, пара, июль.'],
+  [3, 9.4, 13.2, 'Всё это — на листе «КТ-1 Интервью» рабочей тетради.'],
+  [3, 13.4,17.4, 'Одна строка — одно интервью: четыре звена цепочки и цитата.'],
+
+  [4, 0.9, 4.2,  'Не подсказывайте ответ: «Вам ведь важна тишина?»'],
+  [4, 4.5, 7.8,  'Не спрашивайте «Поедете ли вы?» — это лишь обещание.'],
+  [4, 8.1, 11.4, 'Не спорьте: несогласие гостя — тоже данные.'],
+  [4, 11.9,17.4, 'Нет пяти клиентов? Допустимо 3\u00a0клиента и 2\u00a0сотрудника первой линии или гида — с пометкой.'],
+
+  [5, 0.9, 4.6,  'Главное: спрашивайте о поступках, а не о мнениях.'],
+  [5, 5.1, 8.6,  'Пять интервью — три повторяющиеся потребности'],
+  [5, 8.9, 13.6, 'и одна неожиданная находка, которая опровергает ваше ожидание.']
+];
+
+(function(){
+  var starts=[], t0=0, i;
+  for(i=0;i<SCENES.length;i++){SCENES[i].start=t0; starts.push(t0); t0+=SCENES[i].dur;}
+  var TOTAL=t0;
+  var cues=CUES.map(function(c){var s=SCENES[c[0]].start; return {scene:c[0],from:s+c[1],to:s+c[2],text:c[3]};});
+
+  var CROSS='<svg class="ic" viewBox="0 0 24 24"><path d="M5 5l14 14M19 5L5 19" stroke="currentColor" stroke-width="3.6" stroke-linecap="round" fill="none"/></svg>';
+  var CHECK='<svg class="ic" viewBox="0 0 24 24"><path d="M4.5 12.5l5 5 10-11" stroke="currentColor" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>';
+  [].forEach.call(document.querySelectorAll('i.x'),function(e){e.outerHTML=CROSS;});
+  [].forEach.call(document.querySelectorAll('i.ok'),function(e){e.outerHTML=CHECK;});
+
+  var stage=document.getElementById('stage');
+  var sceneEls=[].slice.call(document.querySelectorAll('.scene'));
+  var items=[];
+  sceneEls.forEach(function(sc,si){
+    [].forEach.call(sc.querySelectorAll('[data-at]'),function(el){
+      items.push({el:el,s:si,at:parseFloat(el.dataset.at),out:el.dataset.out?parseFloat(el.dataset.out):null,anim:el.dataset.anim||'up'});
+    });
+  });
+  var dots=[].slice.call(document.querySelectorAll('#dots i'));
+  var prog=document.getElementById('prog');
+  var sub=document.getElementById('sub'), subtxt=sub.firstElementChild;
+
+  function cl(x){return x<0?0:(x>1?1:x);}
+  function ease(x){x=cl(x);return 1-Math.pow(1-x,3);}
+  function r(x){return Math.round(x*1000)/1000;}
+
+  function seek(t){
+    t=Math.max(0,Math.min(TOTAL-0.001,t));
+    var sig=[];
+    var cur=0;
+    for(var k=0;k<SCENES.length;k++){ if(t>=SCENES[k].start) cur=k; }
+    sceneEls.forEach(function(sc,k){
+      var S=SCENES[k], loc=t-S.start, o=0;
+      if(loc>=0 && loc<S.dur){
+        o=ease(loc/0.7);
+        if(!sc.dataset.noout) o*=cl((S.dur-loc)/0.6);
+      }
+      sc.style.opacity=r(o); sc.style.visibility=o>0?'visible':'hidden'; sig.push(r(o));
+    });
+    items.forEach(function(it){
+      var S=SCENES[it.s], loc=t-S.start;
+      var p=ease((loc-it.at)/0.7), v=p;
+      if(it.out!==null) v*=1-ease((loc-it.out)/0.6);
+      v=r(v);
+      var el=it.el;
+      if(it.anim==='strike'){
+        el.style.backgroundSize=r(ease((loc-it.at)/0.8)*100)+'% 5px'; sig.push(r(ease((loc-it.at)/0.8)));
+        return;
+      }
+      el.style.opacity=v; el.style.visibility=v>0?'visible':'hidden';
+      if(it.anim==='growx'){ el.style.transformOrigin='left center'; el.style.transform='scaleX('+r(Math.max(p,0.001))+')'; }
+      else { el.style.transform='translateY('+r((1-p)*18)+'px)'; }
+      sig.push(v);
+    });
+    dots.forEach(function(d,k){ d.className=k===cur?'on':(k<cur?'done':''); });
+    sig.push(cur);
+    prog.style.width=r(t/TOTAL*100)+'%'; sig.push(r(t/TOTAL*100));
+    var active=null;
+    for(var c=0;c<cues.length;c++){ if(t>=cues[c].from && t<cues[c].to){active=cues[c];break;} }
+    if(active){
+      if(subtxt.textContent!==active.text) subtxt.textContent=active.text;
+      sub.style.opacity=r(Math.min(ease((t-active.from)/0.3),ease((active.to-t)/0.3)));
+    } else sub.style.opacity=0;
+    sig.push(sub.style.opacity, subtxt.textContent);
+    return sig.join('|');
+  }
+
+  function fit(){
+    var s=Math.min(window.innerWidth,window.innerHeight)/1080;
+    if(Math.abs(s-1)<0.001){stage.style.transform='none';stage.style.left='0';stage.style.top='0';return;}
+    stage.style.transform='scale('+s+')';
+    stage.style.left=((window.innerWidth-1080*s)/2)+'px';
+    stage.style.top=((window.innerHeight-1080*s)/2)+'px';
+  }
+
+  window.SCENES=SCENES; window.CUES_ABS=cues; window.TOTAL=TOTAL; window.seek=seek;
+
+  var q=new URLSearchParams(location.search);
+  fit(); window.addEventListener('resize',fit);
+  if(q.has('render')){ seek(0); return; }
+  if(q.has('t')){ seek(parseFloat(q.get('t'))||0); return; }
+  var playing=true, base=performance.now(), off=0;
+  function tick(now){
+    if(playing){ var tt=(now-base)/1000+off; if(tt>=TOTAL){off=0;base=now;tt=0;} seek(tt); }
+    requestAnimationFrame(tick);
+  }
+  function toggle(){ var now=performance.now(); if(playing){off+=(now-base)/1000;playing=false;} else {base=now;playing=true;} }
+  document.addEventListener('click',toggle);
+  document.addEventListener('keydown',function(e){ if(e.code==='Space'){e.preventDefault();toggle();} });
+  requestAnimationFrame(tick);
+})();
+</script>
+</body>
+</html>

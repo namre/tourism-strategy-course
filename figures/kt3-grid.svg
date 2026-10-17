@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 642" role="img" aria-labelledby="t d">
+<title id="t">12 замеров цены</title>
+<desc id="d">Сетка замеров: три объекта, две даты заезда (пик и межсезонье), два канала (сайт и площадка бронирования); в ячейке итоговая цена и значок условий отмены; в примерах 5 900 рублей без возврата и 6 300 рублей с бесплатной отменой.</desc>
+<defs>
+<pattern id="pDots" width="6" height="6" patternUnits="userSpaceOnUse"><rect width="6" height="6" fill="#fff"/><circle cx="3" cy="3" r="1.4" fill="#163e37"/></pattern>
+<pattern id="pDiag" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#fff"/><line x1="0" y1="0" x2="0" y2="6" stroke="#163e37" stroke-width="2.2"/></pattern>
+</defs>
+<text x="12" y="24" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#62736d" font-weight="700" text-anchor="start"><tspan x="12" dy="0">3 объекта × 2 даты × 2 канала = 12 замеров</tspan></text>
+<rect x="12" y="40" width="160" height="28" rx="7" fill="#163e37" stroke="#163e37" stroke-width="1.5"/>
+<text x="92" y="59" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#fff" font-weight="700" text-anchor="middle"><tspan x="92" dy="0">Пик</tspan></text>
+<rect x="180" y="40" width="160" height="28" rx="7" fill="#fff" stroke="#163e37" stroke-width="1.5"/>
+<text x="260" y="59" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#163e37" font-weight="700" text-anchor="middle"><tspan x="260" dy="0">Межсезонье</tspan></text>
+<text x="51" y="88" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#62736d" font-weight="700" text-anchor="middle"><tspan x="51" dy="0">сайт</tspan></text>
+<text x="133" y="88" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#62736d" font-weight="700" text-anchor="middle"><tspan x="133" dy="0">площадка</tspan></text>
+<text x="219" y="88" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#62736d" font-weight="700" text-anchor="middle"><tspan x="219" dy="0">сайт</tspan></text>
+<text x="301" y="88" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#62736d" font-weight="700" text-anchor="middle"><tspan x="301" dy="0">площадка</tspan></text>
+<text x="12" y="110" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="12" dy="0">Объект 1</tspan></text>
+<rect x="12" y="118" width="78" height="64" rx="8" fill="#fff" stroke="#163e37" stroke-width="1.8"/>
+<text x="51" y="145" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#163e37" font-weight="700" text-anchor="middle"><tspan x="51" dy="0">6 300 ₽</tspan></text>
+<circle cx="51" cy="165" r="9" fill="#163e37"/>
+<polyline points="46.95,165.18 49.9875,168.24 55.2525,161.963" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="94" y="118" width="78" height="64" rx="8" fill="#fff" stroke="#163e37" stroke-width="1.8"/>
+<text x="133" y="145" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#163e37" font-weight="700" text-anchor="middle"><tspan x="133" dy="0">5 900 ₽</tspan></text>
+<circle cx="133" cy="165" r="9" fill="#b44c26"/>
+<path d="M129.4 161.4L136.6 168.6M136.6 161.4L129.4 168.6" stroke="#fff" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+<rect x="180" y="118" width="78" height="64" rx="8" fill="none" stroke="#62736d" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="219" y="154" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#62736d" text-anchor="middle"><tspan x="219" dy="0">нет замера</tspan></text>
+<rect x="262" y="118" width="78" height="64" rx="8" fill="none" stroke="#62736d" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="301" y="154" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#62736d" text-anchor="middle"><tspan x="301" dy="0">нет замера</tspan></text>
+<text x="12" y="208" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="12" dy="0">Объект 2</tspan></text>
+<rect x="12" y="216" width="78" height="64" rx="8" fill="none" stroke="#62736d" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="51" y="252" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#62736d" text-anchor="middle"><tspan x="51" dy="0">нет замера</tspan></text>
+<rect x="94" y="216" width="78" height="64" rx="8" fill="none" stroke="#62736d" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="133" y="252" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#62736d" text-anchor="middle"><tspan x="133" dy="0">нет замера</tspan></text>
+<rect x="180" y="216" width="78" height="64" rx="8" fill="none" stroke="#62736d" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="219" y="252" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#62736d" text-anchor="middle"><tspan x="219" dy="0">нет замера</tspan></text>
+<rect x="262" y="216" width="78" height="64" rx="8" fill="none" stroke="#62736d" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="301" y="252" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#62736d" text-anchor="middle"><tspan x="301" dy="0">нет замера</tspan></text>
+<text x="12" y="306" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="12" dy="0">Объект 3</tspan></text>
+<rect x="12" y="314" width="78" height="64" rx="8" fill="none" stroke="#62736d" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="51" y="350" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#62736d" text-anchor="middle"><tspan x="51" dy="0">нет замера</tspan></text>
+<rect x="94" y="314" width="78" height="64" rx="8" fill="none" stroke="#62736d" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="133" y="350" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#62736d" text-anchor="middle"><tspan x="133" dy="0">нет замера</tspan></text>
+<rect x="180" y="314" width="78" height="64" rx="8" fill="none" stroke="#62736d" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="219" y="350" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#62736d" text-anchor="middle"><tspan x="219" dy="0">нет замера</tspan></text>
+<rect x="262" y="314" width="78" height="64" rx="8" fill="none" stroke="#62736d" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="301" y="350" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#62736d" text-anchor="middle"><tspan x="301" dy="0">нет замера</tspan></text>
+<rect x="12" y="392" width="336" height="92" rx="10" fill="#fff" stroke="#dbe2d9" stroke-width="1"/>
+<circle cx="34" cy="412" r="9" fill="#163e37"/>
+<polyline points="29.95,412.18 32.9875,415.24 38.2525,408.962" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="50" y="417" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#163e37" text-anchor="start"><tspan x="50" dy="0">бесплатная отмена</tspan></text>
+<circle cx="34" cy="438" r="9" fill="#b44c26"/>
+<path d="M30.4 434.4L37.6 441.6M37.6 434.4L30.4 441.6" stroke="#fff" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+<text x="50" y="443" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#163e37" text-anchor="start"><tspan x="50" dy="0">без возврата</tspan></text>
+<rect x="25" y="454" width="18" height="18" rx="4" fill="none" stroke="#62736d" stroke-width="1.2" stroke-dasharray="3 2"/>
+<text x="50" y="468" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#62736d" text-anchor="start"><tspan x="50" dy="0">пустая ячейка — ещё не измерено</tspan></text>
+<rect x="12" y="494" width="336" height="140" rx="10" fill="#fbf0ea" stroke="#b44c26" stroke-width="1.5"/>
+<text x="36" y="575" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#b44c26" font-weight="700" text-anchor="middle"><tspan x="36" dy="0">≠</tspan></text>
+<text x="64" y="524" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#163e37" font-weight="700" text-anchor="start"><tspan x="64" dy="0">5 900 ₽ без возврата и 6 300 ₽ с</tspan><tspan x="64" dy="20">бесплатной отменой —</tspan><tspan x="64" dy="20">несравнимы: сравнивайте</tspan><tspan x="64" dy="20">итоговую цену вместе с</tspan><tspan x="64" dy="20">условиями</tspan></text>
+</svg>
