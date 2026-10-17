@@ -8,7 +8,7 @@ const await_fs=()=>nodefs;
 test('Four complete modules, seventeen lessons, valid quizzes and unique ids',()=>{
  assert.equal(course.modules.length,4);const ls=course.modules.flatMap(m=>m.lessons);assert.equal(ls.length,17);assert.equal(new Set(ls.map(l=>l.id)).size,17);for(const m of course.modules)assert.equal(m.outcomes.length,m.lessons.length);
  for(const l of ls){assert.ok(l.sections.length>=3);assert.ok(l.sections.every(s=>s.text.length>100));assert.ok(l.task.prompt);assert.ok(l.quiz.length>=2);for(const q of l.quiz){assert.ok(Number.isInteger(q.answer));assert.ok(q.answer>=0&&q.answer<q.options.length);assert.ok(q.explanation.length>20);}}
- assert.equal(course.rubric.length,5);
+ assert.equal(course.rubric.length,7);assert.ok(course.rubric.every(r=>/ОПК-4|ПК-2/.test(r.competence)));
 });
 test('Cancellation and acquisition costs use their respective bases',()=>{
  assert.deepEqual(packages.map(p=>calculate(p).nights),[300,240,300]);assert.deepEqual(packages.map(p=>calculate(p).before),[906000,756240,1010000]);

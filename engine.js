@@ -18,7 +18,7 @@ export function validProgress(value,ids) {
  const obj=v=>v&&typeof v==='object'&&!Array.isArray(v)?v:{};
  const answers={};for(const [key,val] of Object.entries(obj(value.answers)))if(ids.includes(key)&&typeof val==='string')answers[key]=val.slice(0,30000);
  const completed=Array.isArray(value.completed)?[...new Set(value.completed.filter(x=>ids.includes(x)))]:[];
- const project={};for(const [key,val] of Object.entries(obj(value.project)))if(['problem','segment','offer','economics','uncertainty','experiment','revision'].includes(key)&&typeof val==='string')project[key]=val.slice(0,30000);
+ const project={};for(const [key,val] of Object.entries(obj(value.project)))if(['problem','segment','offer','economics','uncertainty','promotion','experiment','revision'].includes(key)&&typeof val==='string')project[key]=val.slice(0,30000);
  const cap=obj(value.capstone),fields={},checks={};
  const fieldKeys=capstone.checkpoints.flatMap(k=>k.fields.map(([f])=>k.id+'_'+f)),checkKeys=capstone.checkpoints.flatMap(k=>k.check.map((_,i)=>k.id+'_'+i));
  for(const [key,val] of Object.entries(obj(cap.fields)))if(fieldKeys.includes(key)&&typeof val==='string')fields[key]=val.slice(0,30000);
