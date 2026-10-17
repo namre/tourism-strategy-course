@@ -1,3 +1,4 @@
+import {capstone} from './capstone-data.js';
 export const packages = [
  {id:'ota',name:'Агрегатор',booked:375,cancel:.2,price:6000,commission:.18,fee:0,cac:0,fixed:30000,variable:1800,peak:120,offpeak:180},
  {id:'direct',name:'Прямое привлечение',booked:300,cancel:.2,price:6200,commission:.02,fee:0,cac:600,fixed:90000,variable:1800,peak:40,offpeak:200},
@@ -18,5 +19,10 @@ export function validProgress(value,ids) {
  const answers={};for(const [key,val] of Object.entries(obj(value.answers)))if(ids.includes(key)&&typeof val==='string')answers[key]=val.slice(0,30000);
  const completed=Array.isArray(value.completed)?[...new Set(value.completed.filter(x=>ids.includes(x)))]:[];
  const project={};for(const [key,val] of Object.entries(obj(value.project)))if(['problem','segment','offer','economics','uncertainty','experiment','revision'].includes(key)&&typeof val==='string')project[key]=val.slice(0,30000);
- return {answers,completed,project,quizzes:obj(value.quizzes),lab:obj(value.lab)};
+ const cap=obj(value.capstone),fields={},checks={};
+ const fieldKeys=capstone.checkpoints.flatMap(k=>k.fields.map(([f])=>k.id+'_'+f)),checkKeys=capstone.checkpoints.flatMap(k=>k.check.map((_,i)=>k.id+'_'+i));
+ for(const [key,val] of Object.entries(obj(cap.fields)))if(fieldKeys.includes(key)&&typeof val==='string')fields[key]=val.slice(0,30000);
+ for(const [key,val] of Object.entries(obj(cap.checks)))if(checkKeys.includes(key)&&val===true)checks[key]=true;
+ const track=Object.keys(capstone.tracks).includes(cap.track)?cap.track:'';
+ return {answers,completed,project,quizzes:obj(value.quizzes),lab:obj(value.lab),capstone:{track,fields,checks}};
 }

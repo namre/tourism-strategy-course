@@ -5,7 +5,7 @@ from playwright.sync_api import sync_playwright
 
 root = Path(__file__).resolve().parents[1]
 with sync_playwright() as pw:
-    browser = pw.chromium.launch(executable_path="/usr/bin/chromium", headless=True, args=["--no-sandbox", "--disable-dev-shm-usage"])
+    browser = pw.chromium.launch(executable_path=next(p for p in ["/usr/bin/chromium","/opt/pw-browsers/chromium"] if Path(p).exists()), headless=True, args=["--no-sandbox", "--disable-dev-shm-usage"])
     page = browser.new_page(viewport={"width": 1440, "height": 1000})
     errors = []
     page.on("pageerror", lambda error: errors.append(str(error)))
@@ -50,12 +50,25 @@ with sync_playwright() as pw:
     page.evaluate("window.print=()=>{}")
     page.locator("#print-project").click()
     assert long_answer in page.locator("#printable-project").inner_text()
+    page.goto("http://course.test/#capstone")
+    page.locator("[data-track=case]").click()
+    assert "Выбрано" in page.locator("[data-track=case]").inner_text()
+    page.goto("http://course.test/#kt0")
+    for el in page.locator("[data-kt]").all():
+        el.fill("Паспорт объекта: экотропа, мощность 120 мест в день.")
+    for el in page.locator("[data-check]").all():
+        el.check()
+    assert "готова" in page.locator("#kt-status").inner_text()
+    assert "✓ КТ-0" in page.locator("#sidebar").inner_text()
+    page.goto("http://course.test/#guide")
+    page.get_by_role("heading", name="Как работать с курсом").wait_for()
     page.goto("http://course.test/#resources")
     with page.expect_download() as event:
         page.locator("#export-all").click()
     data = json.loads(Path(event.value.path()).read_text())
     assert "m1l1" in data["completed"]
     assert data["lab"]["margin"] == 1800
+    assert data["capstone"]["track"] == "case" and data["capstone"]["checks"]["kt0_0"] is True
     page.set_viewport_size({"width": 390, "height": 844})
     page.goto("http://course.test/#home")
     assert page.evaluate("document.documentElement.scrollWidth <= innerWidth")
