@@ -2,3 +2,5 @@
 
 #printable-project{display:none}@media print{body:has(#printable-project)>.layout{display:none}#printable-project{display:block;padding:20px}#printable-project p{white-space:pre-wrap;overflow-wrap:anywhere;max-width:none}#printable-project h2{break-after:avoid}}
 .card.selected{outline:3px solid var(--ink);background:#fbfdf3}ol li{margin:6px 0}
+.example{background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px 16px;margin:18px 0}.example summary{cursor:pointer;font-weight:650}
+.stats{flex-wrap:wrap}
