@@ -1,0 +1,4 @@
+channel,booked_room_nights,cancellation_rate,expected_stayed_room_nights,price_rub,revenue_fee_rate,fee_per_stayed_night_rub,service_cost_per_stayed_night_rub,acquisition_cost_per_booked_night_rub,package_fixed_cost_rub,peak_stayed_nights,offpeak_stayed_nights
+aggregator,375,0.2,300,6000,0.18,0,1800,0,30000,120,180
+direct,300,0.2,240,6200,0.02,0,1800,600,90000,40,200
+corporate,320,0.0625,300,5400,0,100,1800,0,40000,180,120
