@@ -5,8 +5,8 @@ import {packages,calculate,bestPackage,validProgress} from '../engine.js';
 import {capstone} from '../capstone-data.js';
 import * as nodefs from 'node:fs';
 const await_fs=()=>nodefs;
-test('Four complete modules, twelve lessons, valid quizzes and unique ids',()=>{
- assert.equal(course.modules.length,4);const ls=course.modules.flatMap(m=>m.lessons);assert.equal(ls.length,12);assert.equal(new Set(ls.map(l=>l.id)).size,12);
+test('Four complete modules, seventeen lessons, valid quizzes and unique ids',()=>{
+ assert.equal(course.modules.length,4);const ls=course.modules.flatMap(m=>m.lessons);assert.equal(ls.length,17);assert.equal(new Set(ls.map(l=>l.id)).size,17);for(const m of course.modules)assert.equal(m.outcomes.length,m.lessons.length);
  for(const l of ls){assert.ok(l.sections.length>=3);assert.ok(l.sections.every(s=>s.text.length>100));assert.ok(l.task.prompt);assert.ok(l.quiz.length>=2);for(const q of l.quiz){assert.ok(Number.isInteger(q.answer));assert.ok(q.answer>=0&&q.answer<q.options.length);assert.ok(q.explanation.length>20);}}
  assert.equal(course.rubric.length,5);
 });
