@@ -80,9 +80,40 @@ with sync_playwright() as pw:
     assert "m1l1" in data["completed"]
     assert data["lab"]["margin"] == 1800
     assert data["capstone"]["track"] == "case" and data["capstone"]["checks"]["kt0_0"] is True
+    # Кейсы мировой практики в уроке
+    page.goto("http://course.test/#m1r")
+    assert page.locator(".case-study").count() == 2
+    assert "Вопрос к" in page.locator(".case-study").first.inner_text()
+    assert page.locator(".case-study a[href^='https://']").count() >= 2
+    # Повторить урок с ИИ: копирование промпта с текстом урока
+    page.goto("http://course.test/#m1l1")
+    page.locator("details.ai-study summary").click()
+    page.evaluate("window.__copied='';document.execCommand=function(){const t=[...document.querySelectorAll('body > textarea[readonly]')].pop();window.__copied=t?t.value:'';return true;}")
+    page.locator("[data-copy-prompt=p1]").click()
+    copied = page.evaluate("window.__copied")
+    assert copied.startswith("Не используй поиск") and "Стратегия начинается с выбора" in copied and "[ТЕКСТ УРОКА]" not in copied
+    page.locator("[data-copy-prompt=p4]").click()
+    assert "Моя обоснованная стратегия с ограничениями." in page.evaluate("window.__copied")
+    # Страница «ИИ в работе» и якорь раздела
+    page.goto("http://course.test/#ai")
+    page.get_by_role("heading", name="ИИ в работе").wait_for()
+    assert page.locator(".prompt-card").count() == 8 and page.locator(".ai-rule").count() >= 6
+    page.goto("http://course.test/#ai-pipeline")
+    page.get_by_role("heading", name="Итоговая работа с ИИ: восемь шагов").wait_for()
+    # Приложения А и Б попадают в Word таблицами
+    page.goto("http://course.test/#project")
+    page.locator("#project-ailog").fill("14.11 | ГигаЧат | Поиск статистики | Промпт «Найди первоисточники» | Ссылка на Росстат | Цифра +25% не подтвердилась")
+    page.locator("#project-claims").fill("1 | Норма тропы 16 человек в день | Паспорт маршрута 1-Д | с. 2 | проверено")
+    with page.expect_download() as dl2:
+        page.locator("#export-project").click()
+    xml2 = zipfile.ZipFile(Path(dl2.value.path())).read("word/document.xml").decode("utf-8")
+    assert "ЖУРНАЛ ИСПОЛЬЗОВАНИЯ ИИ" in xml2.upper() and "Норма тропы 16 человек в день" in xml2 and "Что отверг и почему" in xml2
+    # Мобильная вёрстка без горизонтальной прокрутки на новых страницах
     page.set_viewport_size({"width": 390, "height": 844})
-    page.goto("http://course.test/#home")
-    assert page.evaluate("document.documentElement.scrollWidth <= innerWidth")
+    for route in ["home", "m1r", "m2p", "ai", "kt6", "project"]:
+        page.goto(f"http://course.test/#{route}")
+        page.wait_for_timeout(150)
+        assert page.evaluate("document.documentElement.scrollWidth <= innerWidth"), route
     assert errors == [], errors
-    print("PASS: lesson, quiz, completion, skip link, staged case, sensitivity, persistence, print, export, mobile layout; no JS errors")
+    print("PASS: lesson, quiz, completion, skip link, staged case, sensitivity, persistence, print, export, case cards, AI prompts copy, AI page, appendices in Word, mobile layout; no JS errors")
     browser.close()
