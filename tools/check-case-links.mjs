@@ -7,6 +7,7 @@
 // показывает, что узлы в момент проверки фильтруют трафик.
 import fs from 'node:fs';
 import {caseStudies} from '../cases-data.js';
+import {aiGuide} from '../ai-data.js';
 
 const NODES = ['ru1.node.check-host.net', 'ru2.node.check-host.net', 'ru3.node.check-host.net'];
 const CONTROLS = {open: 'https://ya.ru/', blocked: 'https://www.bbc.com/news'};
@@ -50,8 +51,15 @@ async function archive(url) {
   return null;
 }
 
+export function aiLinks() {
+  const g = aiGuide, out = [];
+  for (const [, u] of g.services.rows) out.push(u);
+  for (const list of [g.services.sources, g.data.sources, ...g.rules.map(r => r.sources)]) for (const [, u] of list) out.push(u);
+  return [...new Set(out)];
+}
 const urls = new Map();
 for (const [lesson, list] of Object.entries(caseStudies)) for (const c of list) for (const s of c.sources) urls.set(s.url, `${lesson}/${c.id}`);
+for (const u of aiLinks()) if (!urls.has(u)) urls.set(u, 'ai');
 
 const result = {checkedAt: new Date().toISOString(), method: 'check-host.net, узлы ' + NODES.join(', ') + '; Wayback Machine availability API', controls: {}, urls: {}};
 for (const [k, u] of Object.entries(CONTROLS)) result.controls[k] = {url: u, ...(await fromRussia(u))};
