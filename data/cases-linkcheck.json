@@ -1,0 +1,2282 @@
+{
+ "checkedAt": "2026-10-22T23:03:48.569Z",
+ "method": "check-host.net, узлы ru1.node.check-host.net, ru2.node.check-host.net, ru3.node.check-host.net; Wayback Machine availability API",
+ "controls": {
+  "open": {
+   "url": "https://ya.ru/",
+   "report": "https://check-host.net/check-report/52c4ac20k25a",
+   "nodes": {
+    "ru1.node.check-host.net": {
+     "ok": true,
+     "code": "302",
+     "note": "Moved temporarily"
+    },
+    "ru2.node.check-host.net": {
+     "ok": true,
+     "code": "302",
+     "note": "Moved temporarily"
+    },
+    "ru3.node.check-host.net": {
+     "ok": true,
+     "code": "302",
+     "note": "Moved temporarily"
+    }
+   },
+   "ok": true
+  },
+  "blocked": {
+   "url": "https://www.bbc.com/news",
+   "report": "https://check-host.net/check-report/52c4ad3ck2cd",
+   "nodes": {
+    "ru1.node.check-host.net": {
+     "ok": false,
+     "code": null,
+     "note": "Connection timed out"
+    },
+    "ru2.node.check-host.net": {
+     "ok": false,
+     "code": null,
+     "note": "Connection timed out"
+    },
+    "ru3.node.check-host.net": {
+     "ok": true,
+     "code": "200",
+     "note": "OK"
+    }
+   },
+   "ok": false
+  }
+ },
+ "urls": {
+  "https://veneziaunica.it/en/content/venice_access_fee": {
+   "where": "m1l1/venice-access-fee",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c4b221k1e3",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "301",
+      "note": "Moved Permanently"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "301",
+      "note": "Moved Permanently"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "301",
+      "note": "Moved Permanently"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20251214194348/https://veneziaunica.it/en/content/venice_access_fee",
+    "timestamp": "20251214194348",
+    "ruOk": true
+   },
+   "checkedAt": "2026-10-22T23:04:33.102Z"
+  },
+  "https://live.comune.venezia.it/sites/live.comune.venezia.it/files/articoli/allegati/CDA_19072024.pdf": {
+   "where": "m1l1/venice-access-fee",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c4b5a1k70c",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": false,
+      "code": "404",
+      "note": "Not Found"
+     },
+     "ru2.node.check-host.net": {
+      "ok": false,
+      "code": "404",
+      "note": "Not Found"
+     },
+     "ru3.node.check-host.net": {
+      "ok": false,
+      "code": "404",
+      "note": "Not Found"
+     }
+    },
+    "ok": false
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20241117140831/https://live.comune.venezia.it/sites/live.comune.venezia.it/files/articoli/allegati/CDA_19072024.pdf",
+    "timestamp": "20241117140831",
+    "ruOk": true
+   },
+   "checkedAt": "2026-10-22T23:04:46.399Z"
+  },
+  "https://euronews.com/2025/09/08/venices-daytripper-fee-raised-5-million-in-2025-but-did-it-curb-overtourism": {
+   "where": "m1l1/venice-access-fee",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c4b7b8kd95",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": false,
+      "code": null,
+      "note": "Connection timed out"
+     },
+     "ru2.node.check-host.net": {
+      "ok": false,
+      "code": null,
+      "note": "Connection timed out"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "301",
+      "note": "Moved Permanently"
+     }
+    },
+    "ok": false
+   },
+   "archive": null,
+   "checkedAt": "2026-10-22T23:05:09.946Z"
+  },
+  "https://www.rmf.is/static/research/files/eyjafjallajokull_skyrsla.pdf": {
+   "where": "m1r/iceland-2010-survey",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c4bc59k5a1",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20251013100345/https://www.rmf.is/static/research/files/eyjafjallajokull_skyrsla.pdf",
+    "timestamp": "20251013100345",
+    "ruOk": true
+   },
+   "checkedAt": "2026-10-22T23:05:22.915Z"
+  },
+  "https://www.ferdamalastofa.is/static/files/upload/files/2011328143447enska_ferdatjonusta_i_tolum_mars2011.pdf": {
+   "where": "m1r/iceland-2010-survey",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c4be97k5ff",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20251025001135/https://www.ferdamalastofa.is/static/files/upload/files/2011328143447enska_ferdatjonusta_i_tolum_mars2011.pdf",
+    "timestamp": "20251025001135",
+    "ruOk": true
+   },
+   "checkedAt": "2026-10-22T23:05:35.674Z"
+  },
+  "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0104086": {
+   "where": "m1r/towel-reuse-germany",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c4c0bfka4a",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20261009102032/https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0104086",
+    "timestamp": "20261009102032",
+    "ruOk": true
+   },
+   "checkedAt": "2026-10-22T23:05:48.595Z"
+  },
+  "https://www.tourism.australia.com/en/about/our-campaigns/food-and-wine.html": {
+   "where": "m1l2/restaurant-australia",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c4c30ak9c8",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "301",
+      "note": "Moved Permanently"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "301",
+      "note": "Moved Permanently"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "301",
+      "note": "Moved Permanently"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20220523145922/https://www.tourism.australia.com/en/about/our-campaigns/food-and-wine.html",
+    "timestamp": "20220523145922",
+    "ruOk": true
+   },
+   "checkedAt": "2026-10-22T23:06:01.513Z"
+  },
+  "https://www.itic.ie/itic-pub-docs/2012/GB_Path_to_Growth.pdf": {
+   "where": "m1l2/ireland-gb-motivation",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c4c57fkdcc",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20260417194529/https://www.itic.ie/itic-pub-docs/2012/GB_Path_to_Growth.pdf",
+    "timestamp": "20260417194529",
+    "ruOk": true
+   },
+   "checkedAt": "2026-10-22T23:06:14.139Z"
+  },
+  "https://people.bu.edu/zg/publications/airbnb.pdf": {
+   "where": "m1c/airbnb-texas-hotels",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c4c81ekb90",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20260923025712/https://people.bu.edu/zg/publications/airbnb.pdf",
+    "timestamp": "20260923025712",
+    "ruOk": true
+   },
+   "checkedAt": "2026-10-22T23:06:27.084Z"
+  },
+  "https://open.bu.edu/handle/2144/40311": {
+   "where": "m1c/airbnb-texas-hotels",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c4ca52k88",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "301",
+      "note": "Moved Permanently"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "301",
+      "note": "Moved Permanently"
+     },
+     "ru3.node.check-host.net": {
+      "ok": false,
+      "code": null,
+      "note": "Connection timed out"
+     }
+    },
+    "ok": false
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20240420044916/https://open.bu.edu/handle/2144/40311",
+    "timestamp": "20240420044916",
+    "ruOk": true
+   },
+   "checkedAt": "2026-10-22T23:06:41.037Z"
+  },
+  "https://www.cnmc.es/sites/default/files/editor_contenidos/Notas%20de%20prensa/2024/20240731_NP_%20Sancionador_Booking.com.pdf": {
+   "where": "m1c/cnmc-booking-parity",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c4cc63kb66",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": null,
+   "checkedAt": "2026-10-22T23:06:53.175Z"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1075531/000107553126000037/bkng-20260630.htm": {
+   "where": "m1c/cnmc-booking-parity",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c4ce96ke0a",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20261015122327/https://www.sec.gov/Archives/edgar/data/1075531/000107553126000037/bkng-20260630.htm",
+    "timestamp": "20261015122327",
+    "ruOk": true
+   },
+   "checkedAt": "2026-10-22T23:07:05.916Z"
+  },
+  "https://www.hosteltur.com/168767_la-audiencia-nacional-paraliza-la-multa-millonaria-de-la-cnmc-a-booking.html": {
+   "where": "m1c/cnmc-booking-parity",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c4d112k11e",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20260611195223/https://www.hosteltur.com/168767_la-audiencia-nacional-paraliza-la-multa-millonaria-de-la-cnmc-a-booking.html",
+    "timestamp": "20260611195223",
+    "ruOk": true
+   },
+   "checkedAt": "2026-10-22T23:07:18.755Z"
+  },
+  "https://www.tourismnewzealand.com/assets/about/publications/annuals/Tourism-New-Zealand-Annual-Report-2023-2024.pdf": {
+   "where": "m1l3/new-zealand-100-pure",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c4d31fke96",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": false,
+      "code": 413,
+      "note": "Maximum message size exceeded."
+     },
+     "ru2.node.check-host.net": {
+      "ok": false,
+      "code": 413,
+      "note": "Maximum message size exceeded."
+     },
+     "ru3.node.check-host.net": {
+      "ok": false,
+      "code": 413,
+      "note": "Maximum message size exceeded."
+     }
+    },
+    "ok": false
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20260921044620/https://www.tourismnewzealand.com/assets/about/publications/annuals/Tourism-New-Zealand-Annual-Report-2023-2024.pdf",
+    "timestamp": "20260921044620",
+    "ruOk": false
+   },
+   "checkedAt": "2026-10-22T23:07:26.277Z"
+  },
+  "https://environment.govt.nz/news/new-report-highlights-pressures-on-aotearoa-new-zealands-freshwater": {
+   "where": "m1l3/new-zealand-100-pure",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c4d443k8d7",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Found"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Found"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Found"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20260310163113/https://environment.govt.nz/news/new-report-highlights-pressures-on-aotearoa-new-zealands-freshwater/",
+    "timestamp": "20260310163113",
+    "ruOk": false
+   },
+   "checkedAt": "2026-10-22T23:07:36.559Z"
+  },
+  "https://www.newshub.co.nz/environmentsci/key-grilled-over-nzs-clean-green-image-2011051015": {
+   "where": "m1l3/new-zealand-100-pure",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c4d5c1k27b",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": false,
+      "code": "406",
+      "note": "Not Acceptable"
+     },
+     "ru2.node.check-host.net": {
+      "ok": false,
+      "code": "406",
+      "note": "Not Acceptable"
+     },
+     "ru3.node.check-host.net": {
+      "ok": false,
+      "code": "406",
+      "note": "Not Acceptable"
+     }
+    },
+    "ok": false
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20240418095840/https://www.newshub.co.nz/environmentsci/key-grilled-over-nzs-clean-green-image-2011051015",
+    "timestamp": "20240418095840",
+    "ruOk": false
+   },
+   "checkedAt": "2026-10-22T23:07:44.867Z"
+  },
+  "https://www.premierinn.com/gb/en/faq/good-night-guarantee.html": {
+   "where": "m1l3/premier-inn-guarantee",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c4d71ak79a",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20260418072637/https://www.premierinn.com/gb/en/faq/good-night-guarantee.html",
+    "timestamp": "20260418072637",
+    "ruOk": false
+   },
+   "checkedAt": "2026-10-22T23:07:53.640Z"
+  },
+  "https://financialfilings.com/filings/whitbread-plc/annual-report/2015/3568024/": {
+   "where": "m1l3/premier-inn-guarantee",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c4d8a0ke24",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": false,
+      "code": "403",
+      "note": "Forbidden"
+     },
+     "ru2.node.check-host.net": {
+      "ok": false,
+      "code": "403",
+      "note": "Forbidden"
+     },
+     "ru3.node.check-host.net": {
+      "ok": false,
+      "code": "403",
+      "note": "Forbidden"
+     }
+    },
+    "ok": false
+   },
+   "archive": null,
+   "checkedAt": "2026-10-22T23:08:03.731Z"
+  },
+  "https://www.franchising.com/amp/news/20080730_one_million_premier_inn_guests_have_told_usand_wev.html": {
+   "where": "m1l3/premier-inn-guarantee",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c4da94k874",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": null,
+   "checkedAt": "2026-10-22T23:08:11.356Z"
+  },
+  "https://doi.org/10.5334/dsj-2019-032": {
+   "where": "m2l1/portugal-hotels-cancellations",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c4dc41kd48",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Found"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Found"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Found"
+     }
+    },
+    "ok": true
+   },
+   "archive": null,
+   "checkedAt": "2026-10-22T23:08:18.754Z"
+  },
+  "https://repositorio.iscte-iul.pt/bitstream/10071/16929/1/Hotelbookingdemanddatasets.pdf": {
+   "where": "m2l1/portugal-hotels-cancellations",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c4dd52k505",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "301",
+      "note": "Moved Permanently"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "301",
+      "note": "Moved Permanently"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "301",
+      "note": "Moved Permanently"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20231203152722/https://repositorio.iscte-iul.pt/bitstream/10071/16929/1/Hotelbookingdemanddatasets.pdf",
+    "timestamp": "20231203152722",
+    "ruOk": false
+   },
+   "checkedAt": "2026-10-22T23:08:26.312Z"
+  },
+  "https://www.airfranceklm.com/en/newsroom/update-summer-bookings": {
+   "where": "m2l2/air-france-paris-2024",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c4de8cked3",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": false,
+      "code": "403",
+      "note": "Forbidden"
+     },
+     "ru2.node.check-host.net": {
+      "ok": false,
+      "code": "403",
+      "note": "Forbidden"
+     },
+     "ru3.node.check-host.net": {
+      "ok": false,
+      "code": "403",
+      "note": "Forbidden"
+     }
+    },
+    "ok": false
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20260803215754/https://www.airfranceklm.com/en/newsroom/update-summer-bookings",
+    "timestamp": "20260803215754",
+    "ruOk": false
+   },
+   "checkedAt": "2026-10-22T23:08:34.463Z"
+  },
+  "https://echanges.dila.gouv.fr/OPENDATA/AMF/MKW/2024/11/FCMKW111777_20241107.pdf": {
+   "where": "m2l2/air-france-paris-2024",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c4dfdckd2f",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": null,
+   "checkedAt": "2026-10-22T23:08:41.912Z"
+  },
+  "https://www.insee.fr/fr/statistiques/8354615": {
+   "where": "m2l2/air-france-paris-2024",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c4e10dk257",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20250919162733/https://www.insee.fr/fr/statistiques/8354615",
+    "timestamp": "20250919162733",
+    "ruOk": false
+   },
+   "checkedAt": "2026-10-22T23:08:50.122Z"
+  },
+  "https://bhutan.travel/announcements": {
+   "where": "m2p/bhutan-sdf",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c4e267k179",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20261020045832/https://bhutan.travel/announcements",
+    "timestamp": "20261020045832",
+    "ruOk": false
+   },
+   "checkedAt": "2026-10-22T23:08:57.639Z"
+  },
+  "https://www.ft.lk/Front-Page/Bhutan-cuts-daily-tourist-fee-by-half-to-lure-more-visitors/44-752372": {
+   "where": "m2p/bhutan-sdf",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c4e3c3k363",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20260124180621/https://www.ft.lk/Front-Page/Bhutan-cuts-daily-tourist-fee-by-half-to-lure-more-visitors/44-752372",
+    "timestamp": "20260124180621",
+    "ruOk": false
+   },
+   "checkedAt": "2026-10-22T23:09:06.338Z"
+  },
+  "https://thebhutanese.bt/?p=38091": {
+   "where": "m2p/bhutan-sdf",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c4e56bk324",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "301",
+      "note": "Moved Permanently"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "301",
+      "note": "Moved Permanently"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "301",
+      "note": "Moved Permanently"
+     }
+    },
+    "ok": true
+   },
+   "archive": null,
+   "checkedAt": "2026-10-22T23:09:13.696Z"
+  },
+  "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-464": {
+   "where": "m2p/ftc-total-price-rule",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c4e69fk2a2",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Moved Temporarily"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Moved Temporarily"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Moved Temporarily"
+     }
+    },
+    "ok": true
+   },
+   "archive": null,
+   "checkedAt": "2026-10-22T23:09:25.810Z"
+  },
+  "https://www.federalregister.gov/documents/2025/01/10/2024-30293/trade-regulation-rule-on-unfair-or-deceptive-fees": {
+   "where": "m2p/ftc-total-price-rule",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c4e884k802",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Moved Temporarily"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Moved Temporarily"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Moved Temporarily"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20260925164921/https://www.federalregister.gov/documents/2025/01/10/2024-30293/trade-regulation-rule-on-unfair-or-deceptive-fees",
+    "timestamp": "20260925164921",
+    "ruOk": true
+   },
+   "checkedAt": "2026-10-22T23:09:39.674Z"
+  },
+  "https://www.nber.org/papers/w25186.pdf": {
+   "where": "m2p/ftc-total-price-rule",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c4ea47k997",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "301",
+      "note": "Moved Permanently"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "301",
+      "note": "Moved Permanently"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "301",
+      "note": "Moved Permanently"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20200601140211/https://www.nber.org/papers/w25186.pdf",
+    "timestamp": "20200601140211",
+    "ruOk": true
+   },
+   "checkedAt": "2026-10-22T23:09:52.209Z"
+  },
+  "https://ecommons.cornell.edu/entities/publication/c9ddec73-3e3a-443b-97be-9467eebb3bcd": {
+   "where": "m2l3/billboard-effect",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c4ec10kb11",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20260412232642/https://ecommons.cornell.edu/entities/publication/c9ddec73-3e3a-443b-97be-9467eebb3bcd",
+    "timestamp": "20260412232642",
+    "ruOk": false
+   },
+   "checkedAt": "2026-10-22T23:10:00.226Z"
+  },
+  "https://ecommons.cornell.edu/entities/publication/9923ee6a-ac32-48d3-a73e-0fbf26c32137": {
+   "where": "m2l3/billboard-effect",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c4ed82k770",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20261016074930/https://ecommons.cornell.edu/entities/publication/9923ee6a-ac32-48d3-a73e-0fbf26c32137",
+    "timestamp": "20261016074930",
+    "ruOk": false
+   },
+   "checkedAt": "2026-10-22T23:10:11.028Z"
+  },
+  "https://ecommons.cornell.edu/entities/publication/cc99c641-5795-4e66-b35b-9795385c6f52": {
+   "where": "m2l3/billboard-effect",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c4f10ck36f",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20261012070039/https://ecommons.cornell.edu/entities/publication/cc99c641-5795-4e66-b35b-9795385c6f52",
+    "timestamp": "20261012070039",
+    "ruOk": true
+   },
+   "checkedAt": "2026-10-22T23:10:45.104Z"
+  },
+  "https://www.hospitalitynet.org/news/4074364.html": {
+   "where": "m2l3/hilton-stop-clicking-around",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c4f6f6kb27",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "301",
+      "note": "Moved Permanently"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "301",
+      "note": "Moved Permanently"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "301",
+      "note": "Moved Permanently"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20250826052501/https://www.hospitalitynet.org/news/4074364.html",
+    "timestamp": "20250826052501",
+    "ruOk": true
+   },
+   "checkedAt": "2026-10-22T23:11:08.379Z"
+  },
+  "https://www.sec.gov/Archives/edgar/data/0001585689/000158568916000161/a2015hwh10-k.htm": {
+   "where": "m2l3/hilton-stop-clicking-around",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c4fb61kf86",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "301",
+      "note": "Moved Permanently"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "301",
+      "note": "Moved Permanently"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "301",
+      "note": "Moved Permanently"
+     }
+    },
+    "ok": true
+   },
+   "archive": null,
+   "checkedAt": "2026-10-22T23:11:20.456Z"
+  },
+  "https://www.sec.gov/Archives/edgar/data/0001585689/000158568917000038/a2016hwh10-knospin.htm": {
+   "where": "m2l3/hilton-stop-clicking-around",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c4fd40kd16",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "301",
+      "note": "Moved Permanently"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "301",
+      "note": "Moved Permanently"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "301",
+      "note": "Moved Permanently"
+     }
+    },
+    "ok": true
+   },
+   "archive": null,
+   "checkedAt": "2026-10-22T23:11:27.867Z"
+  },
+  "https://archive.hotelbusiness.com/hilton-added-more-than-9-million-members-to-loyalty-program-in-2016/": {
+   "where": "m2l3/hilton-stop-clicking-around",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c4fe5bkea4",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": false,
+      "code": "403",
+      "note": "Forbidden"
+     },
+     "ru2.node.check-host.net": {
+      "ok": false,
+      "code": "403",
+      "note": "Forbidden"
+     },
+     "ru3.node.check-host.net": {
+      "ok": false,
+      "code": "403",
+      "note": "Forbidden"
+     }
+    },
+    "ok": false
+   },
+   "archive": null,
+   "checkedAt": "2026-10-22T23:11:40.018Z"
+  },
+  "https://webunwto.s3.eu-west-1.amazonaws.com/s3fs-public/2020-05/Barometer_May2020_full.pdf": {
+   "where": "m3l1/unwto-2020-scenarios",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c5004dkb5",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20260829044529/https://webunwto.s3.eu-west-1.amazonaws.com/s3fs-public/2020-05/Barometer_May2020_full.pdf",
+    "timestamp": "20260829044529",
+    "ruOk": true
+   },
+   "checkedAt": "2026-10-22T23:11:52.975Z"
+  },
+  "https://webunwto.s3.eu-west-1.amazonaws.com/s3fs-public/2021-01/210128-barometer-en.pdf": {
+   "where": "m3l1/unwto-2020-scenarios",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c50224kfa9",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20250208030114/https://webunwto.s3.eu-west-1.amazonaws.com/s3fs-public/2021-01/210128-barometer-en.pdf",
+    "timestamp": "20250208030114",
+    "ruOk": true
+   },
+   "checkedAt": "2026-10-22T23:12:05.727Z"
+  },
+  "https://www.sbs.com.au/news/article/qantas-expects-to-resume-flights-from-december-to-highly-vaccinated-countries/csug8ubi5": {
+   "where": "m3l1/qantas-2021-restart",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c504fbkec9",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20240813105151/https://www.sbs.com.au/news/article/qantas-expects-to-resume-flights-from-december-to-highly-vaccinated-countries/csug8ubi5",
+    "timestamp": "20240813105151",
+    "ruOk": true
+   },
+   "checkedAt": "2026-10-22T23:12:23.982Z"
+  },
+  "https://qantas.com/agencyconnect/nz/en/agency-news/agency-news-october-21/qantas-brings-forward-international-flights-to-1-november.html": {
+   "where": "m3l1/qantas-2021-restart",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c507b5k96",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20250716213852/https://www.qantas.com/agencyconnect/nz/en/agency-news/agency-news-october-21/qantas-brings-forward-international-flights-to-1-november.html",
+    "timestamp": "20250716213852",
+    "ruOk": true
+   },
+   "checkedAt": "2026-10-22T23:12:36.886Z"
+  },
+  "https://australianaviation.com.au/2021/10/qantas-again-brings-forward-start-date-for-international-flights/": {
+   "where": "m3l1/qantas-2021-restart",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c509c5k16f",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": false,
+      "code": "403",
+      "note": "Forbidden"
+     },
+     "ru2.node.check-host.net": {
+      "ok": false,
+      "code": "403",
+      "note": "Forbidden"
+     },
+     "ru3.node.check-host.net": {
+      "ok": false,
+      "code": "403",
+      "note": "Forbidden"
+     }
+    },
+    "ok": false
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20250905131606/https://australianaviation.com.au/2021/10/qantas-again-brings-forward-start-date-for-international-flights/",
+    "timestamp": "20250905131606",
+    "ruOk": true
+   },
+   "checkedAt": "2026-10-22T23:12:49.925Z"
+  },
+  "https://openresearch.amsterdam/image/2023/6/19/effect_toeristenbelasting_overnachtingen.pdf": {
+   "where": "m3l2/amsterdam-tourist-tax-threshold",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c50b6ak65f",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20260925105328/https://openresearch.amsterdam/image/2023/6/19/effect_toeristenbelasting_overnachtingen.pdf",
+    "timestamp": "20260925105328",
+    "ruOk": true
+   },
+   "checkedAt": "2026-10-22T23:13:02.881Z"
+  },
+  "https://www.at5.nl/artikelen/233640/amsterdam-is-europese-stad-met-hoogste-toeristenbelasting": {
+   "where": "m3l2/amsterdam-tourist-tax-threshold",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c50d7ck445",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20260917061211/https://www.at5.nl/artikelen/233640/amsterdam-is-europese-stad-met-hoogste-toeristenbelasting/",
+    "timestamp": "20260917061211",
+    "ruOk": true
+   },
+   "checkedAt": "2026-10-22T23:13:15.851Z"
+  },
+  "https://regulation.govt.nz/assets/RIS-Documents/cris2-mbie-ivctlr-jul24.pdf": {
+   "where": "m3l2/new-zealand-visitor-levy",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c50fa7k7b5",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "301",
+      "note": "Moved Permanently"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "301",
+      "note": "Moved Permanently"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "301",
+      "note": "Moved Permanently"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20250215123430/https://www.regulation.govt.nz/assets/RIS-Documents/cris2-mbie-ivctlr-jul24.pdf",
+    "timestamp": "20250215123430",
+    "ruOk": false
+   },
+   "checkedAt": "2026-10-22T23:13:24.642Z"
+  },
+  "https://www.doc.govt.nz/news/media-releases/2024-media-releases/ivl-increase-to-ensure-visitors-contribute-more-to-new-zealand/": {
+   "where": "m3l2/new-zealand-visitor-levy",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c510ebk354",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20251009192802/https://www.doc.govt.nz/news/media-releases/2024-media-releases/ivl-increase-to-ensure-visitors-contribute-more-to-new-zealand/",
+    "timestamp": "20251009192802",
+    "ruOk": false
+   },
+   "checkedAt": "2026-10-22T23:13:33.785Z"
+  },
+  "https://www.dailymaverick.co.za/article/2024-09-03-new-zealands-visitor-levy-hike-raises-tourism-recovery-concerns/": {
+   "where": "m3l2/new-zealand-visitor-levy",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c51245kb8e",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": false,
+      "code": "403",
+      "note": "Forbidden"
+     },
+     "ru2.node.check-host.net": {
+      "ok": false,
+      "code": "403",
+      "note": "Forbidden"
+     },
+     "ru3.node.check-host.net": {
+      "ok": false,
+      "code": "403",
+      "note": "Forbidden"
+     }
+    },
+    "ok": false
+   },
+   "archive": null,
+   "checkedAt": "2026-10-22T23:13:42.080Z"
+  },
+  "https://juneau.org/newsroom-item/city-and-borough-of-juneau-and-cruise-lines-sign-memorandum-of-agreement-on-port-capacity": {
+   "where": "m3l3/juneau-cruise-cap",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c51395k1de",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20260214040032/https://juneau.org/newsroom-item/city-and-borough-of-juneau-and-cruise-lines-sign-memorandum-of-agreement-on-port-capacity",
+    "timestamp": "20260214040032",
+    "ruOk": false
+   },
+   "checkedAt": "2026-10-22T23:13:53.128Z"
+  },
+  "https://www.ktoo.org/2024/05/31/with-cruise-tourism-booming-juneau-has-negotiated-a-limit-on-how-many-passengers-can-come-off-ships/": {
+   "where": "m3l3/juneau-cruise-cap",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c51529k227",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20260305182306/https://www.ktoo.org/2024/05/31/with-cruise-tourism-booming-juneau-has-negotiated-a-limit-on-how-many-passengers-can-come-off-ships/",
+    "timestamp": "20260305182306",
+    "ruOk": false
+   },
+   "checkedAt": "2026-10-22T23:14:00.786Z"
+  },
+  "https://www.ktoo.org/2024/10/15/final-election-results-show-new-old-faces-elected-as-ship-free-saturdays-fails/": {
+   "where": "m3l3/juneau-cruise-cap",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c51681kee5",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20250725093937/https://www.ktoo.org/2024/10/15/final-election-results-show-new-old-faces-elected-as-ship-free-saturdays-fails/",
+    "timestamp": "20250725093937",
+    "ruOk": false
+   },
+   "checkedAt": "2026-10-22T23:14:12.618Z"
+  },
+  "https://ec.europa.eu/commission/presscorner/api/files/document/print/%20en/ip_16_3663": {
+   "where": "m3l3/klagenfurt-airport-state-aid",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c51967kcae",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": null,
+   "checkedAt": "2026-10-22T23:14:19.876Z"
+  },
+  "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62021CJ0758": {
+   "where": "m3l3/klagenfurt-airport-state-aid",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c51a3fk487",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "202",
+      "note": "Accepted"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "202",
+      "note": "Accepted"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "202",
+      "note": "Accepted"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20251230053103/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A62021CJ0758",
+    "timestamp": "20251230053103",
+    "ruOk": false
+   },
+   "checkedAt": "2026-10-22T23:14:27.582Z"
+  },
+  "https://www.ch-aviation.com/news/108307-tui-fly-ryanair-klagenfurt-suits-denied-ryanair-to-appeal": {
+   "where": "m3l3/klagenfurt-airport-state-aid",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c51b5dk139",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": false,
+      "code": "403",
+      "note": "Forbidden"
+     },
+     "ru2.node.check-host.net": {
+      "ok": false,
+      "code": "403",
+      "note": "Forbidden"
+     },
+     "ru3.node.check-host.net": {
+      "ok": false,
+      "code": "403",
+      "note": "Forbidden"
+     }
+    },
+    "ok": false
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20241212203239/https://www.ch-aviation.com/news/108307-tui-fly-ryanair-klagenfurt-suits-denied-ryanair-to-appeal",
+    "timestamp": "20241212203239",
+    "ruOk": true
+   },
+   "checkedAt": "2026-10-22T23:14:41.273Z"
+  },
+  "https://giga.chat/": {
+   "where": "ai",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c51db2k861",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20261020104706/https://giga.chat/",
+    "timestamp": "20261020104706",
+    "ruOk": true
+   },
+   "checkedAt": "2026-10-22T23:14:54.031Z"
+  },
+  "https://alice.yandex.ru/": {
+   "where": "ai",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c51f77ke77",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "Ok"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "Ok"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "Ok"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20261021201302/https://alice.yandex.ru/",
+    "timestamp": "20261021201302",
+    "ruOk": false
+   },
+   "checkedAt": "2026-10-22T23:15:03.989Z"
+  },
+  "https://chat.qwen.ai/": {
+   "where": "ai",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c52297k78",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20261022155024/https://chat.qwen.ai/",
+    "timestamp": "20261022155024",
+    "ruOk": false
+   },
+   "checkedAt": "2026-10-22T23:15:17.257Z"
+  },
+  "https://chat.deepseek.com/": {
+   "where": "ai",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c5256ak6a",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": false,
+      "code": "403",
+      "note": "Forbidden"
+     },
+     "ru2.node.check-host.net": {
+      "ok": false,
+      "code": "403",
+      "note": "Forbidden"
+     },
+     "ru3.node.check-host.net": {
+      "ok": false,
+      "code": "403",
+      "note": "Forbidden"
+     }
+    },
+    "ok": false
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20261022075054/https://chat.deepseek.com/",
+    "timestamp": "20261022075054",
+    "ruOk": true
+   },
+   "checkedAt": "2026-10-22T23:15:40.549Z"
+  },
+  "https://developers.sber.ru/docs/ru/policies/gigachat-agreement/beta": {
+   "where": "ai",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c529a1kc4c",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "301",
+      "note": "Moved Permanently"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "301",
+      "note": "Moved Permanently"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "301",
+      "note": "Moved Permanently"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20251209041512/https://developers.sber.ru/docs/ru/policies/gigachat-agreement/beta",
+    "timestamp": "20251209041512",
+    "ruOk": false
+   },
+   "checkedAt": "2026-10-22T23:15:48.317Z"
+  },
+  "https://alice.yandex.ru/support/ru/assistant/chat/files": {
+   "where": "ai",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c52b0ck361",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20260306152733/https://alice.yandex.ru/support/ru/assistant/chat/files",
+    "timestamp": "20260306152733",
+    "ruOk": true
+   },
+   "checkedAt": "2026-10-22T23:16:05.008Z"
+  },
+  "https://alice.yandex.ru/support/ru/assistant/chat-alice": {
+   "where": "ai",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c52e3ek7d0",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20261006071936/https://alice.yandex.ru/support/ru/assistant/chat-alice",
+    "timestamp": "20261006071936",
+    "ruOk": false
+   },
+   "checkedAt": "2026-10-22T23:16:12.533Z"
+  },
+  "https://yandex.ru/legal/confidential/ru/": {
+   "where": "ai",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c52fc1ka6f",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "Vary: Origin"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "Connection: Close"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "Vary: Origin"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20261016235044/https://yandex.ru/legal/confidential/ru/",
+    "timestamp": "20261016235044",
+    "ruOk": false
+   },
+   "checkedAt": "2026-10-22T23:16:20.209Z"
+  },
+  "https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html": {
+   "where": "ai",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c530f4k72c",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": false,
+      "code": null,
+      "note": "Connection timed out"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": false
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20261016073359/https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html",
+    "timestamp": "20261016073359",
+    "ruOk": false
+   },
+   "checkedAt": "2026-10-22T23:16:44.346Z"
+  },
+  "https://qwen.ai/privacypolicy": {
+   "where": "ai",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c534ccka40",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20261017151438/https://qwen.ai/privacypolicy",
+    "timestamp": "20261017151438",
+    "ruOk": true
+   },
+   "checkedAt": "2026-10-22T23:16:57.182Z"
+  },
+  "https://www.vedomosti.ru/technology/news/2026/05/24/1199580-ob-otsutstvii-ogranichenii": {
+   "where": "ai",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c536b5k4f4",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20260619071429/https://www.vedomosti.ru/technology/news/2026/05/24/1199580-ob-otsutstvii-ogranichenii",
+    "timestamp": "20260619071429",
+    "ruOk": true
+   },
+   "checkedAt": "2026-10-22T23:17:09.832Z"
+  },
+  "https://www.consultant.ru/document/cons_doc_LAW_61801/": {
+   "where": "ai",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c53937ke44",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20261016190024/https://www.consultant.ru/document/cons_doc_LAW_61801/",
+    "timestamp": "20261016190024",
+    "ruOk": false
+   },
+   "checkedAt": "2026-10-22T23:17:17.562Z"
+  },
+  "https://www.consultant.ru/document/cons_doc_LAW_48699/": {
+   "where": "ai",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c53a54k765",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20260905162536/https://www.consultant.ru/document/cons_doc_LAW_48699/",
+    "timestamp": "20260905162536",
+    "ruOk": true
+   },
+   "checkedAt": "2026-10-22T23:17:30.509Z"
+  },
+  "https://doi.org/10.1038/s41598-023-41032-5": {
+   "where": "ai",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c53c53kdc1",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Found"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Found"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Found"
+     }
+    },
+    "ok": true
+   },
+   "archive": null,
+   "checkedAt": "2026-10-22T23:17:37.770Z"
+  },
+  "https://doi.org/10.2196/80371": {
+   "where": "ai",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c53d45kc16",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Found"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Found"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Found"
+     }
+    },
+    "ok": true
+   },
+   "archive": null,
+   "checkedAt": "2026-10-22T23:17:45.155Z"
+  },
+  "https://www.pnas.org/doi/10.1073/pnas.2422633122": {
+   "where": "ai",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c53e2fk27a",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Found"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Found"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Found"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20260724030348/https://www.pnas.org/doi/10.1073/pnas.2422633122",
+    "timestamp": "20260724030348",
+    "ruOk": true
+   },
+   "checkedAt": "2026-10-22T23:18:00.208Z"
+  },
+  "https://doi.org/10.1111/j.1467-9280.2006.01693.x": {
+   "where": "ai",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c540a4kb0b",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Found"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Found"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Found"
+     }
+    },
+    "ok": true
+   },
+   "archive": null,
+   "checkedAt": "2026-10-22T23:18:07.507Z"
+  },
+  "https://doi.org/10.3102/0034654316689306": {
+   "where": "ai",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c5424dka3b",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Found"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Found"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Found"
+     }
+    },
+    "ok": true
+   },
+   "archive": null,
+   "checkedAt": "2026-10-22T23:18:14.942Z"
+  },
+  "https://doi.org/10.1145/3706598.3713778": {
+   "where": "ai",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c54398k55f",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Found"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Found"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Found"
+     }
+    },
+    "ok": true
+   },
+   "archive": null,
+   "checkedAt": "2026-10-22T23:18:22.515Z"
+  },
+  "https://openai.com/index/new-ai-classifier-for-indicating-ai-written-text/": {
+   "where": "ai",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c54497k693",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20261007133745/https://openai.com/index/new-ai-classifier-for-indicating-ai-written-text/",
+    "timestamp": "20261007133745",
+    "ruOk": true
+   },
+   "checkedAt": "2026-10-22T23:18:35.763Z"
+  },
+  "https://doi.org/10.1016/j.patter.2023.100779": {
+   "where": "ai",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c54690k77b",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Found"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Found"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Found"
+     }
+    },
+    "ok": true
+   },
+   "archive": null,
+   "checkedAt": "2026-10-22T23:18:44.212Z"
+  },
+  "https://doi.org/10.1007/s40979-023-00146-z": {
+   "where": "ai",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c547b9k18d",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Found"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Found"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Found"
+     }
+    },
+    "ok": true
+   },
+   "archive": null,
+   "checkedAt": "2026-10-22T23:18:51.635Z"
+  },
+  "https://www.hse.ru/studyspravka/ai_guidelines": {
+   "where": "ai",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c54899k66b",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20260408062559/https://www.hse.ru/studyspravka/ai_guidelines",
+    "timestamp": "20260408062559",
+    "ruOk": true
+   },
+   "checkedAt": "2026-10-22T23:19:04.534Z"
+  },
+  "https://rsue.ru/universitet/dokumenty/doc/Politika_iskust_intilekta.pdf": {
+   "where": "ai",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c54ae0k2fd",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20260101210608/https://rsue.ru/universitet/dokumenty/doc/Politika_iskust_intilekta.pdf",
+    "timestamp": "20260101210608",
+    "ruOk": true
+   },
+   "checkedAt": "2026-10-22T23:19:20.510Z"
+  }
+ }
+}

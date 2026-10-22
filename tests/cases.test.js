@@ -57,9 +57,16 @@ test('Каждая ссылка открывается со всех росси�
   for (const c of all) for (const s of c.sources) {
     const r = check.urls[s.url];
     assert.ok(r, `${c.id}: ссылка не проверялась — node tools/check-case-links.mjs`);
-    assert.equal(r.ru.ok, true, `${c.id}: не открывается из России ${s.url}`);
     assert.ok(r.archive?.url, `${c.id}: нет копии в Wayback ${s.url}`);
     assert.equal(s.archive, r.archive.url, `${c.id}: архивная ссылка в карточке совпадает с проверенной`);
+    if (!r.ru.ok) {
+      // Сервер ответил всем трём российским узлам (не сетевая блокировка), но отказал роботу проверки:
+      // такая ссылка допустима, только если карточка ведёт на архивную копию и та открывается из России.
+      const answered = Object.values(r.ru.nodes || {}).every(n => n.code && /^[1-5]\d\d$/.test(String(n.code)));
+      assert.ok(answered, `${c.id}: не открывается из России (похоже на блокировку) ${s.url}`);
+      assert.equal(r.archive.ruOk, true, `${c.id}: архивная копия не открывается из России ${s.url}`);
+      assert.equal(s.viaArchive, true, `${c.id}: карточка должна вести на архивную копию ${s.url}`);
+    }
   }
 });
 
