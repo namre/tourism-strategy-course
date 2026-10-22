@@ -37,5 +37,5 @@ test('Import keeps only known capstone fields, checks and track',()=>{
  assert.equal(validProgress({capstone:{track:'hack'}},[]).capstone.track,'');
 });
 test('Student-facing texts avoid synthetic/fictional labels',()=>{
- const fs=await_fs();for(const f of ['course-data.js','capstone-data.js','app.js','index.html'])assert.doesNotMatch(fs.readFileSync(new URL('../'+f,import.meta.url),'utf8'),/синтетич|вымышл|придуман|выдуман|намеренно не задан|дана условно|без заданного реального|учебное упрощение/i,f);
+ const fs=await_fs();for(const f of ['course-data.js','capstone-data.js','cases-data.js','app.js','index.html'])assert.doesNotMatch(fs.readFileSync(new URL('../'+f,import.meta.url),'utf8'),/синтетич|вымышл|придуман|выдуман|намеренно не задан|дана условно|без заданного реального|учебное упрощение/i,f);
 });

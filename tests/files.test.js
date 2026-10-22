@@ -5,7 +5,7 @@ import {mediaMap} from '../media-map.js';
 import {capstone} from '../capstone-data.js';
 const root = new URL('../', import.meta.url);
 const exists = p => fs.existsSync(new URL(p, root));
-const srcs = ['app.js', 'capstone-data.js', 'course-data.js', 'index.html'].map(f => fs.readFileSync(new URL(f, root), 'utf8')).join('\n');
+const srcs = ['app.js', 'capstone-data.js', 'course-data.js', 'cases-data.js', 'index.html'].map(f => fs.readFileSync(new URL(f, root), 'utf8')).join('\n');
 test('Every linked file in the site exists', () => {
   const refs = [...new Set([...srcs.matchAll(/(?:templates|data|vendor)\/[\w.\-]+\.(?:docx|pptx|xlsx|pdf|csv|js)/g)].map(m => m[0]))];
   assert.ok(refs.length >= 10);
