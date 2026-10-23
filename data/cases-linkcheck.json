@@ -1,10 +1,10 @@
 {
- "checkedAt": "2026-10-22T23:54:27.667Z",
+ "checkedAt": "2026-10-23T00:08:33.909Z",
  "method": "check-host.net, узлы ru1.node.check-host.net, ru2.node.check-host.net, ru3.node.check-host.net; Wayback Machine availability API",
  "controls": {
   "open": {
    "url": "https://ya.ru/",
-   "report": "https://check-host.net/check-report/52c6be89kd79",
+   "report": "https://check-host.net/check-report/52c755d3k548",
    "nodes": {
     "ru1.node.check-host.net": {
      "ok": true,
@@ -26,7 +26,7 @@
   },
   "blocked": {
    "url": "https://www.bbc.com/news",
-   "report": "https://check-host.net/check-report/52c6bf50k453",
+   "report": "https://check-host.net/check-report/52c756bfk585",
    "nodes": {
     "ru1.node.check-host.net": {
      "ok": false,
@@ -81,7 +81,7 @@
   "https://live.comune.venezia.it/sites/live.comune.venezia.it/files/articoli/allegati/CDA_19072024.pdf": {
    "where": "m1l1/venice-access-fee",
    "ru": {
-    "report": "https://check-host.net/check-report/52c6c2a5k516",
+    "report": "https://check-host.net/check-report/52c75a21k200",
     "nodes": {
      "ru1.node.check-host.net": {
       "ok": false,
@@ -106,42 +106,12 @@
     "timestamp": "20241117140831",
     "ruOk": true
    },
-   "checkedAt": "2026-10-22T23:55:06.671Z"
-  },
-  "https://www.clickondetroit.com/business/2024/07/14/venice-nets-22-million-in-day-tripper-tax-pilot-opponents-say-it-failed-to-deter-visitors/": {
-   "where": "m1l1/venice-access-fee",
-   "ru": {
-    "report": "https://check-host.net/check-report/52c6c5c5ke60",
-    "nodes": {
-     "ru1.node.check-host.net": {
-      "ok": false,
-      "code": null,
-      "note": "Connection timed out"
-     },
-     "ru2.node.check-host.net": {
-      "ok": true,
-      "code": "200",
-      "note": "OK"
-     },
-     "ru3.node.check-host.net": {
-      "ok": true,
-      "code": "200",
-      "note": "OK"
-     }
-    },
-    "ok": false
-   },
-   "archive": {
-    "url": "https://web.archive.org/web/20260104152857/https://www.clickondetroit.com/business/2024/07/14/venice-nets-22-million-in-day-tripper-tax-pilot-opponents-say-it-failed-to-deter-visitors/",
-    "timestamp": "20260104152857",
-    "ruOk": true
-   },
-   "checkedAt": "2026-10-22T23:55:40.023Z"
+   "checkedAt": "2026-10-23T00:09:13.720Z"
   },
   "https://live.comune.venezia.it/sites/live.comune.venezia.it/files/articoli/allegati/CDA_report2025.pdf": {
    "where": "m1l1/venice-access-fee",
    "ru": {
-    "report": "https://check-host.net/check-report/52c6cb62kf20",
+    "report": "https://check-host.net/check-report/52c75d5akb31",
     "nodes": {
      "ru1.node.check-host.net": {
       "ok": false,
@@ -166,7 +136,7 @@
     "timestamp": "20250802151606",
     "ruOk": true
    },
-   "checkedAt": "2026-10-22T23:55:52.737Z"
+   "checkedAt": "2026-10-23T00:09:26.794Z"
   },
   "https://www.rmf.is/static/research/files/eyjafjallajokull_skyrsla.pdf": {
    "where": "m1r/iceland-2010-survey",
@@ -441,7 +411,7 @@
   "https://www.tourismnewzealand.com/assets/about/publications/annuals/Tourism-New-Zealand-Annual-Report-2023-2024.pdf": {
    "where": "m1l3/new-zealand-100-pure",
    "ru": {
-    "report": "https://check-host.net/check-report/52c6cd62k570",
+    "report": "https://check-host.net/check-report/52c75f67ke9a",
     "nodes": {
      "ru1.node.check-host.net": {
       "ok": false,
@@ -466,7 +436,7 @@
     "timestamp": "20260921044620",
     "ruOk": true
    },
-   "checkedAt": "2026-10-22T23:56:06.330Z"
+   "checkedAt": "2026-10-23T00:09:39.398Z"
   },
   "https://environment.govt.nz/news/new-report-highlights-pressures-on-aotearoa-new-zealands-freshwater": {
    "where": "m1l3/new-zealand-100-pure",
@@ -501,7 +471,7 @@
   "https://www.newshub.co.nz/environmentsci/key-grilled-over-nzs-clean-green-image-2011051015": {
    "where": "m1l3/new-zealand-100-pure",
    "ru": {
-    "report": "https://check-host.net/check-report/52c6d025k91d",
+    "report": "https://check-host.net/check-report/52c76142kcd2",
     "nodes": {
      "ru1.node.check-host.net": {
       "ok": false,
@@ -526,7 +496,7 @@
     "timestamp": "20240418095840",
     "ruOk": true
    },
-   "checkedAt": "2026-10-22T23:56:19.039Z"
+   "checkedAt": "2026-10-23T00:09:51.896Z"
   },
   "https://www.premierinn.com/gb/en/faq/good-night-guarantee.html": {
    "where": "m1l3/premier-inn-guarantee",
@@ -651,7 +621,7 @@
   "https://echanges.dila.gouv.fr/OPENDATA/AMF/MKW/2024/07/FCMKW118993_20240701.pdf": {
    "where": "m2l2/air-france-paris-2024",
    "ru": {
-    "report": "https://check-host.net/check-report/52c6d4f0kcb2",
+    "report": "https://check-host.net/check-report/52c7370ak476",
     "nodes": {
      "ru1.node.check-host.net": {
       "ok": true,
@@ -671,8 +641,12 @@
     },
     "ok": true
    },
-   "archive": null,
-   "checkedAt": "2026-10-22T23:56:44.419Z"
+   "archive": {
+    "url": "https://web.archive.org/web/20261022234124/https://echanges.dila.gouv.fr/OPENDATA/AMF/MKW/2024/07/FCMKW118993_20240701.pdf",
+    "timestamp": "20261022234124",
+    "ruOk": true
+   },
+   "checkedAt": "2026-10-23T00:06:12.424Z"
   },
   "https://echanges.dila.gouv.fr/OPENDATA/AMF/MKW/2024/11/FCMKW111777_20241107.pdf": {
    "where": "m2l2/air-france-paris-2024",
@@ -883,6 +857,36 @@
     "ruOk": true
    },
    "checkedAt": "2026-10-22T23:09:52.209Z"
+  },
+  "https://pubsonline.informs.org/doi/10.1287/mksc.2020.1261": {
+   "where": "m2p/ftc-total-price-rule",
+   "ru": {
+    "report": "https://check-host.net/check-report/52c76340k58c",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20260210093803/https://pubsonline.informs.org/doi/10.1287/mksc.2020.1261",
+    "timestamp": "20260210093803",
+    "ruOk": true
+   },
+   "checkedAt": "2026-10-23T00:10:07.076Z"
   },
   "https://ecommons.cornell.edu/entities/publication/c9ddec73-3e3a-443b-97be-9467eebb3bcd": {
    "where": "m2l3/billboard-effect",
@@ -1097,7 +1101,7 @@
   "https://australianaviation.com.au/2021/10/qantas-again-brings-forward-start-date-for-international-flights/": {
    "where": "m3l1/qantas-2021-restart",
    "ru": {
-    "report": "https://check-host.net/check-report/52c6db96k93e",
+    "report": "https://check-host.net/check-report/52c76784kb3d",
     "nodes": {
      "ru1.node.check-host.net": {
       "ok": false,
@@ -1122,7 +1126,7 @@
     "timestamp": "20250905131606",
     "ruOk": true
    },
-   "checkedAt": "2026-10-22T23:57:23.398Z"
+   "checkedAt": "2026-10-23T00:10:40.531Z"
   },
   "https://openresearch.amsterdam/image/2023/6/19/effect_toeristenbelasting_overnachtingen.pdf": {
    "where": "m3l2/amsterdam-tourist-tax-threshold",
@@ -1397,7 +1401,7 @@
   "https://www.ch-aviation.com/news/108307-tui-fly-ryanair-klagenfurt-suits-denied-ryanair-to-appeal": {
    "where": "m3l3/klagenfurt-airport-state-aid",
    "ru": {
-    "report": "https://check-host.net/check-report/52c6df87k44f",
+    "report": "https://check-host.net/check-report/52c76dffka4f",
     "nodes": {
      "ru1.node.check-host.net": {
       "ok": false,
@@ -1422,7 +1426,7 @@
     "timestamp": "20241212203239",
     "ruOk": true
    },
-   "checkedAt": "2026-10-22T23:57:48.956Z"
+   "checkedAt": "2026-10-23T00:11:08.860Z"
   },
   "https://www.accc.gov.au/media-release/meriton-to-pay-3-million-for-misleading-consumers-on-tripadvisor": {
    "where": "m4p/meriton-review-masking",
@@ -1967,7 +1971,7 @@
   "https://chat.deepseek.com/": {
    "where": "ai",
    "ru": {
-    "report": "https://check-host.net/check-report/52c6e828kef4",
+    "report": "https://check-host.net/check-report/52c77304kada",
     "nodes": {
      "ru1.node.check-host.net": {
       "ok": false,
@@ -1990,9 +1994,9 @@
    "archive": {
     "url": "https://web.archive.org/web/20261022075054/https://chat.deepseek.com/",
     "timestamp": "20261022075054",
-    "ruOk": false
+    "ruOk": true
    },
-   "checkedAt": "2026-10-22T23:58:39.497Z"
+   "checkedAt": "2026-10-23T00:11:31.682Z"
   },
   "https://developers.sber.ru/docs/ru/policies/gigachat-agreement/beta": {
    "where": "ai",
@@ -2267,7 +2271,7 @@
   "https://doi.org/10.1038/s41598-023-41032-5": {
    "where": "ai",
    "ru": {
-    "report": "https://check-host.net/check-report/52c6e94cka39",
+    "report": "https://check-host.net/check-report/52c776d7k3c6",
     "nodes": {
      "ru1.node.check-host.net": {
       "ok": true,
@@ -2288,12 +2292,12 @@
     "ok": true
    },
    "archive": null,
-   "checkedAt": "2026-10-22T23:58:46.833Z"
+   "checkedAt": "2026-10-23T00:11:38.822Z"
   },
   "https://doi.org/10.2196/80371": {
    "where": "ai",
    "ru": {
-    "report": "https://check-host.net/check-report/52c6ea31kce9",
+    "report": "https://check-host.net/check-report/52c77814k38",
     "nodes": {
      "ru1.node.check-host.net": {
       "ok": true,
@@ -2314,7 +2318,7 @@
     "ok": true
    },
    "archive": null,
-   "checkedAt": "2026-10-22T23:58:54.145Z"
+   "checkedAt": "2026-10-23T00:11:46.007Z"
   },
   "https://www.pnas.org/doi/10.1073/pnas.2422633122": {
    "where": "ai",
@@ -2349,7 +2353,7 @@
   "https://doi.org/10.1111/j.1467-9280.2006.01693.x": {
    "where": "ai",
    "ru": {
-    "report": "https://check-host.net/check-report/52c6eb3akf8",
+    "report": "https://check-host.net/check-report/52c77943k93a",
     "nodes": {
      "ru1.node.check-host.net": {
       "ok": true,
@@ -2370,12 +2374,12 @@
     "ok": true
    },
    "archive": null,
-   "checkedAt": "2026-10-22T23:59:02.614Z"
+   "checkedAt": "2026-10-23T00:11:53.115Z"
   },
   "https://doi.org/10.3102/0034654316689306": {
    "where": "ai",
    "ru": {
-    "report": "https://check-host.net/check-report/52c6ecacke0",
+    "report": "https://check-host.net/check-report/52c77a7dk53d",
     "nodes": {
      "ru1.node.check-host.net": {
       "ok": true,
@@ -2396,33 +2400,15 @@
     "ok": true
    },
    "archive": null,
-   "checkedAt": "2026-10-22T23:59:14.644Z"
+   "checkedAt": "2026-10-23T00:12:00.463Z"
   },
   "https://doi.org/10.1145/3706598.3713778": {
    "where": "ai",
    "ru": {
-    "report": "https://check-host.net/check-report/52c6eea5k62d",
-    "nodes": {
-     "ru1.node.check-host.net": {
-      "ok": true,
-      "code": "302",
-      "note": "Found"
-     },
-     "ru2.node.check-host.net": {
-      "ok": true,
-      "code": "302",
-      "note": "Found"
-     },
-     "ru3.node.check-host.net": {
-      "ok": true,
-      "code": "302",
-      "note": "Found"
-     }
-    },
-    "ok": true
+    "error": "check-host не принял запрос"
    },
    "archive": null,
-   "checkedAt": "2026-10-22T23:59:21.849Z"
+   "checkedAt": "2026-10-23T00:12:02.232Z"
   },
   "https://openai.com/index/new-ai-classifier-for-indicating-ai-written-text/": {
    "where": "ai",
@@ -2457,54 +2443,18 @@
   "https://doi.org/10.1016/j.patter.2023.100779": {
    "where": "ai",
    "ru": {
-    "report": "https://check-host.net/check-report/52c6efc9kc8",
-    "nodes": {
-     "ru1.node.check-host.net": {
-      "ok": true,
-      "code": "302",
-      "note": "Found"
-     },
-     "ru2.node.check-host.net": {
-      "ok": true,
-      "code": "302",
-      "note": "Found"
-     },
-     "ru3.node.check-host.net": {
-      "ok": true,
-      "code": "302",
-      "note": "Found"
-     }
-    },
-    "ok": true
+    "error": "check-host не принял запрос"
    },
    "archive": null,
-   "checkedAt": "2026-10-22T23:59:29.595Z"
+   "checkedAt": "2026-10-23T00:12:03.978Z"
   },
   "https://doi.org/10.1007/s40979-023-00146-z": {
    "where": "ai",
    "ru": {
-    "report": "https://check-host.net/check-report/52c6f102kddd",
-    "nodes": {
-     "ru1.node.check-host.net": {
-      "ok": true,
-      "code": "302",
-      "note": "Found"
-     },
-     "ru2.node.check-host.net": {
-      "ok": true,
-      "code": "302",
-      "note": "Found"
-     },
-     "ru3.node.check-host.net": {
-      "ok": true,
-      "code": "302",
-      "note": "Found"
-     }
-    },
-    "ok": true
+    "error": "check-host не принял запрос"
    },
    "archive": null,
-   "checkedAt": "2026-10-22T23:59:36.934Z"
+   "checkedAt": "2026-10-23T00:12:05.699Z"
   },
   "https://www.hse.ru/studyspravka/ai_guidelines": {
    "where": "ai",
