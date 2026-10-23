@@ -115,6 +115,16 @@ with sync_playwright() as pw:
         page.locator("#export-project").click()
     xml3 = zipfile.ZipFile(Path(dl3.value.path())).read("word/document.xml").decode("utf-8")
     assert "---" not in xml3 and "RUSSPASS" in xml3 and xml3.count("Страница или фрагмент") == 1
+    # Обычная фраза с «;» не превращается в строку таблицы, а строка с разделителями «;» — превращается
+    page.locator("#project-ailog").fill("ИИ не использовался; все расчёты сделаны вручную")
+    assert "Распознано строк таблицы: 0" in page.locator("#status-ailog").inner_text()
+    page.locator("#project-claims").fill("1; Норма тропы 16 человек в день; Паспорт маршрута 1-Д; с. 2; проверено")
+    assert "Распознано строк таблицы: 1" in page.locator("#status-claims").inner_text()
+    # Печать проекта выводит приложения таблицей, а не сырым текстом
+    page.evaluate("window.print = () => {}")
+    page.locator("#print-project").click()
+    printable = page.locator("#printable-project")
+    assert printable.locator("table").count() >= 1 and "Норма тропы" in printable.locator("table").first.inner_text()
     # На КТ-6 первой кнопкой скачивается итоговая стратегия с приложениями
     page.goto("http://course.test/#kt6")
     with page.expect_download() as dl4:
