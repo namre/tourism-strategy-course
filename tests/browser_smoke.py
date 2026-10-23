@@ -108,6 +108,23 @@ with sync_playwright() as pw:
         page.locator("#export-project").click()
     xml2 = zipfile.ZipFile(Path(dl2.value.path())).read("word/document.xml").decode("utf-8")
     assert "ЖУРНАЛ ИСПОЛЬЗОВАНИЯ ИИ" in xml2.upper() and "Норма тропы 16 человек в день" in xml2 and "Что отверг и почему" in xml2
+    # Таблица, вставленная из ИИ в формате Markdown или из Excel (табуляция), распознаётся без сдвига колонок
+    page.locator("#project-claims").fill("| № | Утверждение | Откуда | Страница или фрагмент | Статус |\n|---|---|---|---|---|\n| 1 | Норма тропы 16 человек в день | Паспорт маршрута 1-Д | с. 2 | проверено |\n2\tПик — середина июля\tRUSSPASS\tабзац 3\tпроверено")
+    assert "Распознано строк таблицы: 2" in page.locator("#status-claims").inner_text()
+    with page.expect_download() as dl3:
+        page.locator("#export-project").click()
+    xml3 = zipfile.ZipFile(Path(dl3.value.path())).read("word/document.xml").decode("utf-8")
+    assert "---" not in xml3 and "RUSSPASS" in xml3 and xml3.count("Страница или фрагмент") == 1
+    # На КТ-6 первой кнопкой скачивается итоговая стратегия с приложениями
+    page.goto("http://course.test/#kt6")
+    with page.expect_download() as dl4:
+        page.locator("#export-strategy-kt").click()
+    xml4 = zipfile.ZipFile(Path(dl4.value.path())).read("word/document.xml").decode("utf-8")
+    assert "Обоснованное решение" in xml4 and "ТАБЛИЦА УТВЕРЖДЕНИЙ" in xml4.upper()
+    with page.expect_download() as dl5:
+        page.locator("#export-capstone-kt").click()
+    xml5 = zipfile.ZipFile(Path(dl5.value.path())).read("word/document.xml").decode("utf-8")
+    assert "Итоговая стратегия" in xml5 and "ЖУРНАЛ ИСПОЛЬЗОВАНИЯ ИИ" in xml5.upper()
     # Мобильная вёрстка без горизонтальной прокрутки на новых страницах
     page.set_viewport_size({"width": 390, "height": 844})
     for route in ["home", "m1r", "m2p", "ai", "kt6", "project"]:
