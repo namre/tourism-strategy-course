@@ -17,6 +17,8 @@ export function validProgress(value,ids) {
  if(!value||typeof value!=='object'||Array.isArray(value))return null;
  const obj=v=>v&&typeof v==='object'&&!Array.isArray(v)?v:{};
  const answers={};for(const [key,val] of Object.entries(obj(value.answers)))if(ids.includes(key)&&typeof val==='string')answers[key]=val.slice(0,30000);
+ const rules={};for(const [key,val] of Object.entries(obj(value.rules)))if(ids.includes(key)&&typeof val==='string')rules[key]=val.slice(0,400);
+ const splits={};for(const [key,val] of Object.entries(obj(value.splits)))if(/^m\d$/.test(key)&&typeof val==='string')splits[key]=val.slice(0,3000);
  const completed=Array.isArray(value.completed)?[...new Set(value.completed.filter(x=>ids.includes(x)))]:[];
  const project={};for(const [key,val] of Object.entries(obj(value.project)))if(['problem','segment','offer','economics','uncertainty','promotion','experiment','revision','ailog','claims'].includes(key)&&typeof val==='string')project[key]=val.slice(0,30000);
  const cap=obj(value.capstone),fields={},checks={};
@@ -25,5 +27,5 @@ export function validProgress(value,ids) {
  for(const [key,val] of Object.entries(obj(cap.checks)))if(checkKeys.includes(key)&&val===true)checks[key]=true;
  const track=Object.keys(capstone.tracks).includes(cap.track)?cap.track:'';
  const profile={};for(const k of ['student','group','supervisor','topic'])if(typeof obj(value.profile)[k]==='string')profile[k]=value.profile[k].slice(0,200);
- return {answers,completed,project,quizzes:obj(value.quizzes),lab:obj(value.lab),capstone:{track,fields,checks},profile,widgets:obj(value.widgets)};
+ return {answers,rules,splits,completed,project,quizzes:obj(value.quizzes),lab:obj(value.lab),capstone:{track,fields,checks},profile,widgets:obj(value.widgets)};
 }

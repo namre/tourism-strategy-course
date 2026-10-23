@@ -135,12 +135,36 @@ with sync_playwright() as pw:
         page.locator("#export-capstone-kt").click()
     xml5 = zipfile.ZipFile(Path(dl5.value.path())).read("word/document.xml").decode("utf-8")
     assert "Итоговая стратегия" in xml5 and "ЖУРНАЛ ИСПОЛЬЗОВАНИЯ ИИ" in xml5.upper()
+    # Правило урока сохраняется, собирается на странице стратегии и выгружается в Word
+    page.goto("http://course.test/#m2l1")
+    page.locator(".rule-example summary").click()
+    assert "состоявшимся ночам" in page.locator(".rule-example").inner_text()
+    page.locator("#lesson-rule").fill("Я сравниваю каналы по состоявшимся ночам, а не по бронированиям.")
+    page.goto("http://course.test/#project-rules")
+    page.wait_for_timeout(200)
+    book = page.locator("#project-rules")
+    assert "Я сравниваю каналы по состоявшимся ночам" in book.inner_text() and "Записано 1 из 17" in book.inner_text()
+    assert page.evaluate("document.getElementById('project-rules').getBoundingClientRect().top < innerHeight")
+    with page.expect_download() as dl6:
+        page.locator("#export-rules").click()
+    xml6 = zipfile.ZipFile(Path(dl6.value.path())).read("word/document.xml").decode("utf-8")
+    assert "Я сравниваю каналы по состоявшимся ночам" in xml6 and "правило не записано" in xml6
+    # Спорные вопросы: ссылка из урока, страница, сохранение выбора
+    page.goto("http://course.test/#m1l2")
+    teaser = page.locator(".split-teaser")
+    if teaser.count():
+        teaser.get_by_role("link").click()
+        page.wait_for_timeout(200)
+        assert page.locator(".split").count() == 4 and page.locator(".split-side").count() >= 8
+        page.locator("#split-m1").fill("Узкий сегмент: проверю долю повторных гостей")
+        page.reload(); page.wait_for_timeout(200)
+        assert page.locator("#split-m1").input_value().startswith("Узкий сегмент")
     # Мобильная вёрстка без горизонтальной прокрутки на новых страницах
     page.set_viewport_size({"width": 390, "height": 844})
-    for route in ["home", "m1r", "m2p", "ai", "kt6", "project"]:
+    for route in ["home", "m1r", "m2p", "ai", "kt6", "project", "splits", "m1l2"]:
         page.goto(f"http://course.test/#{route}")
         page.wait_for_timeout(150)
         assert page.evaluate("document.documentElement.scrollWidth <= innerWidth"), route
     assert errors == [], errors
-    print("PASS: lesson, quiz, completion, skip link, staged case, sensitivity, persistence, print, export, case cards, AI prompts copy, AI page, appendices in Word, mobile layout; no JS errors")
+    print("PASS: lesson, quiz, completion, skip link, staged case, sensitivity, persistence, print, export, case cards, AI prompts copy, AI page, appendices in Word, lesson rules, splits, mobile layout; no JS errors")
     browser.close()
