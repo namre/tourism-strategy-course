@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 // Проверка ссылок карточек кейсов: открываются ли из России и есть ли копия в Wayback Machine.
-// Запуск: node tools/check-case-links.mjs  → data/cases-linkcheck.json
+// Запуск: node tools/check-case-links.mjs [--missing] [--extra=urls.json]  → data/cases-linkcheck.json
+// Проверяются ссылки кейсов, страницы «ИИ в работе» и разборов «Где источники расходятся»;
+// --extra — JSON-массив ссылок, которые нужно проверить заранее (до включения в курс).
 // Из России проверяем через три российских узла check-host.net (Москва ×2, Санкт-Петербург).
 // Узлы стоят в дата-центрах, фильтрация на них неодинакова, поэтому ссылка считается доступной,
 // только если она открылась на всех трёх узлах; контрольная пара (открытый и заблокированный сайт)
@@ -8,6 +10,7 @@
 import fs from 'node:fs';
 import {caseStudies} from '../cases-data.js';
 import {aiGuide} from '../ai-data.js';
+import {splits} from '../splits-data.js';
 
 const NODES = ['ru1.node.check-host.net', 'ru2.node.check-host.net', 'ru3.node.check-host.net'];
 const CONTROLS = {open: 'https://ya.ru/', blocked: 'https://www.bbc.com/news'};
@@ -60,6 +63,11 @@ export function aiLinks() {
 const urls = new Map();
 for (const [lesson, list] of Object.entries(caseStudies)) for (const c of list) for (const s of c.sources) urls.set(s.url, `${lesson}/${c.id}`);
 for (const u of aiLinks()) if (!urls.has(u)) urls.set(u, 'ai');
+for (const sp of splits) for (const x of sp.sources) if (!urls.has(x.url)) urls.set(x.url, `splits/${sp.id}`);
+const extra = process.argv.find(a => a.startsWith('--extra='));
+if (extra) for (const u of JSON.parse(fs.readFileSync(extra.slice(8), 'utf8'))) if (!urls.has(u)) urls.set(u, 'extra');
+// Ранее проверенные ссылки, которых больше нет в курсе, сохраняются в отчёте (с пометкой where), чтобы предварительная проверка не терялась.
+for (const [u, r] of Object.entries(prev.urls || {})) if (!urls.has(u) && only) urls.set(u, r.where || 'old');
 
 const result = {checkedAt: new Date().toISOString(), method: 'check-host.net, узлы ' + NODES.join(', ') + '; Wayback Machine availability API', controls: {}, urls: {}};
 for (const [k, u] of Object.entries(CONTROLS)) result.controls[k] = {url: u, ...(await fromRussia(u))};
