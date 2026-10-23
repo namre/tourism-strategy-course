@@ -37,7 +37,7 @@ test('Промпты для уроков запрещают поиск, треб
   for (const id of ['p1', 'p3']) assert.match(g.prompts.find(p => p.id === id).text, /строго по одному/);
   for (const id of ['p1', 'p2', 'p4']) assert.match(g.prompts.find(p => p.id === id).text, /дословн/);
   const p5 = g.prompts.find(p => p.id === 'p5');
-  assert.match(p5.text, /URL дать не могу/); assert.match(p5.text, /Не вычисляй/); assert.match(p5.text, /Вторичные источники/);
+  assert.match(p5.text, /URL дать не могу/); assert.match(p5.text, /Ничего не вычисляй/); assert.match(p5.text, /Вторичные источники/);
   assert.equal(new Set([...g.prompts, ...pl.prompts].map(p => p.id)).size, g.prompts.length + pl.prompts.length);
 });
 
@@ -64,7 +64,7 @@ test('Ссылки факультатива проверены из России
     assert.ok(r, 'не проверялась ' + u);
     // Сервис или документ доступен, если открылся со всех российских узлов либо сервер ответил всем узлам
     // HTTP-кодом (отказ роботу, а не сетевая блокировка), либо открывается его архивная копия.
-    const answered = Object.values(r.ru.nodes || {}).every(n => n.code && /^[1-5]\d\d$/.test(String(n.code)));
+    const answered = Object.values(r.ru.nodes || {}).length === 3 && Object.values(r.ru.nodes).every(n => n.code && /^[1-5]\d\d$/.test(String(n.code)));
     assert.ok(r.ru.ok || answered || r.archive?.ruOk, 'не открывается из России ни сама, ни архивная копия: ' + u);
   }
 });

@@ -1,10 +1,10 @@
 {
- "checkedAt": "2026-10-23T00:08:33.909Z",
+ "checkedAt": "2026-10-23T00:45:31.866Z",
  "method": "check-host.net, узлы ru1.node.check-host.net, ru2.node.check-host.net, ru3.node.check-host.net; Wayback Machine availability API",
  "controls": {
   "open": {
    "url": "https://ya.ru/",
-   "report": "https://check-host.net/check-report/52c755d3k548",
+   "report": "https://check-host.net/check-report/52c8e41ekf01",
    "nodes": {
     "ru1.node.check-host.net": {
      "ok": true,
@@ -26,7 +26,7 @@
   },
   "blocked": {
    "url": "https://www.bbc.com/news",
-   "report": "https://check-host.net/check-report/52c756bfk585",
+   "report": "https://check-host.net/check-report/52c8e53eka38",
    "nodes": {
     "ru1.node.check-host.net": {
      "ok": false,
@@ -81,7 +81,7 @@
   "https://live.comune.venezia.it/sites/live.comune.venezia.it/files/articoli/allegati/CDA_19072024.pdf": {
    "where": "m1l1/venice-access-fee",
    "ru": {
-    "report": "https://check-host.net/check-report/52c75a21k200",
+    "report": "https://check-host.net/check-report/52c8e911k57f",
     "nodes": {
      "ru1.node.check-host.net": {
       "ok": false,
@@ -106,12 +106,12 @@
     "timestamp": "20241117140831",
     "ruOk": true
    },
-   "checkedAt": "2026-10-23T00:09:13.720Z"
+   "checkedAt": "2026-10-23T00:46:14.926Z"
   },
   "https://live.comune.venezia.it/sites/live.comune.venezia.it/files/articoli/allegati/CDA_report2025.pdf": {
    "where": "m1l1/venice-access-fee",
    "ru": {
-    "report": "https://check-host.net/check-report/52c75d5akb31",
+    "report": "https://check-host.net/check-report/52c8ec64k872",
     "nodes": {
      "ru1.node.check-host.net": {
       "ok": false,
@@ -136,7 +136,7 @@
     "timestamp": "20250802151606",
     "ruOk": true
    },
-   "checkedAt": "2026-10-23T00:09:26.794Z"
+   "checkedAt": "2026-10-23T00:46:28.847Z"
   },
   "https://www.rmf.is/static/research/files/eyjafjallajokull_skyrsla.pdf": {
    "where": "m1r/iceland-2010-survey",
@@ -411,7 +411,7 @@
   "https://www.tourismnewzealand.com/assets/about/publications/annuals/Tourism-New-Zealand-Annual-Report-2023-2024.pdf": {
    "where": "m1l3/new-zealand-100-pure",
    "ru": {
-    "report": "https://check-host.net/check-report/52c75f67ke9a",
+    "report": "https://check-host.net/check-report/52c8eeafk24e",
     "nodes": {
      "ru1.node.check-host.net": {
       "ok": false,
@@ -436,7 +436,7 @@
     "timestamp": "20260921044620",
     "ruOk": true
    },
-   "checkedAt": "2026-10-23T00:09:39.398Z"
+   "checkedAt": "2026-10-23T00:46:41.965Z"
   },
   "https://environment.govt.nz/news/new-report-highlights-pressures-on-aotearoa-new-zealands-freshwater": {
    "where": "m1l3/new-zealand-100-pure",
@@ -471,7 +471,7 @@
   "https://www.newshub.co.nz/environmentsci/key-grilled-over-nzs-clean-green-image-2011051015": {
    "where": "m1l3/new-zealand-100-pure",
    "ru": {
-    "report": "https://check-host.net/check-report/52c76142kcd2",
+    "report": "https://check-host.net/check-report/52c8f0b4k8e0",
     "nodes": {
      "ru1.node.check-host.net": {
       "ok": false,
@@ -496,7 +496,7 @@
     "timestamp": "20240418095840",
     "ruOk": true
    },
-   "checkedAt": "2026-10-23T00:09:51.896Z"
+   "checkedAt": "2026-10-23T00:46:55.317Z"
   },
   "https://www.premierinn.com/gb/en/faq/good-night-guarantee.html": {
    "where": "m1l3/premier-inn-guarantee",
@@ -1101,7 +1101,7 @@
   "https://australianaviation.com.au/2021/10/qantas-again-brings-forward-start-date-for-international-flights/": {
    "where": "m3l1/qantas-2021-restart",
    "ru": {
-    "report": "https://check-host.net/check-report/52c76784kb3d",
+    "report": "https://check-host.net/check-report/52c8f2cekf34",
     "nodes": {
      "ru1.node.check-host.net": {
       "ok": false,
@@ -1126,7 +1126,7 @@
     "timestamp": "20250905131606",
     "ruOk": true
    },
-   "checkedAt": "2026-10-23T00:10:40.531Z"
+   "checkedAt": "2026-10-23T00:47:08.331Z"
   },
   "https://openresearch.amsterdam/image/2023/6/19/effect_toeristenbelasting_overnachtingen.pdf": {
    "where": "m3l2/amsterdam-tourist-tax-threshold",
@@ -1401,7 +1401,7 @@
   "https://www.ch-aviation.com/news/108307-tui-fly-ryanair-klagenfurt-suits-denied-ryanair-to-appeal": {
    "where": "m3l3/klagenfurt-airport-state-aid",
    "ru": {
-    "report": "https://check-host.net/check-report/52c76dffka4f",
+    "report": "https://check-host.net/check-report/52c8f58ek181",
     "nodes": {
      "ru1.node.check-host.net": {
       "ok": false,
@@ -1426,7 +1426,7 @@
     "timestamp": "20241212203239",
     "ruOk": true
    },
-   "checkedAt": "2026-10-23T00:11:08.860Z"
+   "checkedAt": "2026-10-23T00:47:26.245Z"
   },
   "https://www.accc.gov.au/media-release/meriton-to-pay-3-million-for-misleading-consumers-on-tripadvisor": {
    "where": "m4p/meriton-review-masking",
@@ -1971,7 +1971,7 @@
   "https://chat.deepseek.com/": {
    "where": "ai",
    "ru": {
-    "report": "https://check-host.net/check-report/52c77304kada",
+    "report": "https://check-host.net/check-report/52c8f890kf88",
     "nodes": {
      "ru1.node.check-host.net": {
       "ok": false,
@@ -1996,7 +1996,7 @@
     "timestamp": "20261022075054",
     "ruOk": true
    },
-   "checkedAt": "2026-10-23T00:11:31.682Z"
+   "checkedAt": "2026-10-23T00:47:43.769Z"
   },
   "https://developers.sber.ru/docs/ru/policies/gigachat-agreement/beta": {
    "where": "ai",
@@ -2271,7 +2271,7 @@
   "https://doi.org/10.1038/s41598-023-41032-5": {
    "where": "ai",
    "ru": {
-    "report": "https://check-host.net/check-report/52c776d7k3c6",
+    "report": "https://check-host.net/check-report/52c8fafakc57",
     "nodes": {
      "ru1.node.check-host.net": {
       "ok": true,
@@ -2292,12 +2292,12 @@
     "ok": true
    },
    "archive": null,
-   "checkedAt": "2026-10-23T00:11:38.822Z"
+   "checkedAt": "2026-10-23T00:47:51.228Z"
   },
   "https://doi.org/10.2196/80371": {
    "where": "ai",
    "ru": {
-    "report": "https://check-host.net/check-report/52c77814k38",
+    "report": "https://check-host.net/check-report/52c8fc05k738",
     "nodes": {
      "ru1.node.check-host.net": {
       "ok": true,
@@ -2318,7 +2318,7 @@
     "ok": true
    },
    "archive": null,
-   "checkedAt": "2026-10-23T00:11:46.007Z"
+   "checkedAt": "2026-10-23T00:47:58.521Z"
   },
   "https://www.pnas.org/doi/10.1073/pnas.2422633122": {
    "where": "ai",
@@ -2353,7 +2353,7 @@
   "https://doi.org/10.1111/j.1467-9280.2006.01693.x": {
    "where": "ai",
    "ru": {
-    "report": "https://check-host.net/check-report/52c77943k93a",
+    "report": "https://check-host.net/check-report/52c8fd23k311",
     "nodes": {
      "ru1.node.check-host.net": {
       "ok": true,
@@ -2374,12 +2374,12 @@
     "ok": true
    },
    "archive": null,
-   "checkedAt": "2026-10-23T00:11:53.115Z"
+   "checkedAt": "2026-10-23T00:48:06.259Z"
   },
   "https://doi.org/10.3102/0034654316689306": {
    "where": "ai",
    "ru": {
-    "report": "https://check-host.net/check-report/52c77a7dk53d",
+    "report": "https://check-host.net/check-report/52c8fecdkf95",
     "nodes": {
      "ru1.node.check-host.net": {
       "ok": true,
@@ -2400,15 +2400,33 @@
     "ok": true
    },
    "archive": null,
-   "checkedAt": "2026-10-23T00:12:00.463Z"
+   "checkedAt": "2026-10-23T00:48:13.399Z"
   },
   "https://doi.org/10.1145/3706598.3713778": {
    "where": "ai",
    "ru": {
-    "error": "check-host не принял запрос"
+    "report": "https://check-host.net/check-report/52c9000ek819",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Found"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Found"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Found"
+     }
+    },
+    "ok": true
    },
    "archive": null,
-   "checkedAt": "2026-10-23T00:12:02.232Z"
+   "checkedAt": "2026-10-23T00:48:20.655Z"
   },
   "https://openai.com/index/new-ai-classifier-for-indicating-ai-written-text/": {
    "where": "ai",
@@ -2443,18 +2461,54 @@
   "https://doi.org/10.1016/j.patter.2023.100779": {
    "where": "ai",
    "ru": {
-    "error": "check-host не принял запрос"
+    "report": "https://check-host.net/check-report/52c90117kfee",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Found"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Found"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Found"
+     }
+    },
+    "ok": true
    },
    "archive": null,
-   "checkedAt": "2026-10-23T00:12:03.978Z"
+   "checkedAt": "2026-10-23T00:48:32.456Z"
   },
   "https://doi.org/10.1007/s40979-023-00146-z": {
    "where": "ai",
    "ru": {
-    "error": "check-host не принял запрос"
+    "report": "https://check-host.net/check-report/52c902d2k16f",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Found"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Found"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "302",
+      "note": "Found"
+     }
+    },
+    "ok": true
    },
    "archive": null,
-   "checkedAt": "2026-10-23T00:12:05.699Z"
+   "checkedAt": "2026-10-23T00:48:39.879Z"
   },
   "https://www.hse.ru/studyspravka/ai_guidelines": {
    "where": "ai",

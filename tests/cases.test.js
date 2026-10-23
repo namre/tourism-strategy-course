@@ -62,7 +62,7 @@ test('Каждая ссылка открывается со всех росси�
     if (!r.ru.ok) {
       // Сервер ответил всем трём российским узлам (не сетевая блокировка), но отказал роботу проверки:
       // такая ссылка допустима, только если карточка ведёт на архивную копию и та открывается из России.
-      const answered = Object.values(r.ru.nodes || {}).every(n => n.code && /^[1-5]\d\d$/.test(String(n.code)));
+      const answered = Object.values(r.ru.nodes || {}).length === 3 && Object.values(r.ru.nodes).every(n => n.code && /^[1-5]\d\d$/.test(String(n.code)));
       assert.ok(answered, `${c.id}: не открывается из России (похоже на блокировку) ${s.url}`);
       assert.equal(r.archive.ruOk, true, `${c.id}: архивная копия не открывается из России ${s.url}`);
       assert.equal(s.viaArchive, true, `${c.id}: карточка должна вести на архивную копию ${s.url}`);
