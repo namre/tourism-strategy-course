@@ -1,10 +1,10 @@
 {
- "checkedAt": "2026-10-23T00:45:31.866Z",
+ "checkedAt": "2026-10-23T04:11:55.275Z",
  "method": "check-host.net, узлы ru1.node.check-host.net, ru2.node.check-host.net, ru3.node.check-host.net; Wayback Machine availability API",
  "controls": {
   "open": {
    "url": "https://ya.ru/",
-   "report": "https://check-host.net/check-report/52c8e41ekf01",
+   "report": "https://check-host.net/check-report/52d16039k1bd",
    "nodes": {
     "ru1.node.check-host.net": {
      "ok": true,
@@ -26,7 +26,7 @@
   },
   "blocked": {
    "url": "https://www.bbc.com/news",
-   "report": "https://check-host.net/check-report/52c8e53eka38",
+   "report": "https://check-host.net/check-report/52d16124kf04",
    "nodes": {
     "ru1.node.check-host.net": {
      "ok": false,
@@ -81,7 +81,7 @@
   "https://live.comune.venezia.it/sites/live.comune.venezia.it/files/articoli/allegati/CDA_19072024.pdf": {
    "where": "m1l1/venice-access-fee",
    "ru": {
-    "report": "https://check-host.net/check-report/52c8e911k57f",
+    "report": "https://check-host.net/check-report/52d1657ek825",
     "nodes": {
      "ru1.node.check-host.net": {
       "ok": false,
@@ -106,12 +106,12 @@
     "timestamp": "20241117140831",
     "ruOk": true
    },
-   "checkedAt": "2026-10-23T00:46:14.926Z"
+   "checkedAt": "2026-10-23T04:12:33.638Z"
   },
   "https://live.comune.venezia.it/sites/live.comune.venezia.it/files/articoli/allegati/CDA_report2025.pdf": {
    "where": "m1l1/venice-access-fee",
    "ru": {
-    "report": "https://check-host.net/check-report/52c8ec64k872",
+    "report": "https://check-host.net/check-report/52d16791k45f",
     "nodes": {
      "ru1.node.check-host.net": {
       "ok": false,
@@ -136,7 +136,7 @@
     "timestamp": "20250802151606",
     "ruOk": true
    },
-   "checkedAt": "2026-10-23T00:46:28.847Z"
+   "checkedAt": "2026-10-23T04:12:46.613Z"
   },
   "https://www.rmf.is/static/research/files/eyjafjallajokull_skyrsla.pdf": {
    "where": "m1r/iceland-2010-survey",
@@ -411,7 +411,7 @@
   "https://www.tourismnewzealand.com/assets/about/publications/annuals/Tourism-New-Zealand-Annual-Report-2023-2024.pdf": {
    "where": "m1l3/new-zealand-100-pure",
    "ru": {
-    "report": "https://check-host.net/check-report/52c8eeafk24e",
+    "report": "https://check-host.net/check-report/52d169aekc9f",
     "nodes": {
      "ru1.node.check-host.net": {
       "ok": false,
@@ -436,7 +436,7 @@
     "timestamp": "20260921044620",
     "ruOk": true
    },
-   "checkedAt": "2026-10-23T00:46:41.965Z"
+   "checkedAt": "2026-10-23T04:12:59.375Z"
   },
   "https://environment.govt.nz/news/new-report-highlights-pressures-on-aotearoa-new-zealands-freshwater": {
    "where": "m1l3/new-zealand-100-pure",
@@ -471,7 +471,7 @@
   "https://www.newshub.co.nz/environmentsci/key-grilled-over-nzs-clean-green-image-2011051015": {
    "where": "m1l3/new-zealand-100-pure",
    "ru": {
-    "report": "https://check-host.net/check-report/52c8f0b4k8e0",
+    "report": "https://check-host.net/check-report/52d16b87ka04",
     "nodes": {
      "ru1.node.check-host.net": {
       "ok": false,
@@ -496,7 +496,7 @@
     "timestamp": "20240418095840",
     "ruOk": true
    },
-   "checkedAt": "2026-10-23T00:46:55.317Z"
+   "checkedAt": "2026-10-23T04:13:12.104Z"
   },
   "https://www.premierinn.com/gb/en/faq/good-night-guarantee.html": {
    "where": "m1l3/premier-inn-guarantee",
@@ -1101,7 +1101,7 @@
   "https://australianaviation.com.au/2021/10/qantas-again-brings-forward-start-date-for-international-flights/": {
    "where": "m3l1/qantas-2021-restart",
    "ru": {
-    "report": "https://check-host.net/check-report/52c8f2cekf34",
+    "report": "https://check-host.net/check-report/52d16dc9kf20",
     "nodes": {
      "ru1.node.check-host.net": {
       "ok": false,
@@ -1126,7 +1126,7 @@
     "timestamp": "20250905131606",
     "ruOk": true
    },
-   "checkedAt": "2026-10-23T00:47:08.331Z"
+   "checkedAt": "2026-10-23T04:13:24.998Z"
   },
   "https://openresearch.amsterdam/image/2023/6/19/effect_toeristenbelasting_overnachtingen.pdf": {
    "where": "m3l2/amsterdam-tourist-tax-threshold",
@@ -1401,7 +1401,7 @@
   "https://www.ch-aviation.com/news/108307-tui-fly-ryanair-klagenfurt-suits-denied-ryanair-to-appeal": {
    "where": "m3l3/klagenfurt-airport-state-aid",
    "ru": {
-    "report": "https://check-host.net/check-report/52c8f58ek181",
+    "report": "https://check-host.net/check-report/52d16f9cke0",
     "nodes": {
      "ru1.node.check-host.net": {
       "ok": false,
@@ -1426,7 +1426,7 @@
     "timestamp": "20241212203239",
     "ruOk": true
    },
-   "checkedAt": "2026-10-23T00:47:26.245Z"
+   "checkedAt": "2026-10-23T04:13:37.604Z"
   },
   "https://www.accc.gov.au/media-release/meriton-to-pay-3-million-for-misleading-consumers-on-tripadvisor": {
    "where": "m4p/meriton-review-masking",
@@ -1971,7 +1971,7 @@
   "https://chat.deepseek.com/": {
    "where": "ai",
    "ru": {
-    "report": "https://check-host.net/check-report/52c8f890kf88",
+    "report": "https://check-host.net/check-report/52d1716bk552",
     "nodes": {
      "ru1.node.check-host.net": {
       "ok": false,
@@ -1992,11 +1992,11 @@
     "ok": false
    },
    "archive": {
-    "url": "https://web.archive.org/web/20261022075054/https://chat.deepseek.com/",
-    "timestamp": "20261022075054",
+    "url": "https://web.archive.org/web/20261023034455/https://chat.deepseek.com/",
+    "timestamp": "20261023034455",
     "ruOk": true
    },
-   "checkedAt": "2026-10-23T00:47:43.769Z"
+   "checkedAt": "2026-10-23T04:13:51.504Z"
   },
   "https://developers.sber.ru/docs/ru/policies/gigachat-agreement/beta": {
    "where": "ai",
@@ -2271,7 +2271,7 @@
   "https://doi.org/10.1038/s41598-023-41032-5": {
    "where": "ai",
    "ru": {
-    "report": "https://check-host.net/check-report/52c8fafakc57",
+    "report": "https://check-host.net/check-report/52d1733ckc5c",
     "nodes": {
      "ru1.node.check-host.net": {
       "ok": true,
@@ -2292,12 +2292,12 @@
     "ok": true
    },
    "archive": null,
-   "checkedAt": "2026-10-23T00:47:51.228Z"
+   "checkedAt": "2026-10-23T04:13:58.800Z"
   },
   "https://doi.org/10.2196/80371": {
    "where": "ai",
    "ru": {
-    "report": "https://check-host.net/check-report/52c8fc05k738",
+    "report": "https://check-host.net/check-report/52d17473kc1",
     "nodes": {
      "ru1.node.check-host.net": {
       "ok": true,
@@ -2318,7 +2318,7 @@
     "ok": true
    },
    "archive": null,
-   "checkedAt": "2026-10-23T00:47:58.521Z"
+   "checkedAt": "2026-10-23T04:14:05.981Z"
   },
   "https://www.pnas.org/doi/10.1073/pnas.2422633122": {
    "where": "ai",
@@ -2353,7 +2353,7 @@
   "https://doi.org/10.1111/j.1467-9280.2006.01693.x": {
    "where": "ai",
    "ru": {
-    "report": "https://check-host.net/check-report/52c8fd23k311",
+    "report": "https://check-host.net/check-report/52d1764dk6f3",
     "nodes": {
      "ru1.node.check-host.net": {
       "ok": true,
@@ -2374,12 +2374,12 @@
     "ok": true
    },
    "archive": null,
-   "checkedAt": "2026-10-23T00:48:06.259Z"
+   "checkedAt": "2026-10-23T04:14:13.369Z"
   },
   "https://doi.org/10.3102/0034654316689306": {
    "where": "ai",
    "ru": {
-    "report": "https://check-host.net/check-report/52c8fecdkf95",
+    "report": "https://check-host.net/check-report/52d177a2k83b",
     "nodes": {
      "ru1.node.check-host.net": {
       "ok": true,
@@ -2400,12 +2400,12 @@
     "ok": true
    },
    "archive": null,
-   "checkedAt": "2026-10-23T00:48:13.399Z"
+   "checkedAt": "2026-10-23T04:14:20.544Z"
   },
   "https://doi.org/10.1145/3706598.3713778": {
    "where": "ai",
    "ru": {
-    "report": "https://check-host.net/check-report/52c9000ek819",
+    "report": "https://check-host.net/check-report/52d178a1k57a",
     "nodes": {
      "ru1.node.check-host.net": {
       "ok": true,
@@ -2426,7 +2426,7 @@
     "ok": true
    },
    "archive": null,
-   "checkedAt": "2026-10-23T00:48:20.655Z"
+   "checkedAt": "2026-10-23T04:14:27.904Z"
   },
   "https://openai.com/index/new-ai-classifier-for-indicating-ai-written-text/": {
    "where": "ai",
@@ -2461,7 +2461,7 @@
   "https://doi.org/10.1016/j.patter.2023.100779": {
    "where": "ai",
    "ru": {
-    "report": "https://check-host.net/check-report/52c90117kfee",
+    "report": "https://check-host.net/check-report/52d179b8k1e7",
     "nodes": {
      "ru1.node.check-host.net": {
       "ok": true,
@@ -2482,12 +2482,12 @@
     "ok": true
    },
    "archive": null,
-   "checkedAt": "2026-10-23T00:48:32.456Z"
+   "checkedAt": "2026-10-23T04:14:37.378Z"
   },
   "https://doi.org/10.1007/s40979-023-00146-z": {
    "where": "ai",
    "ru": {
-    "report": "https://check-host.net/check-report/52c902d2k16f",
+    "report": "https://check-host.net/check-report/52d17af7k27e",
     "nodes": {
      "ru1.node.check-host.net": {
       "ok": true,
@@ -2508,7 +2508,7 @@
     "ok": true
    },
    "archive": null,
-   "checkedAt": "2026-10-23T00:48:39.879Z"
+   "checkedAt": "2026-10-23T04:14:44.762Z"
   },
   "https://www.hse.ru/studyspravka/ai_guidelines": {
    "where": "ai",
@@ -2569,6 +2569,414 @@
     "ruOk": true
    },
    "checkedAt": "2026-10-22T23:19:20.510Z"
+  },
+  "https://hbr.org/1985/09/scenarios-uncharted-waters-ahead": {
+   "where": "extra",
+   "ru": {
+    "report": "https://check-host.net/check-report/52d17beak4a9",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20260719233048/https://hbr.org/1985/09/scenarios-uncharted-waters-ahead",
+    "timestamp": "20260719233048",
+    "ruOk": true
+   },
+   "checkedAt": "2026-10-23T04:14:57.762Z"
+  },
+  "https://sloanreview.mit.edu/article/scenario-planning-a-tool-for-strategic-thinking/": {
+   "where": "extra",
+   "ru": {
+    "report": "https://check-host.net/check-report/52d17dabk288",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": false,
+      "code": "403",
+      "note": "Forbidden"
+     },
+     "ru2.node.check-host.net": {
+      "ok": false,
+      "code": null,
+      "note": "Connection timed out"
+     },
+     "ru3.node.check-host.net": {
+      "ok": false,
+      "code": "403",
+      "note": "Forbidden"
+     }
+    },
+    "ok": false
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20261010170507/https://sloanreview.mit.edu/article/scenario-planning-a-tool-for-strategic-thinking/",
+    "timestamp": "20261010170507",
+    "ruOk": true
+   },
+   "checkedAt": "2026-10-23T04:15:37.742Z"
+  },
+  "https://strathprints.strath.ac.uk/44785/": {
+   "where": "extra",
+   "ru": {
+    "report": "https://check-host.net/check-report/52d18680k324",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": false,
+      "code": null,
+      "note": "Connection timed out"
+     },
+     "ru3.node.check-host.net": {
+      "ok": false,
+      "code": null,
+      "note": "Connection timed out"
+     }
+    },
+    "ok": false
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20260210213640/https://strathprints.strath.ac.uk/44785/",
+    "timestamp": "20260210213640",
+    "ruOk": true
+   },
+   "checkedAt": "2026-10-23T04:15:55.608Z"
+  },
+  "https://www.psychologicalscience.org/journals/psychological-science/0956797614524255/": {
+   "where": "extra",
+   "ru": {
+    "report": "https://check-host.net/check-report/52d1896ckdb1",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": null,
+   "checkedAt": "2026-10-23T04:16:03.676Z"
+  },
+  "https://robjhyndman.com/publications/the-tourism-forecasting-competition/": {
+   "where": "extra",
+   "ru": {
+    "report": "https://check-host.net/check-report/52d18b1ekd25",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20251011231456/https://robjhyndman.com/publications/the-tourism-forecasting-competition/",
+    "timestamp": "20251011231456",
+    "ruOk": true
+   },
+   "checkedAt": "2026-10-23T04:16:23.042Z"
+  },
+  "https://www.foreignaffairs.com/node/1126485": {
+   "where": "extra",
+   "ru": {
+    "report": "https://check-host.net/check-report/52d18ea2k98e",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "301",
+      "note": "Moved Permanently"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "301",
+      "note": "Moved Permanently"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "301",
+      "note": "Moved Permanently"
+     }
+    },
+    "ok": true
+   },
+   "archive": null,
+   "checkedAt": "2026-10-23T04:16:30.287Z"
+  },
+  "https://www.newamerica.org/future-security/articles/better-crystal-ball": {
+   "where": "extra",
+   "ru": {
+    "report": "https://check-host.net/check-report/52d18fd6kd3f",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": false,
+      "code": "404",
+      "note": "Not Found"
+     },
+     "ru2.node.check-host.net": {
+      "ok": false,
+      "code": "404",
+      "note": "Not Found"
+     },
+     "ru3.node.check-host.net": {
+      "ok": false,
+      "code": "404",
+      "note": "Not Found"
+     }
+    },
+    "ok": false
+   },
+   "archive": null,
+   "checkedAt": "2026-10-23T04:16:42.612Z"
+  },
+  "https://www.emerald.com/insight/content/doi/10.1108/FS-08-2012-0061/full/html": {
+   "where": "extra",
+   "ru": {
+    "report": "https://check-host.net/check-report/52d19214k7c3",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": false,
+      "code": "403",
+      "note": "Forbidden"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "301",
+      "note": "Moved Permanently"
+     },
+     "ru3.node.check-host.net": {
+      "ok": false,
+      "code": "403",
+      "note": "Forbidden"
+     }
+    },
+    "ok": false
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20250114221858/https://www.emerald.com/insight/content/doi/10.1108/fs-08-2012-0061/full/html",
+    "timestamp": "20250114221858",
+    "ruOk": false
+   },
+   "checkedAt": "2026-10-23T04:16:50.026Z"
+  },
+  "https://ipa.co.uk/media/14463/long_and_short_of_it_presentation_final_030424.pdf": {
+   "where": "extra",
+   "ru": {
+    "report": "https://check-host.net/check-report/52d19382k5ac",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20241121003932/https://ipa.co.uk/media/14463/long_and_short_of_it_presentation_final_030424.pdf",
+    "timestamp": "20241121003932",
+    "ruOk": false
+   },
+   "checkedAt": "2026-10-23T04:16:57.385Z"
+  },
+  "https://ipa.co.uk/knowledge/effectiveness-research-analysis/les-binet-peter-field": {
+   "where": "extra",
+   "ru": {
+    "report": "https://check-host.net/check-report/52d1949bk436",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20261005154833/https://ipa.co.uk/knowledge/effectiveness-research-analysis/les-binet-peter-field",
+    "timestamp": "20261005154833",
+    "ruOk": false
+   },
+   "checkedAt": "2026-10-23T04:17:06.574Z"
+  },
+  "https://www.marketingweek.com/ritson-brand-building-boost-short-term-sales/": {
+   "where": "extra",
+   "ru": {
+    "report": "https://check-host.net/check-report/52d1968ak6a7",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": false,
+      "code": "403",
+      "note": "Forbidden"
+     },
+     "ru2.node.check-host.net": {
+      "ok": false,
+      "code": "403",
+      "note": "Forbidden"
+     },
+     "ru3.node.check-host.net": {
+      "ok": false,
+      "code": "403",
+      "note": "Forbidden"
+     }
+    },
+    "ok": false
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20251124042518/https://www.marketingweek.com/ritson-brand-building-boost-short-term-sales/",
+    "timestamp": "20251124042518",
+    "ruOk": false
+   },
+   "checkedAt": "2026-10-23T04:17:13.984Z"
+  },
+  "https://ideas.repec.org/a/inm/ormksc/v14y1995i3_supplementpg133-g140.html": {
+   "where": "extra",
+   "ru": {
+    "report": "https://check-host.net/check-report/52d197f0kd92",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20261009141859/https://ideas.repec.org/a/inm/ormksc/v14y1995i3_supplementpg133-g140.html",
+    "timestamp": "20261009141859",
+    "ruOk": false
+   },
+   "checkedAt": "2026-10-23T04:17:24.063Z"
+  },
+  "https://www.kellogg.northwestern.edu/academics-research/research/detail/2019/a-comparison-of-approaches-to-advertising-measurement-evidence-from/": {
+   "where": "extra",
+   "ru": {
+    "report": "https://check-host.net/check-report/52d19982k57a",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20261015073807/https://www.kellogg.northwestern.edu/academics-research/research/detail/2019/a-comparison-of-approaches-to-advertising-measurement-evidence-from/",
+    "timestamp": "20261015073807",
+    "ruOk": true
+   },
+   "checkedAt": "2026-10-23T04:17:38.318Z"
+  },
+  "https://ideas.repec.org/a/oup/qjecon/v130y2015i4p1941-1973.html": {
+   "where": "extra",
+   "ru": {
+    "report": "https://check-host.net/check-report/52d19b9ak1ca",
+    "nodes": {
+     "ru1.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru2.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     },
+     "ru3.node.check-host.net": {
+      "ok": true,
+      "code": "200",
+      "note": "OK"
+     }
+    },
+    "ok": true
+   },
+   "archive": {
+    "url": "https://web.archive.org/web/20251016234330/https://ideas.repec.org/a/oup/qjecon/v130y2015i4p1941-1973.html",
+    "timestamp": "20251016234330",
+    "ruOk": true
+   },
+   "checkedAt": "2026-10-23T04:17:50.824Z"
   }
  }
 }
