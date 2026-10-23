@@ -43,6 +43,10 @@ test('По одному спорному вопросу на модуль, со 
     assert.ok(s.lessons.length >= 1 && s.lessons.every(id => mod.lessons.some(l => l.id === id)), `${s.id}: уроки из своего модуля`);
     for (const c of s.cases || []) assert.ok(Object.values(caseStudies).flat().some(x => x.id === c), `${s.id}: кейс ${c}`);
     assert.ok(s.sides.length >= 2 && s.sides.length <= 3, `${s.id}: стороны`);
+    for (const d of s.sides) {
+      assert.ok(Array.isArray(d.refs) && d.refs.length >= 2, `${s.id}: у стороны «${d.label}» меньше двух источников-опор`);
+      for (const r of d.refs) assert.ok(Number.isInteger(r) && r >= 0 && r < s.sources.length, `${s.id}: ссылка на источник ${r}`);
+    }
     for (const d of s.sides) for (const f of ['label', 'claim', 'who', 'evidence', 'strong_when']) assert.ok(typeof d[f] === 'string' && d[f].trim().length >= 3, `${s.id}: ${f}`);
     const n = ['why', 'crux', 'course_position', 'decide'].reduce((a, f) => a + words(s[f]), 0) + s.sides.reduce((a, d) => a + words(d.claim) + words(d.evidence) + words(d.strong_when), 0);
     assert.ok(n >= 250 && n <= 520, `${s.id}: ${n} слов`);
