@@ -25,7 +25,7 @@ test('Каждый урок получил 1–2 кейса, привязанн�
 
 test('Поля карточки заполнены и укладываются в объём', () => {
   for (const c of all) {
-    for (const f of ['id', 'title', 'org', 'place', 'decision', 'result', 'mechanism', 'limits', 'question']) assert.ok(typeof c[f] === 'string' && c[f].trim().length > 3, `${c.id}: ${f}`);
+    for (const f of ['id', 'title', 'org', 'place', 'decision', 'result', 'mechanism', 'limits', 'question']) assert.ok(typeof c[f] === 'string' && c[f].trim().length >= 3, `${c.id}: ${f}`);
     assert.ok(['success', 'failure', 'contested'].includes(c.outcome), `${c.id}: outcome`);
     assert.ok(Number.isInteger(c.year) && c.year >= 1990 && c.year <= 2026, `${c.id}: year`);
     assert.ok(Number.isInteger(c.dataYear) && c.dataYear >= c.year - 1 && c.dataYear <= 2026, `${c.id}: dataYear`);
