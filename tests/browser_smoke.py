@@ -151,17 +151,24 @@ with sync_playwright() as pw:
     assert "Я сравниваю каналы по состоявшимся ночам" in xml6 and "правило не записано" in xml6
     # Спорные вопросы: ссылка из урока, страница, сохранение выбора
     page.goto("http://course.test/#m1l2")
-    teaser = page.locator(".split-teaser")
-    if teaser.count():
-        teaser.get_by_role("link").click()
-        page.wait_for_timeout(200)
-        assert page.locator(".split").count() == 4 and page.locator(".split-side").count() >= 8
-        page.locator("#split-m1").fill("Узкий сегмент: проверю долю повторных гостей")
-        page.reload(); page.wait_for_timeout(200)
-        assert page.locator("#split-m1").input_value().startswith("Узкий сегмент")
+    assert page.locator(".split-teaser").count() == 0, "врезка только в последнем связанном уроке"
+    page.goto("http://course.test/#m1l3")
+    page.locator(".split-teaser").get_by_role("link").click()
+    page.wait_for_timeout(200)
+    assert page.locator(".split").count() == 4 and page.locator(".split-side").count() >= 8 and page.locator(".split-toc li").count() == 4
+    page.locator("#split-m1").fill("Узкий сегмент: проверю долю повторных гостей")
+    page.reload(); page.wait_for_timeout(200)
+    assert page.locator("#split-m1").input_value().startswith("Узкий сегмент")
+    assert "Разбор: ниша или охват" in page.locator("#sidebar").inner_text()
+    page.goto("http://course.test/#kt3")
+    assert "Узкий сегмент: проверю долю повторных гостей" in page.locator(".split-teaser").inner_text()
+    with page.expect_download() as dl7:
+        page.locator("#export-kt").click()
+    xml7 = zipfile.ZipFile(Path(dl7.value.path())).read("word/document.xml").decode("utf-8")
+    assert "Узкий сегмент: проверю долю повторных гостей" in xml7
     # Мобильная вёрстка без горизонтальной прокрутки на новых страницах
     page.set_viewport_size({"width": 390, "height": 844})
-    for route in ["home", "m1r", "m2p", "ai", "kt6", "project", "splits", "m1l2"]:
+    for route in ["home", "m1r", "m2p", "ai", "kt6", "project", "splits", "m1l3", "kt4"]:
         page.goto(f"http://course.test/#{route}")
         page.wait_for_timeout(150)
         assert page.evaluate("document.documentElement.scrollWidth <= innerWidth"), route
